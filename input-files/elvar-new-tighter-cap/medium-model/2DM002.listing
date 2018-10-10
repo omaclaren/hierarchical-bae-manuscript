@@ -1,0 +1,1270 @@
+You are running AUTOUGH 2.4
+
+*******************************************************************************
+SVN Commit Rev.: 12
+Date: 3
+Update Range: 45
+URL: 
+6                                                                              
+*******************************************************************************
+1EW   .  One water component, non-isothermal (default)
+  The primary variables are:
+   P - Pressure, T - Temperature, S - Gas phase saturation
+ _______________________________________________________
+      PHASE CONDITION               PRIMARY VARIABLES
+ _______________________________________________________
+      SINGLE-PHASE GAS                P, T
+      SINGLE-PHASE LIQUID             P, T
+      TWO-PHASE                       P, S
+ _______________________________________________________
+ Using SIMUL AUTOUGH2.2
+ STEAM FRACTION FOR SOURCE *  a97* AT ELEMENT *  a16* IS  0.477122E-06*H+-.312898E+00
+1***********************************************************************************************************************************
+ *                    EOS1: EQUATION OF STATE FOR WATER (OPTIONAL: TWO-WATER MIXTURES)                                             *
+ ***********************************************************************************************************************************
+
+
+    OPTIONS SELECTED ARE: (NK,NEQ,NPH,NB) = (1,2,2,6)
+
+                           NK  =  1   - NUMBER OF FLUID COMPONENTS
+                           NEQ =  2   - NUMBER OF EQUATIONS PER GRID BLOCK
+                           NPH =  2   - NUMBER OF PHASES THAT CAN BE PRESENT
+                           NB  =  6   - NUMBER OF SECONDARY PARAMETERS (OTHER THAN COMPONENT MASS FRACTIONS)
+
+                   For NK = 2 and NB = 8, diffusion is "on", otherwise, diffusion is "off"
+
+
+   AVAILABLE OPTIONS ARE: (NK,NEQ,NPH,NB) = (1,2,2,6) - ONE WATER COMPONENT, NON-ISOTHERMAL (DEFAULT)
+                                            (1,1,2,6) - ONLY LIQUID, OR ONLY VAPOR, ISOTHERMAL
+                                            (2,3,2,6) - TWO WATERS, NON-ISOTHERMAL
+                                            (2,3,2,8) - TWO WATERS, NON-ISOTHERMAL, DIFFUSION
+
+ ***********************************************************************************************************************************
+
+
+ THE PRIMARY VARIABLES ARE
+  P - PRESSURE         T - TEMPERATURE         X2 - MASS FRACTION OF WATER "2"         S - GAS PHASE SATURATION
+
+ _______________________________________________________
+
+     PHASE CONDITION               PRIMARY VARIABLES
+ _______________________________________________________
+
+     SINGLE-PHASE GAS                P, T, [X2]
+
+     SINGLE-PHASE LIQUID             P, T, [X2]
+
+     TWO-PHASE                       P, S, [X2]
+
+ _______________________________________________________
+
+
+ ..... NEGLECT VAPOR PRESSURE LOWERING .....
+
+ ***********************************************************************************************************************************
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ 2D medium model   1200kJ/kg inflow                                              
+ OUTPUT AFTER   0 TIME STEPS    0.0000000000000000E+00 SECONDS
+ THE TIME IS 0.0000E+00 YEARS OR 0.0000E+00 DAYS OR 0.0000E+00 SECONDS
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ VOLUME BALANCE
+ Vapour 0.00000E+00 M**3;  Liquid 0.20000E+26 M**3;  
+ MASS BALANCE
+ Vapour 0.00000000E+00 KG;  Liquid 0.19984268E+29 KG;  
+ ENERGY BALANCE
+ Internal 0.80077E+34 J;  
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+ ...ITERATING...  AT [   1,  1] --- DELTEX = 0.100000E+09   MAX. RES. = 0.228339E+01  AT ELEMENT   a16  EQUATION   2
+ ...ITERATING...  AT [   1,  2] --- DELTEX = 0.100000E+09   MAX. RES. = 0.724515E+00  AT ELEMENT   a16  EQUATION   1
+ ...ITERATING...  AT [   1,  3] --- DELTEX = 0.100000E+09   MAX. RES. = 0.527266E-01  AT ELEMENT   a15  EQUATION   2
+ ...ITERATING...  AT [   1,  4] --- DELTEX = 0.100000E+09   MAX. RES. = 0.303695E-03  AT ELEMENT   a16  EQUATION   2
+   a15(   1,  5) ST = 0.100000E+09 DT = 0.100000E+09 DX1= 0.301122E+08 DX2= 0.291072E+01 T =  17.911 P = 30213530. S = 0.000000E+00
+ ...ITERATING...  AT [   2,  1] --- DELTEX = 0.200000E+09   MAX. RES. = 0.129353E+01  AT ELEMENT   a16  EQUATION   2
+ ...ITERATING...  AT [   2,  2] --- DELTEX = 0.200000E+09   MAX. RES. = 0.839175E+00  AT ELEMENT   a16  EQUATION   1
+ ...ITERATING...  AT [   2,  3] --- DELTEX = 0.200000E+09   MAX. RES. = 0.124863E-02  AT ELEMENT   a16  EQUATION   1
+   a15(   2,  4) ST = 0.300000E+09 DT = 0.200000E+09 DX1= 0.119846E+07 DX2= 0.122818E+02 T =  30.193 P = 31411986. S = 0.000000E+00
+ ...ITERATING...  AT [   3,  1] --- DELTEX = 0.400000E+09   MAX. RES. = 0.100717E+01  AT ELEMENT   a16  EQUATION   2
+ ...ITERATING...  AT [   3,  2] --- DELTEX = 0.400000E+09   MAX. RES. = 0.122045E+01  AT ELEMENT   a16  EQUATION   1
+ ...ITERATING...  AT [   3,  3] --- DELTEX = 0.400000E+09   MAX. RES. = 0.587392E-02  AT ELEMENT   a14  EQUATION   2
+   a15(   3,  4) ST = 0.700000E+09 DT = 0.400000E+09 DX1= -.232567E+07 DX2= 0.331534E+02 T =  63.346 P = 29086318. S = 0.000000E+00
+ ...ITERATING...  AT [   4,  1] --- DELTEX = 0.800000E+09   MAX. RES. = 0.104476E+01  AT ELEMENT   a15  EQUATION   2
+ ...ITERATING...  AT [   4,  2] --- DELTEX = 0.800000E+09   MAX. RES. = 0.296192E+01  AT ELEMENT   a15  EQUATION   1
+ ...ITERATING...  AT [   4,  3] --- DELTEX = 0.800000E+09   MAX. RES. = 0.188913E-01  AT ELEMENT   a13  EQUATION   2
+ ...ITERATING...  AT [   4,  4] --- DELTEX = 0.800000E+09   MAX. RES. = 0.161577E-04  AT ELEMENT   a13  EQUATION   1
+   a14(   4,  5) ST = 0.150000E+10 DT = 0.800000E+09 DX1= -.275904E+07 DX2= 0.392693E+02 T =  70.055 P = 24300826. S = 0.000000E+00
+ ...ITERATING...  AT [   5,  1] --- DELTEX = 0.160000E+10   MAX. RES. = 0.111882E+01  AT ELEMENT   a14  EQUATION   2
+ ...ITERATING...  AT [   5,  2] --- DELTEX = 0.160000E+10   MAX. RES. = 0.555352E+01  AT ELEMENT   a14  EQUATION   1
+ ...ITERATING...  AT [   5,  3] --- DELTEX = 0.160000E+10   MAX. RES. = 0.145052E+00  AT ELEMENT   a13  EQUATION   2
+ ...ITERATING...  AT [   5,  4] --- DELTEX = 0.160000E+10   MAX. RES. = 0.918662E-03  AT ELEMENT   b16  EQUATION   1
+   a16(   5,  5) ST = 0.310000E+10 DT = 0.160000E+10 DX1= -.393197E+07 DX2= 0.397145E+02 T = 241.110 P = 23169948. S = 0.000000E+00
+ ...ITERATING...  AT [   6,  1] --- DELTEX = 0.320000E+10   MAX. RES. = 0.121171E+01  AT ELEMENT   a12  EQUATION   2
+ ...ITERATING...  AT [   6,  2] --- DELTEX = 0.320000E+10   MAX. RES. = 0.988065E+01  AT ELEMENT   a12  EQUATION   1
+ ...ITERATING...  AT [   6,  3] --- DELTEX = 0.320000E+10   MAX. RES. = 0.140206E+02  AT ELEMENT   a11  EQUATION   1
+ ...ITERATING...  AT [   6,  4] --- DELTEX = 0.320000E+10   MAX. RES. = 0.277397E+01  AT ELEMENT   a10  EQUATION   2
+ ...ITERATING...  AT [   6,  5] --- DELTEX = 0.320000E+10   MAX. RES. = 0.143262E+00  AT ELEMENT   a11  EQUATION   1
+ ...ITERATING...  AT [   6,  6] --- DELTEX = 0.320000E+10   MAX. RES. = 0.116127E-02  AT ELEMENT   a11  EQUATION   1
+   a10(   6,  7) ST = 0.630000E+10 DT = 0.320000E+10 DX1= -.154071E+07 DX2= 0.597148E+02 T =  93.879 P = 12008032. S = 0.000000E+00
+ ...ITERATING...  AT [   7,  1] --- DELTEX = 0.320000E+10   MAX. RES. = 0.643203E+00  AT ELEMENT   a 9  EQUATION   2
+ ...ITERATING...  AT [   7,  2] --- DELTEX = 0.320000E+10   MAX. RES. = 0.212630E+01  AT ELEMENT   a10  EQUATION   1
+ ...ITERATING...  AT [   7,  3] --- DELTEX = 0.320000E+10   MAX. RES. = 0.442003E-01  AT ELEMENT   a 7  EQUATION   1
+ ...ITERATING...  AT [   7,  4] --- DELTEX = 0.320000E+10   MAX. RES. = 0.508027E-04  AT ELEMENT   a12  EQUATION   1
+   a 9(   7,  5) ST = 0.950000E+10 DT = 0.320000E+10 DX1= -.372415E+06 DX2= 0.508921E+02 T = 125.742 P =  9950458. S = 0.000000E+00
+ ...ITERATING...  AT [   8,  1] --- DELTEX = 0.640000E+10   MAX. RES. = 0.954743E+00  AT ELEMENT   a 7  EQUATION   2
+ ...ITERATING...  AT [   8,  2] --- DELTEX = 0.640000E+10   MAX. RES. = 0.557321E+01  AT ELEMENT   a 7  EQUATION   1
+ ...ITERATING...  AT [   8,  3] --- DELTEX = 0.640000E+10   MAX. RES. = 0.247664E+01  AT ELEMENT   d 8  EQUATION   1
+ ...ITERATING...  AT [   8,  4] --- DELTEX = 0.640000E+10   MAX. RES. = 0.623719E-01  AT ELEMENT   c 8  EQUATION   1
+ ...ITERATING...  AT [   8,  5] --- DELTEX = 0.640000E+10   MAX. RES. = 0.766893E-04  AT ELEMENT   c 7  EQUATION   1
+   c 7(   8,  6) ST = 0.159000E+11 DT = 0.640000E+10 DX1= -.150208E+06 DX2= 0.450575E+02 T =  86.580 P =  7409321. S = 0.000000E+00
+ ...ITERATING...  AT [   9,  1] --- DELTEX = 0.640000E+10   MAX. RES. = 0.629540E+00  AT ELEMENT   a 5  EQUATION   2
+ ...ITERATING...  AT [   9,  2] --- DELTEX = 0.640000E+10   MAX. RES. = 0.189235E+01  AT ELEMENT   a 5  EQUATION   1
+ ...ITERATING...  AT [   9,  3] --- DELTEX = 0.640000E+10   MAX. RES. = 0.766244E-01  AT ELEMENT   c 7  EQUATION   1
+ ...ITERATING...  AT [   9,  4] --- DELTEX = 0.640000E+10   MAX. RES. = 0.127819E-03  AT ELEMENT   b 3  EQUATION   2
+   b 7(   9,  5) ST = 0.223000E+11 DT = 0.640000E+10 DX1= -.208793E+06 DX2= 0.381787E+02 T = 156.729 P =  7215265. S = 0.000000E+00
+ ...ITERATING...  AT [  10,  1] --- DELTEX = 0.128000E+11   MAX. RES. = 0.107854E+01  AT ELEMENT   a 3  EQUATION   2
+ ...ITERATING...  AT [  10,  2] --- DELTEX = 0.128000E+11   MAX. RES. = 0.205357E+02  AT ELEMENT   a 3  EQUATION   1
+ ...ITERATING...  AT [  10,  3] --- DELTEX = 0.128000E+11   MAX. RES. = 0.261171E+01  AT ELEMENT   a 3  EQUATION   1
+ ...ITERATING...  AT [  10,  4] --- DELTEX = 0.128000E+11   MAX. RES. = 0.159966E+00  AT ELEMENT   d 6  EQUATION   1
+ ...ITERATING...  AT [  10,  5] --- DELTEX = 0.128000E+11   MAX. RES. = 0.342286E-03  AT ELEMENT   a 3  EQUATION   1
+   a 4(  10,  6) ST = 0.351000E+11 DT = 0.128000E+11 DX1= -.342942E+06 DX2= 0.722421E+02 T = 185.334 P =  4017963. S = 0.000000E+00
+ ...ITERATING...  AT [  11,  1] --- DELTEX = 0.128000E+11   MAX. RES. = 0.627437E+00  AT ELEMENT   f 3  EQUATION   2
+ ...ITERATING...  AT [  11,  2] --- DELTEX = 0.128000E+11   MAX. RES. = 0.441552E+01  AT ELEMENT   e 3  EQUATION   1
+ ...ITERATING...  AT [  11,  3] --- DELTEX = 0.128000E+11   MAX. RES. = 0.201620E+00  AT ELEMENT   j 2  EQUATION   1
+ ...ITERATING...  AT [  11,  4] --- DELTEX = 0.128000E+11   MAX. RES. = 0.722348E-03  AT ELEMENT   j 2  EQUATION   1
+   g 3(  11,  5) ST = 0.479000E+11 DT = 0.128000E+11 DX1= -.161966E+06 DX2= 0.460005E+02 T = 117.156 P =  2774242. S = 0.000000E+00
+ ...ITERATING...  AT [  12,  1] --- DELTEX = 0.256000E+11   MAX. RES. = 0.943118E+00  AT ELEMENT   j 3  EQUATION   2
+ ...ITERATING...  AT [  12,  2] --- DELTEX = 0.256000E+11   MAX. RES. = 0.108179E+02  AT ELEMENT   i 2  EQUATION   1
+ ...ITERATING...  AT [  12,  3] --- DELTEX = 0.256000E+11   MAX. RES. = 0.298198E+00  AT ELEMENT   h 3  EQUATION   1
+ ...ITERATING...  AT [  12,  4] --- DELTEX = 0.256000E+11   MAX. RES. = 0.958565E-03  AT ELEMENT   i 1  EQUATION   1
+   h 3(  12,  5) ST = 0.735000E+11 DT = 0.256000E+11 DX1= -.121405E+06 DX2= 0.432811E+02 T = 148.572 P =  2615528. S = 0.000000E+00
+ ...ITERATING...  AT [  13,  1] --- DELTEX = 0.512000E+11   MAX. RES. = 0.109175E+01  AT ELEMENT   l 3  EQUATION   2
+ ...ITERATING...  AT [  13,  2] --- DELTEX = 0.512000E+11   MAX. RES. = 0.101688E+02  AT ELEMENT   l 3  EQUATION   1
+ ...ITERATING...  AT [  13,  3] --- DELTEX = 0.512000E+11   MAX. RES. = 0.123194E+01  AT ELEMENT   i 6  EQUATION   1
+ ...ITERATING...  AT [  13,  4] --- DELTEX = 0.512000E+11   MAX. RES. = 0.421593E-02  AT ELEMENT   i 4  EQUATION   1
+   i 4(  13,  5) ST = 0.124700E+12 DT = 0.512000E+11 DX1= -.936468E+05 DX2= 0.298402E+02 T = 158.585 P =  3422919. S = 0.000000E+00
+ ...ITERATING...  AT [  14,  1] --- DELTEX = 0.102400E+12   MAX. RES. = 0.104820E+01  AT ELEMENT   n 3  EQUATION   2
+ ...ITERATING...  AT [  14,  2] --- DELTEX = 0.102400E+12   MAX. RES. = 0.491544E+03  AT ELEMENT   a 3  EQUATION   1
+ ...ITERATING...  AT [  14,  3] --- DELTEX = 0.102400E+12   MAX. RES. = 0.240259E+01  AT ELEMENT   a 3  EQUATION   1
+ ...ITERATING...  AT [  14,  4] --- DELTEX = 0.102400E+12   MAX. RES. = 0.496952E-02  AT ELEMENT   j 4  EQUATION   1
+   j 4(  14,  5) ST = 0.227100E+12 DT = 0.102400E+12 DX1= -.552602E+05 DX2= 0.224907E+02 T = 165.160 P =  3357053. S = 0.000000E+00
+ ...ITERATING...  AT [  15,  1] --- DELTEX = 0.204800E+12   MAX. RES. = 0.956406E+00  AT ELEMENT   q 4  EQUATION   2
+ ...ITERATING...  AT [  15,  2] --- DELTEX = 0.204800E+12   MAX. RES. = 0.172083E+05  AT ELEMENT   a 4  EQUATION   1
+ ...ITERATING...  AT [  15,  3] --- DELTEX = 0.204800E+12   MAX. RES. = 0.118357E+05  AT ELEMENT   b 3  EQUATION   1
+ ...ITERATING...  AT [  15,  4] --- DELTEX = 0.204800E+12   MAX. RES. = 0.292919E+03  AT ELEMENT   b 3  EQUATION   1
+ ...ITERATING...  AT [  15,  5] --- DELTEX = 0.204800E+12   MAX. RES. = 0.526595E+05  AT ELEMENT   a 3  EQUATION   1
+ ...ITERATING...  AT [  15,  6] --- DELTEX = 0.204800E+12   MAX. RES. = 0.816677E+05  AT ELEMENT   c 3  EQUATION   1
+ TEMPERATURE = -.778533E+01  OUT OF RANGE IN SAT 
+ ++++++++++ EOS CANNOT FIND PARAMETERS AT ELEMENT *  d 1*      XX(M) =  0.56991E+06 -0.77853E+01
+ +++++++++ REDUCE TIME STEP AT (  15,  6) ++++++++++++++++   NEW DELT = 0.409600E+11
+ ...ITERATING...  AT [  15,  1] --- DELTEX = 0.409600E+11   MAX. RES. = 0.191281E+00  AT ELEMENT   q 4  EQUATION   2
+ ...ITERATING...  AT [  15,  2] --- DELTEX = 0.409600E+11   MAX. RES. = 0.244318E+03  AT ELEMENT   a 4  EQUATION   1
+ ...ITERATING...  AT [  15,  3] --- DELTEX = 0.409600E+11   MAX. RES. = 0.229510E+00  AT ELEMENT   a 4  EQUATION   1
+ ...ITERATING...  AT [  15,  4] --- DELTEX = 0.409600E+11   MAX. RES. = 0.215886E-02  AT ELEMENT   b 4  EQUATION   1
+   b 3(  15,  5) ST = 0.268060E+12 DT = 0.409600E+11 DX1= -.110958E+05 DX2= 0.159250E+01 T = 222.565 P =  2634776. S = 0.000000E+00
+ ...ITERATING...  AT [  16,  1] --- DELTEX = 0.819200E+11   MAX. RES. = 0.327291E+00  AT ELEMENT   t 7  EQUATION   2
+ ...ITERATING...  AT [  16,  2] --- DELTEX = 0.819200E+11   MAX. RES. = 0.105350E+01  AT ELEMENT   b 8  EQUATION   1
+ ...ITERATING...  AT [  16,  3] --- DELTEX = 0.819200E+11   MAX. RES. = 0.850115E-02  AT ELEMENT   g 6  EQUATION   1
+   b 6(  16,  4) ST = 0.349980E+12 DT = 0.819200E+11 DX1= -.260898E+05 DX2= 0.448621E+01 T = 229.325 P =  5145198. S = 0.000000E+00
+ ...ITERATING...  AT [  17,  1] --- DELTEX = 0.163840E+12   MAX. RES. = 0.494593E+00  AT ELEMENT   t10  EQUATION   2
+ ...ITERATING...  AT [  17,  2] --- DELTEX = 0.163840E+12   MAX. RES. = 0.194512E+04  AT ELEMENT   b 3  EQUATION   1
+ ...ITERATING...  AT [  17,  3] --- DELTEX = 0.163840E+12   MAX. RES. = 0.750026E+04  AT ELEMENT   b 4  EQUATION   1
+ ...ITERATING...  AT [  17,  4] --- DELTEX = 0.163840E+12   MAX. RES. = 0.833992E+04  AT ELEMENT   b 3  EQUATION   1
+ ...ITERATING...  AT [  17,  5] --- DELTEX = 0.163840E+12   MAX. RES. = 0.259484E+03  AT ELEMENT   b 3  EQUATION   1
+ ...ITERATING...  AT [  17,  6] --- DELTEX = 0.163840E+12   MAX. RES. = 0.278243E+01  AT ELEMENT   a 3  EQUATION   1
+ ...ITERATING...  AT [  17,  7] --- DELTEX = 0.163840E+12   MAX. RES. = 0.770572E-02  AT ELEMENT   b 4  EQUATION   1
+   c 3(  17,  8) ST = 0.513820E+12 DT = 0.163840E+12 DX1= -.141082E+05 DX2= 0.236475E+01 T = 220.584 P =  2592714. S = 0.000000E+00
+ ...ITERATING...  AT [  18,  1] --- DELTEX = 0.163840E+12   MAX. RES. = 0.304264E+00  AT ELEMENT   t13  EQUATION   2
+ ...ITERATING...  AT [  18,  2] --- DELTEX = 0.163840E+12   MAX. RES. = 0.140204E+01  AT ELEMENT   b 8  EQUATION   1
+ ...ITERATING...  AT [  18,  3] --- DELTEX = 0.163840E+12   MAX. RES. = 0.366556E-02  AT ELEMENT   t 8  EQUATION   1
+   b 7(  18,  4) ST = 0.677660E+12 DT = 0.163840E+12 DX1= -.244780E+05 DX2= 0.426185E+01 T = 232.437 P =  5949911. S = 0.000000E+00
+ ...ITERATING...  AT [  19,  1] --- DELTEX = 0.327680E+12   MAX. RES. = 0.395862E+00  AT ELEMENT   t14  EQUATION   2
+ ...ITERATING...  AT [  19,  2] --- DELTEX = 0.327680E+12   MAX. RES. = 0.244290E+04  AT ELEMENT   a 5  EQUATION   1
+ ...ITERATING...  AT [  19,  3] --- DELTEX = 0.327680E+12   MAX. RES. = 0.283348E+03  AT ELEMENT   b 4  EQUATION   1
+ ...ITERATING...  AT [  19,  4] --- DELTEX = 0.327680E+12   MAX. RES. = 0.511118E-01  AT ELEMENT   b 4  EQUATION   1
+ ...ITERATING...  AT [  19,  5] --- DELTEX = 0.327680E+12   MAX. RES. = 0.568619E-03  AT ELEMENT   b 5  EQUATION   1
+   b 5(  19,  6) ST = 0.100534E+13 DT = 0.327680E+12 DX1= -.152308E+05 DX2= 0.281784E+01 T = 244.708 P =  4240179. S = 0.000000E+00
+ ...ITERATING...  AT [  20,  1] --- DELTEX = 0.327680E+12   MAX. RES. = 0.189333E+00  AT ELEMENT   t15  EQUATION   2
+ ...ITERATING...  AT [  20,  2] --- DELTEX = 0.327680E+12   MAX. RES. = 0.922838E+04  AT ELEMENT   b 4  EQUATION   1
+ ...ITERATING...  AT [  20,  3] --- DELTEX = 0.327680E+12   MAX. RES. = 0.277470E+02  AT ELEMENT   b 4  EQUATION   1
+ ...ITERATING...  AT [  20,  4] --- DELTEX = 0.327680E+12   MAX. RES. = 0.529995E+00  AT ELEMENT   b 5  EQUATION   1
+ ...ITERATING...  AT [  20,  5] --- DELTEX = 0.327680E+12   MAX. RES. = 0.737815E-02  AT ELEMENT   b 5  EQUATION   1
+   c 5(  20,  6) ST = 0.133302E+13 DT = 0.327680E+12 DX1= -.763195E+04 DX2= 0.170923E+01 T = 236.691 P =  4222158. S = 0.000000E+00
+ ...ITERATING...  AT [  21,  1] --- DELTEX = 0.327680E+12   MAX. RES. = 0.935603E-01  AT ELEMENT   t15  EQUATION   2
+ ...ITERATING...  AT [  21,  2] --- DELTEX = 0.327680E+12   MAX. RES. = 0.345096E+00  AT ELEMENT   b 8  EQUATION   1
+ ...ITERATING...  AT [  21,  3] --- DELTEX = 0.327680E+12   MAX. RES. = 0.987768E-03  AT ELEMENT   b 8  EQUATION   1
+   c 3(  21,  4) ST = 0.166070E+13 DT = 0.327680E+12 DX1= -.285645E+04 DX2= 0.511280E+00 T = 224.832 P =  2565855. S = 0.000000E+00
+ ...ITERATING...  AT [  22,  1] --- DELTEX = 0.655360E+12   MAX. RES. = 0.939121E-01  AT ELEMENT   t15  EQUATION   2
+ ...ITERATING...  AT [  22,  2] --- DELTEX = 0.655360E+12   MAX. RES. = 0.393129E+00  AT ELEMENT   b 8  EQUATION   1
+ ...ITERATING...  AT [  22,  3] --- DELTEX = 0.655360E+12   MAX. RES. = 0.148317E-01  AT ELEMENT   i 6  EQUATION   1
+ ...ITERATING...  AT [  22,  4] --- DELTEX = 0.655360E+12   MAX. RES. = 0.114210E-04  AT ELEMENT   i 7  EQUATION   1
+   b 8(  22,  5) ST = 0.231606E+13 DT = 0.655360E+12 DX1= -.658379E+04 DX2= 0.112682E+01 T = 237.615 P =  6744826. S = 0.000000E+00
+ ...ITERATING...  AT [  23,  1] --- DELTEX = 0.131072E+13   MAX. RES. = 0.638024E-01  AT ELEMENT   t15  EQUATION   2
+ ...ITERATING...  AT [  23,  2] --- DELTEX = 0.131072E+13   MAX. RES. = 0.279600E+04  AT ELEMENT   c 3  EQUATION   1
+ ...ITERATING...  AT [  23,  3] --- DELTEX = 0.131072E+13   MAX. RES. = 0.245317E+01  AT ELEMENT   d 3  EQUATION   1
+ ...ITERATING...  AT [  23,  4] --- DELTEX = 0.131072E+13   MAX. RES. = 0.345420E-03  AT ELEMENT   c 4  EQUATION   1
+   d 3(  23,  5) ST = 0.362678E+13 DT = 0.131072E+13 DX1= -.834572E+03 DX2= 0.146946E+00 T = 219.791 P =  2546975. S = 0.000000E+00
+ ...ITERATING...  AT [  24,  1] --- DELTEX = 0.262144E+13   MAX. RES. = 0.266220E-01  AT ELEMENT   t16  EQUATION   2
+ ...ITERATING...  AT [  24,  2] --- DELTEX = 0.262144E+13   MAX. RES. = 0.902169E-01  AT ELEMENT   a 5  EQUATION   1
+ ...ITERATING...  AT [  24,  3] --- DELTEX = 0.262144E+13   MAX. RES. = 0.297388E-03  AT ELEMENT   b 8  EQUATION   1
+   b 8(  24,  4) ST = 0.624822E+13 DT = 0.262144E+13 DX1= -.677899E+03 DX2= 0.117146E+00 T = 238.221 P =  6741304. S = 0.000000E+00
+ ...ITERATING...  AT [  25,  1] --- DELTEX = 0.524288E+13   MAX. RES. = 0.627252E-02  AT ELEMENT   t16  EQUATION   2
+ ...ITERATING...  AT [  25,  2] --- DELTEX = 0.524288E+13   MAX. RES. = 0.230504E-01  AT ELEMENT   a 5  EQUATION   1
+ ...ITERATING...  AT [  25,  3] --- DELTEX = 0.524288E+13   MAX. RES. = 0.691106E-04  AT ELEMENT   b 8  EQUATION   1
+   b 8(  25,  4) ST = 0.114911E+14 DT = 0.524288E+13 DX1= -.857738E+02 DX2= 0.148143E-01 T = 238.236 P =  6741218. S = 0.000000E+00
+ ...ITERATING...  AT [  26,  1] --- DELTEX = 0.104858E+14   MAX. RES. = 0.788720E-03  AT ELEMENT   t16  EQUATION   2
+ ...ITERATING...  AT [  26,  2] --- DELTEX = 0.104858E+14   MAX. RES. = 0.300686E-02  AT ELEMENT   a 5  EQUATION   1
+   b 8(  26,  3) ST = 0.219769E+14 DT = 0.104858E+14 DX1= -.558801E+01 DX2= 0.965013E-03 T = 238.237 P =  6741213. S = 0.000000E+00
+ ...ITERATING...  AT [  27,  1] --- DELTEX = 0.209715E+14   MAX. RES. = 0.512775E-04  AT ELEMENT   t16  EQUATION   2
+ ...ITERATING...  AT [  27,  2] --- DELTEX = 0.209715E+14   MAX. RES. = 0.198977E-03  AT ELEMENT   a 5  EQUATION   1
+   b 8(  27,  3) ST = 0.429484E+14 DT = 0.209715E+14 DX1= -.184856E+00 DX2= 0.319310E-04 T = 238.237 P =  6741213. S = 0.000000E+00
+ ...ITERATING...  AT [  28,  1] --- DELTEX = 0.419430E+14   MAX. RES. = 0.169523E-05  AT ELEMENT   t16  EQUATION   2
+   a 5(  28,  2) ST = 0.848914E+14 DT = 0.419430E+14 DX1= -.137664E-02 DX2= 0.147471E-09 T = 253.679 P =  4230802. S = 0.200830E-02
+ ...ITERATING...  AT [  29,  1] --- DELTEX = 0.838861E+14   MAX. RES. = 0.132635E-04  AT ELEMENT   a 5  EQUATION   1
+   a 5(  29,  2) ST = 0.168778E+15 DT = 0.838861E+14 DX1= -.143862E-04 DX2= 0.982334E-12 T = 253.679 P =  4230802. S = 0.200830E-02
+ ...ITERATING...  AT [  30,  1] --- DELTEX = 0.167772E+15   MAX. RES. = 0.599914E-06  AT ELEMENT   a13  EQUATION   2
+   c 3(  30,  2) ST = 0.336550E+15 DT = 0.167772E+15 DX1= 0.905319E-06 DX2= 0.691918E-12 T = 225.262 P =  2562647. S = 0.145534E-02
+ ...ITERATING...  AT [  31,  1] --- DELTEX = 0.335544E+15   MAX. RES. = 0.132242E-05  AT ELEMENT   a13  EQUATION   2
+   l 1(  31,  2) ST = 0.672094E+15 DT = 0.335544E+15 DX1= 0.652514E-05 DX2= 0.119450E-07 T =  81.037 P =   596374. S = 0.000000E+00
+ ...ITERATING...  AT [  32,  1] --- DELTEX = 0.671089E+15   MAX. RES. = 0.247200E-05  AT ELEMENT   a10  EQUATION   2
+   a 5(  32,  2) ST = 0.134318E+16 DT = 0.671089E+15 DX1= 0.121755E-05 DX2= 0.538870E-12 T = 253.679 P =  4230802. S = 0.200830E-02
+ ...ITERATING...  AT [  33,  1] --- DELTEX = 0.134218E+16   MAX. RES. = 0.433924E-05  AT ELEMENT   a13  EQUATION   2
+   h 1(  33,  2) ST = 0.268536E+16 DT = 0.134218E+16 DX1= 0.266605E-04 DX2= 0.186790E-07 T = 110.920 P =   596682. S = 0.000000E+00
+ ...ITERATING...  AT [  34,  1] --- DELTEX = 0.268435E+16   MAX. RES. = 0.660194E-05  AT ELEMENT   a 8  EQUATION   2
+   a 5(  34,  2) ST = 0.536971E+16 DT = 0.268435E+16 DX1= 0.439325E-05 DX2= 0.168924E-11 T = 253.679 P =  4230802. S = 0.200830E-02
+ ...ITERATING...  AT [  35,  1] --- DELTEX = 0.463029E+16   MAX. RES. = 0.135460E-04  AT ELEMENT   a 7  EQUATION   2
+ ...ITERATING...  AT [  35,  2] --- DELTEX = 0.463029E+16   MAX. RES. = 0.166689E-04  AT ELEMENT   a 5  EQUATION   1
+   a 5(  35,  3) ST = 0.100000E+17 DT = 0.463029E+16 DX1= 0.787574E-05 DX2= 0.302611E-11 T = 253.679 P =  4230802. S = 0.200830E-02
+ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+ 2D medium model   1200kJ/kg inflow                                              
+ OUTPUT AFTER  35 TIME STEPS    0.1000000000000000E+17 SECONDS
+ THE TIME IS 0.3169E+09 YEARS OR 0.1157E+12 DAYS OR 0.1000E+17 SECONDS
+ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+                                                           ELEMENT TABLE
+
+  ELEMENT     INDEX       Pressure        Temperature     Vapour saturation   Liquid saturation   Vapour density   Liquid density  
+
+      a 0         1      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      b 0         2      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      c 0         3      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      d 0         4      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      e 0         5      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      f 0         6      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      g 0         7      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      h 0         8      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      i 0         9      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      j 0        10      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      k 0        11      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      l 0        12      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      m 0        13      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      n 0        14      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      o 0        15      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      p 0        16      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      q 0        17      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      r 0        18      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      s 0        19      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      t 0        20      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+      a 1        21      5.96316E+05      9.24071E+01        0.00000E+00          1.00000E+00       4.61036E-01      9.63716E+02
+      b 1        22      5.96331E+05      8.58789E+01        0.00000E+00          1.00000E+00       3.65064E-01      9.68107E+02
+      c 1        23      5.96359E+05      7.84750E+01        0.00000E+00          1.00000E+00       2.76766E-01      9.72839E+02
+      d 1        24      5.96399E+05      7.33691E+01        0.00000E+00          1.00000E+00       2.26827E-01      9.75942E+02
+      e 1        25      5.96453E+05      7.09782E+01        0.00000E+00          1.00000E+00       2.06159E-01      9.77348E+02
+      f 1        26      5.96520E+05      7.32666E+01        0.00000E+00          1.00000E+00       2.25907E-01      9.76003E+02
+      g 1        27      5.96597E+05      8.46014E+01        0.00000E+00          1.00000E+00       3.48363E-01      9.68943E+02
+1     h 1        28      5.96682E+05      1.10920E+02        0.00000E+00          1.00000E+00       8.50689E-01      9.50210E+02
+      i 1        29      5.96784E+05      1.53062E+02        0.00000E+00          1.00000E+00       2.75134E+00      9.13949E+02
+      j 1        30      5.96713E+05      1.39821E+02        0.00000E+00          1.00000E+00       1.95725E+00      9.26165E+02
+      k 1        31      5.96539E+05      1.07056E+02        0.00000E+00          1.00000E+00       7.52795E-01      9.53154E+02
+      l 1        32      5.96374E+05      8.10365E+01        0.00000E+00          1.00000E+00       3.05056E-01      9.71233E+02
+      m 1        33      5.96205E+05      6.29946E+01        0.00000E+00          1.00000E+00       1.48131E-01      9.81817E+02
+      n 1        34      5.96034E+05      5.12539E+01        0.00000E+00          1.00000E+00       8.79958E-02      9.87709E+02
+      o 1        35      5.95867E+05      4.36017E+01        0.00000E+00          1.00000E+00       6.11569E-02      9.91069E+02
+      p 1        36      5.95714E+05      3.83115E+01        0.00000E+00          1.00000E+00       4.69767E-02      9.93149E+02
+      q 1        37      5.95584E+05      3.43063E+01        0.00000E+00          1.00000E+00       3.82011E-02      9.94580E+02
+      r 1        38      5.95481E+05      3.10665E+01        0.00000E+00          1.00000E+00       3.21669E-02      9.95642E+02
+      s 1        39      5.95409E+05      2.85343E+01        0.00000E+00          1.00000E+00       2.80380E-02      9.96409E+02
+      t 1        40      5.95372E+05      2.70251E+01        0.00000E+00          1.00000E+00       2.58004E-02      9.96839E+02
+      a 2        41      1.62629E+06      1.95716E+02        0.00000E+00          1.00000E+00       7.20567E+00      8.69763E+02
+      b 2        42      1.62857E+06      1.82193E+02        0.00000E+00          1.00000E+00       5.41318E+00      8.84958E+02
+      c 2        43      1.62555E+06      1.67841E+02        0.00000E+00          1.00000E+00       3.92255E+00      9.00045E+02
+      d 2        44      1.61612E+06      1.59138E+02        0.00000E+00          1.00000E+00       3.19294E+00      9.08707E+02
+      e 2        45      1.60359E+06      1.53386E+02        0.00000E+00          1.00000E+00       2.77355E+00      9.14240E+02
+      f 2        46      1.58864E+06      1.51161E+02        0.00000E+00          1.00000E+00       2.62371E+00      9.16334E+02
+      g 2        47      1.57117E+06      1.54813E+02        0.00000E+00          1.00000E+00       2.87325E+00      9.12859E+02
+      h 2        48      1.55008E+06      1.67688E+02        0.00000E+00          1.00000E+00       3.90873E+00      9.00151E+02
+      i 2        49      1.53394E+06      1.94291E+02        0.00000E+00          1.00000E+00       6.99672E+00      8.71343E+02
+      j 2        50      1.52273E+06      1.85748E+02        0.00000E+00          1.00000E+00       5.84487E+00      8.80985E+02
+      k 2        51      1.51278E+06      1.52032E+02        0.00000E+00          1.00000E+00       2.68159E+00      9.15468E+02
+      l 2        52      1.50168E+06      1.28937E+02        0.00000E+00          1.00000E+00       1.45261E+00      9.36121E+02
+      m 2        53      1.48695E+06      1.11670E+02        0.00000E+00          1.00000E+00       8.70833E-01      9.50076E+02
+      n 2        54      1.47104E+06      9.81811E+01        0.00000E+00          1.00000E+00       5.62308E-01      9.60087E+02
+      o 2        55      1.45572E+06      8.70670E+01        0.00000E+00          1.00000E+00       3.81183E-01      9.67723E+02
+      p 2        56      1.44192E+06      7.73450E+01        0.00000E+00          1.00000E+00       2.64997E-01      9.73922E+02
+      q 2        57      1.43023E+06      6.84508E+01        0.00000E+00          1.00000E+00       1.86038E-01      9.79174E+02
+      r 2        58      1.42113E+06      6.03040E+01        0.00000E+00          1.00000E+00       1.31963E-01      9.83605E+02
+      s 2        59      1.41503E+06      5.34648E+01        0.00000E+00          1.00000E+00       9.73888E-02      9.87024E+02
+      t 2        60      1.41199E+06      4.92388E+01        0.00000E+00          1.00000E+00       8.01124E-02      9.88990E+02
+      a 3        61      2.58253E+06      2.25676E+02        1.55508E-01          8.44492E-01       1.29245E+01      8.33039E+02
+      b 3        62      2.57502E+06      2.25520E+02        6.98520E-02          9.30148E-01       1.28872E+01      8.33243E+02
+      c 3        63      2.56265E+06      2.25262E+02        1.45534E-03          9.98545E-01       1.28257E+01      8.33579E+02
+      d 3        64      2.54675E+06      2.19827E+02        0.00000E+00          1.00000E+00       1.15849E+01      8.40797E+02
+      e 3        65      2.52721E+06      2.14441E+02        0.00000E+00          1.00000E+00       1.04552E+01      8.47735E+02
+      f 3        66      2.50488E+06      2.09642E+02        0.00000E+00          1.00000E+00       9.52644E+00      8.53747E+02
+      g 3        67      2.48000E+06      2.06030E+02        0.00000E+00          1.00000E+00       8.87320E+00      8.58166E+02
+      h 3        68      2.45205E+06      2.04124E+02        0.00000E+00          1.00000E+00       8.54342E+00      8.60454E+02
+      i 3        69      2.41934E+06      2.03559E+02        0.00000E+00          1.00000E+00       8.44763E+00      8.61109E+02
+      j 3        70      2.40257E+06      1.98756E+02        0.00000E+00          1.00000E+00       7.66810E+00      8.66805E+02
+      k 3        71      2.39359E+06      1.86360E+02        0.00000E+00          1.00000E+00       5.92196E+00      8.80925E+02
+      l 3        72      2.38066E+06      1.73733E+02        0.00000E+00          1.00000E+00       4.48827E+00      8.94470E+02
+      m 3        73      2.36566E+06      1.60692E+02        0.00000E+00          1.00000E+00       3.31450E+00      9.07645E+02
+      n 3        74      2.34974E+06      1.47434E+02        0.00000E+00          1.00000E+00       2.38722E+00      9.20247E+02
+      o 3        75      2.33369E+06      1.33940E+02        0.00000E+00          1.00000E+00       1.66961E+00      9.32291E+02
+      p 3        76      2.31812E+06      1.20148E+02        0.00000E+00          1.00000E+00       1.12662E+00      9.43806E+02
+      q 3        77      2.30368E+06      1.06035E+02        0.00000E+00          1.00000E+00       7.28540E-01      9.54758E+02
+      r 3        78      2.29110E+06      9.18873E+01        0.00000E+00          1.00000E+00       4.52708E-01      9.64870E+02
+      s 3        79      2.28136E+06      7.89032E+01        0.00000E+00          1.00000E+00       2.81338E-01      9.73340E+02
+      t 3        80      2.27575E+06      6.99945E+01        0.00000E+00          1.00000E+00       1.98122E-01      9.78669E+02
+      a 4        81      3.40723E+06      2.41002E+02        7.77199E-03          9.92228E-01       1.70645E+01      8.12201E+02
+      b 4        82      3.40043E+06      2.40888E+02        1.42094E-03          9.98579E-01       1.70299E+01      8.12362E+02
+      c 4        83      3.38898E+06      2.37963E+02        0.00000E+00          1.00000E+00       1.61648E+01      8.16630E+02
+      d 4        84      3.37506E+06      2.33230E+02        0.00000E+00          1.00000E+00       1.48439E+01      8.23380E+02
+      e 4        85      3.35930E+06      2.28128E+02        0.00000E+00          1.00000E+00       1.35232E+01      8.30444E+02
+1     f 4        86      3.34216E+06      2.22910E+02        0.00000E+00          1.00000E+00       1.22757E+01      8.37455E+02
+      g 4        87      3.32403E+06      2.17562E+02        0.00000E+00          1.00000E+00       1.10982E+01      8.44431E+02
+      h 4        88      3.30546E+06      2.11956E+02        0.00000E+00          1.00000E+00       9.96535E+00      8.51533E+02
+      i 4        89      3.28790E+06      2.05750E+02        0.00000E+00          1.00000E+00       8.82408E+00      8.59157E+02
+      j 4        90      3.27505E+06      1.97961E+02        0.00000E+00          1.00000E+00       7.54491E+00      8.68402E+02
+      k 4        91      3.26637E+06      1.88259E+02        0.00000E+00          1.00000E+00       6.16629E+00      8.79439E+02
+      l 4        92      3.25900E+06      1.77939E+02        0.00000E+00          1.00000E+00       4.93071E+00      8.90634E+02
+      m 4        93      3.25201E+06      1.66655E+02        0.00000E+00          1.00000E+00       3.81598E+00      9.02274E+02
+      n 4        94      3.24508E+06      1.54482E+02        0.00000E+00          1.00000E+00       2.84985E+00      9.14170E+02
+      o 4        95      3.23819E+06      1.41636E+02        0.00000E+00          1.00000E+00       2.05365E+00      9.26017E+02
+      p 4        96      3.23148E+06      1.28127E+02        0.00000E+00          1.00000E+00       1.41970E+00      9.37719E+02
+      q 4        97      3.22522E+06      1.14042E+02        0.00000E+00          1.00000E+00       9.37077E-01      9.49106E+02
+      r 4        98      3.21975E+06      9.99038E+01        0.00000E+00          1.00000E+00       5.95812E-01      9.59690E+02
+      s 4        99      3.21552E+06      8.72100E+01        0.00000E+00          1.00000E+00       3.83162E-01      9.68442E+02
+      t 4       100      3.21309E+06      7.88896E+01        0.00000E+00          1.00000E+00       2.81192E-01      9.73771E+02
+      a 5       101      4.23080E+06      2.53679E+02        2.00830E-03          9.97992E-01       2.12988E+01      7.93664E+02
+      b 5       102      4.22393E+06      2.47193E+02        0.00000E+00          1.00000E+00       1.90309E+01      8.03802E+02
+      c 5       103      4.21343E+06      2.38634E+02        0.00000E+00          1.00000E+00       1.63598E+01      8.16525E+02
+      d 5       104      4.20174E+06      2.30492E+02        0.00000E+00          1.00000E+00       1.41223E+01      8.28012E+02
+      e 5       105      4.18998E+06      2.22983E+02        0.00000E+00          1.00000E+00       1.22925E+01      8.38133E+02
+      f 5       106      4.17860E+06      2.15774E+02        0.00000E+00          1.00000E+00       1.07259E+01      8.47461E+02
+      g 5       107      4.16787E+06      2.08497E+02        0.00000E+00          1.00000E+00       9.31534E+00      8.56524E+02
+      h 5       108      4.15819E+06      2.00847E+02        0.00000E+00          1.00000E+00       7.99997E+00      8.65697E+02
+      i 5       109      4.15023E+06      1.92596E+02        0.00000E+00          1.00000E+00       6.75473E+00      8.75213E+02
+      j 5       110      4.14486E+06      1.83616E+02        0.00000E+00          1.00000E+00       5.58281E+00      8.85153E+02
+      k 5       111      4.14199E+06      1.74074E+02        0.00000E+00          1.00000E+00       4.52291E+00      8.95268E+02
+      l 5       112      4.14078E+06      1.64111E+02        0.00000E+00          1.00000E+00       3.59511E+00      9.05367E+02
+      m 5       113      4.14054E+06      1.54622E+02        0.00000E+00          1.00000E+00       2.85972E+00      9.14566E+02
+      n 5       114      4.14078E+06      1.45009E+02        0.00000E+00          1.00000E+00       2.24279E+00      9.23484E+02
+      o 5       115      4.14116E+06      1.34705E+02        0.00000E+00          1.00000E+00       1.70499E+00      9.32606E+02
+      p 5       116      4.14151E+06      1.23578E+02        0.00000E+00          1.00000E+00       1.24592E+00      9.41959E+02
+      q 5       117      4.14175E+06      1.11840E+02        0.00000E+00          1.00000E+00       8.75451E-01      9.51265E+02
+      r 5       118      4.14183E+06      1.00155E+02        0.00000E+00          1.00000E+00       6.00839E-01      9.59950E+02
+      s 5       119      4.14176E+06      9.00253E+01        0.00000E+00          1.00000E+00       4.23877E-01      9.66994E+02
+      t 5       120      4.14166E+06      8.37686E+01        0.00000E+00          1.00000E+00       3.37818E-01      9.71111E+02
+      a 6       121      5.05996E+06      2.58943E+02        0.00000E+00          1.00000E+00       2.33102E+01      7.86156E+02
+      b 6       122      5.05436E+06      2.45905E+02        0.00000E+00          1.00000E+00       1.86065E+01      8.06697E+02
+      c 6       123      5.04649E+06      2.31322E+02        0.00000E+00          1.00000E+00       1.43379E+01      8.27690E+02
+      d 6       124      5.03902E+06      2.18472E+02        0.00000E+00          1.00000E+00       1.12917E+01      8.44761E+02
+      e 6       125      5.03315E+06      2.07624E+02        0.00000E+00          1.00000E+00       9.15687E+00      8.58286E+02
+      f 6       126      5.02888E+06      1.97970E+02        0.00000E+00          1.00000E+00       7.54629E+00      8.69716E+02
+      g 6       127      5.02610E+06      1.88872E+02        0.00000E+00          1.00000E+00       6.24688E+00      8.80009E+02
+      h 6       128      5.02483E+06      1.79778E+02        0.00000E+00          1.00000E+00       5.13483E+00      8.89868E+02
+      i 6       129      5.02515E+06      1.70402E+02        0.00000E+00          1.00000E+00       4.16098E+00      8.99607E+02
+      j 6       130      5.02716E+06      1.61750E+02        0.00000E+00          1.00000E+00       3.39938E+00      9.08234E+02
+      k 6       131      5.03067E+06      1.53842E+02        0.00000E+00          1.00000E+00       2.80510E+00      9.15826E+02
+      l 6       132      5.03527E+06      1.46871E+02        0.00000E+00          1.00000E+00       2.35307E+00      9.22295E+02
+      m 6       133      5.04048E+06      1.39970E+02        0.00000E+00          1.00000E+00       1.96502E+00      9.28496E+02
+      n 6       134      5.04593E+06      1.32728E+02        0.00000E+00          1.00000E+00       1.61482E+00      9.34788E+02
+      o 6       135      5.05138E+06      1.24939E+02        0.00000E+00          1.00000E+00       1.29602E+00      9.41314E+02
+      p 6       136      5.05656E+06      1.16570E+02        0.00000E+00          1.00000E+00       1.01215E+00      9.48044E+02
+      q 6       137      5.06119E+06      1.07828E+02        0.00000E+00          1.00000E+00       7.71583E-01      9.54762E+02
+      r 6       138      5.06498E+06      9.92728E+01        0.00000E+00          1.00000E+00       5.83356E-01      9.61020E+02
+      s 6       139      5.06765E+06      9.20010E+01        0.00000E+00          1.00000E+00       4.54519E-01      9.66087E+02
+      t 6       140      5.06901E+06      8.75813E+01        0.00000E+00          1.00000E+00       3.88340E-01      9.69051E+02
+      a 7       141      5.89944E+06      2.60728E+02        0.00000E+00          1.00000E+00       2.40296E+01      7.84294E+02
+      b 7       142      5.89557E+06      2.42118E+02        0.00000E+00          1.00000E+00       1.74054E+01      8.13236E+02
+      c 7       143      5.89244E+06      2.19067E+02        0.00000E+00          1.00000E+00       1.14196E+01      8.44742E+02
+1     d 7       144      5.89223E+06      1.99073E+02        0.00000E+00          1.00000E+00       7.71768E+00      8.69088E+02
+      e 7       145      5.89438E+06      1.85913E+02        0.00000E+00          1.00000E+00       5.86560E+00      8.83865E+02
+      f 7       146      5.89824E+06      1.75706E+02        0.00000E+00          1.00000E+00       4.69162E+00      8.94720E+02
+      g 7       147      5.90341E+06      1.66867E+02        0.00000E+00          1.00000E+00       3.83486E+00      9.03719E+02
+      h 7       148      5.90970E+06      1.58804E+02        0.00000E+00          1.00000E+00       3.16727E+00      9.11621E+02
+      i 7       149      5.91698E+06      1.51502E+02        0.00000E+00          1.00000E+00       2.64626E+00      9.18531E+02
+      j 7       150      5.92507E+06      1.45136E+02        0.00000E+00          1.00000E+00       2.25021E+00      9.24370E+02
+      k 7       151      5.93375E+06      1.39289E+02        0.00000E+00          1.00000E+00       1.92970E+00      9.29585E+02
+      l 7       152      5.94280E+06      1.33752E+02        0.00000E+00          1.00000E+00       1.66100E+00      9.34392E+02
+      m 7       153      5.95205E+06      1.28265E+02        0.00000E+00          1.00000E+00       1.42529E+00      9.39029E+02
+      n 7       154      5.96128E+06      1.22652E+02        0.00000E+00          1.00000E+00       1.21277E+00      9.43646E+02
+      o 7       155      5.97026E+06      1.16820E+02        0.00000E+00          1.00000E+00       1.01982E+00      9.48305E+02
+      p 7       156      5.97869E+06      1.10777E+02        0.00000E+00          1.00000E+00       8.46884E-01      9.52982E+02
+      q 7       157      5.98620E+06      1.04678E+02        0.00000E+00          1.00000E+00       6.97270E-01      9.57546E+02
+      r 7       158      5.99237E+06      9.88963E+01        0.00000E+00          1.00000E+00       5.76025E-01      9.61726E+02
+      s 7       159      5.99677E+06      9.40940E+01        0.00000E+00          1.00000E+00       4.88937E-01      9.65087E+02
+      t 7       160      5.99905E+06      9.11901E+01        0.00000E+00          1.00000E+00       4.41729E-01      9.67069E+02
+      a 8       161      6.74739E+06      2.62479E+02        0.00000E+00          1.00000E+00       2.47545E+01      7.82494E+02
+      b 8       162      6.74121E+06      2.38237E+02        0.00000E+00          1.00000E+00       1.62441E+01      8.19707E+02
+      c 8       163      6.74762E+06      2.05625E+02        0.00000E+00          1.00000E+00       8.80224E+00      8.62047E+02
+      d 8       164      6.75857E+06      1.86915E+02        0.00000E+00          1.00000E+00       5.99258E+00      8.83371E+02
+      e 8       165      6.77071E+06      1.73921E+02        0.00000E+00          1.00000E+00       4.50738E+00      8.97127E+02
+      f 8       166      6.78317E+06      1.63815E+02        0.00000E+00          1.00000E+00       3.57005E+00      9.07280E+02
+      g 8       167      6.79575E+06      1.55464E+02        0.00000E+00          1.00000E+00       2.91963E+00      9.15327E+02
+      h 8       168      6.80843E+06      1.48363E+02        0.00000E+00          1.00000E+00       2.44455E+00      9.21934E+02
+      i 8       169      6.82121E+06      1.42134E+02        0.00000E+00          1.00000E+00       2.08070E+00      9.27557E+02
+      j 8       170      6.83402E+06      1.36553E+02        0.00000E+00          1.00000E+00       1.79292E+00      9.32457E+02
+      k 8       171      6.84685E+06      1.31409E+02        0.00000E+00          1.00000E+00       1.55681E+00      9.36861E+02
+      l 8       172      6.85963E+06      1.26548E+02        0.00000E+00          1.00000E+00       1.35733E+00      9.40923E+02
+      m 8       173      6.87228E+06      1.21851E+02        0.00000E+00          1.00000E+00       1.18463E+00      9.44757E+02
+      n 8       174      6.88463E+06      1.17239E+02        0.00000E+00          1.00000E+00       1.03281E+00      9.48432E+02
+      o 8       175      6.89646E+06      1.12688E+02        0.00000E+00          1.00000E+00       8.98790E-01      9.51972E+02
+      p 8       176      6.90745E+06      1.08231E+02        0.00000E+00          1.00000E+00       7.81535E-01      9.55356E+02
+      q 8       177      6.91718E+06      1.03978E+02        0.00000E+00          1.00000E+00       6.81566E-01      9.58505E+02
+      r 8       178      6.92517E+06      1.00148E+02        0.00000E+00          1.00000E+00       6.00696E-01      9.61275E+02
+      s 8       179      6.93088E+06      9.70883E+01        0.00000E+00          1.00000E+00       5.41862E-01      9.63443E+02
+      t 8       180      6.93387E+06      9.52659E+01        0.00000E+00          1.00000E+00       5.09123E-01      9.64714E+02
+      a 9       181      7.72638E+06      2.64353E+02        0.00000E+00          1.00000E+00       2.55523E+01      7.80658E+02
+      b 9       182      7.63936E+06      2.43224E+02        0.00000E+00          1.00000E+00       1.77490E+01      8.13477E+02
+      c 9       183      7.64920E+06      2.19965E+02        0.00000E+00          1.00000E+00       1.16151E+01      8.45116E+02
+      d 9       184      7.66182E+06      2.00407E+02        0.00000E+00          1.00000E+00       7.92913E+00      8.68872E+02
+      e 9       185      7.67499E+06      1.84473E+02        0.00000E+00          1.00000E+00       5.68704E+00      8.86641E+02
+      f 9       186      7.68824E+06      1.71533E+02        0.00000E+00          1.00000E+00       4.26989E+00      9.00146E+02
+      g 9       187      7.70154E+06      1.60960E+02        0.00000E+00          1.00000E+00       3.33585E+00      9.10612E+02
+      h 9       188      7.71491E+06      1.52217E+02        0.00000E+00          1.00000E+00       2.69398E+00      9.18899E+02
+      i 9       189      7.72838E+06      1.44847E+02        0.00000E+00          1.00000E+00       2.23340E+00      9.25635E+02
+      j 9       190      7.74192E+06      1.38505E+02        0.00000E+00          1.00000E+00       1.88969E+00      9.31251E+02
+      k 9       191      7.75545E+06      1.32901E+02        0.00000E+00          1.00000E+00       1.62256E+00      9.36077E+02
+      l 9       192      7.76888E+06      1.27820E+02        0.00000E+00          1.00000E+00       1.40739E+00      9.40343E+02
+      m 9       193      7.78206E+06      1.23105E+02        0.00000E+00          1.00000E+00       1.22891E+00      9.44206E+02
+      n 9       194      7.79480E+06      1.18662E+02        0.00000E+00          1.00000E+00       1.07785E+00      9.47765E+02
+      o 9       195      7.80685E+06      1.14450E+02        0.00000E+00          1.00000E+00       9.48875E-01      9.51063E+02
+      p 9       196      7.81786E+06      1.10490E+02        0.00000E+00          1.00000E+00       8.39307E-01      9.54097E+02
+      q 9       197      7.82747E+06      1.06872E+02        0.00000E+00          1.00000E+00       7.48372E-01      9.56812E+02
+      r 9       198      7.83522E+06      1.03759E+02        0.00000E+00          1.00000E+00       6.76716E-01      9.59103E+02
+      s 9       199      7.84068E+06      1.01394E+02        0.00000E+00          1.00000E+00       6.26100E-01      9.60815E+02
+      t 9       200      7.84351E+06      1.00073E+02        0.00000E+00          1.00000E+00       5.99185E-01      9.61762E+02
+      a10       201      8.82025E+06      2.66017E+02        0.00000E+00          1.00000E+00       2.62802E+01      7.79325E+02
+1     b10       202      8.58315E+06      2.48571E+02        0.00000E+00          1.00000E+00       1.94941E+01      8.06622E+02
+      c10       203      8.58525E+06      2.28558E+02        0.00000E+00          1.00000E+00       1.36307E+01      8.34769E+02
+      d10       204      8.59005E+06      2.09331E+02        0.00000E+00          1.00000E+00       9.46867E+00      8.59061E+02
+      e10       205      8.59653E+06      1.92284E+02        0.00000E+00          1.00000E+00       6.71099E+00      8.78753E+02
+      f10       206      8.60429E+06      1.77842E+02        0.00000E+00          1.00000E+00       4.92018E+00      8.94261E+02
+      g10       207      8.61315E+06      1.65866E+02        0.00000E+00          1.00000E+00       3.74632E+00      9.06378E+02
+      h10       208      8.62295E+06      1.55981E+02        0.00000E+00          1.00000E+00       2.95694E+00      9.15903E+02
+      i10       209      8.63354E+06      1.47767E+02        0.00000E+00          1.00000E+00       2.40765E+00      9.23503E+02
+      j10       210      8.64470E+06      1.40837E+02        0.00000E+00          1.00000E+00       2.01074E+00      9.29699E+02
+      k10       211      8.65621E+06      1.34876E+02        0.00000E+00          1.00000E+00       1.71298E+00      9.34871E+02
+      l10       212      8.66783E+06      1.29636E+02        0.00000E+00          1.00000E+00       1.48147E+00      9.39300E+02
+      m10       213      8.67932E+06      1.24935E+02        0.00000E+00          1.00000E+00       1.29586E+00      9.43178E+02
+      n10       214      8.69038E+06      1.20656E+02        0.00000E+00          1.00000E+00       1.14367E+00      9.46631E+02
+      o10       215      8.70074E+06      1.16743E+02        0.00000E+00          1.00000E+00       1.01743E+00      9.49723E+02
+      p10       216      8.71008E+06      1.13195E+02        0.00000E+00          1.00000E+00       9.12970E-01      9.52472E+02
+      q10       217      8.71807E+06      1.10071E+02        0.00000E+00          1.00000E+00       8.28335E-01      9.54850E+02
+      r10       218      8.72440E+06      1.07483E+02        0.00000E+00          1.00000E+00       7.63154E-01      9.56788E+02
+      s10       219      8.72879E+06      1.05591E+02        0.00000E+00          1.00000E+00       7.18174E-01      9.58188E+02
+      t10       220      8.73103E+06      1.04572E+02        0.00000E+00          1.00000E+00       6.94868E-01      9.58936E+02
+      a11       221      9.91438E+06      2.67401E+02        0.00000E+00          1.00000E+00       2.68997E+01      7.78466E+02
+      b11       222      9.50547E+06      2.52266E+02        0.00000E+00          1.00000E+00       2.07853E+01      8.02095E+02
+      c11       223      9.50402E+06      2.34065E+02        0.00000E+00          1.00000E+00       1.50700E+01      8.28226E+02
+      d11       224      9.50496E+06      2.15165E+02        0.00000E+00          1.00000E+00       1.06015E+01      8.52694E+02
+      e11       225      9.50796E+06      1.97687E+02        0.00000E+00          1.00000E+00       7.50282E+00      8.73348E+02
+      f11       226      9.51281E+06      1.82519E+02        0.00000E+00          1.00000E+00       5.45174E+00      8.89955E+02
+      g11       227      9.51934E+06      1.69784E+02        0.00000E+00          1.00000E+00       4.10242E+00      9.03049E+02
+      h11       228      9.52730E+06      1.59240E+02        0.00000E+00          1.00000E+00       3.20083E+00      9.13343E+02
+      i11       229      9.53641E+06      1.50519E+02        0.00000E+00          1.00000E+00       2.58168E+00      9.21500E+02
+      j11       230      9.54638E+06      1.43236E+02        0.00000E+00          1.00000E+00       2.14169E+00      9.28072E+02
+      k11       231      9.55688E+06      1.37074E+02        0.00000E+00          1.00000E+00       1.81834E+00      9.33463E+02
+      l11       232      9.56760E+06      1.31773E+02        0.00000E+00          1.00000E+00       1.57263E+00      9.37979E+02
+      m11       233      9.57822E+06      1.27136E+02        0.00000E+00          1.00000E+00       1.38029E+00      9.41837E+02
+      n11       234      9.58843E+06      1.23033E+02        0.00000E+00          1.00000E+00       1.22632E+00      9.45178E+02
+      o11       235      9.59792E+06      1.19390E+02        0.00000E+00          1.00000E+00       1.10153E+00      9.48088E+02
+      p11       236      9.60639E+06      1.16187E+02        0.00000E+00          1.00000E+00       1.00048E+00      9.50602E+02
+      q11       237      9.61357E+06      1.13453E+02        0.00000E+00          1.00000E+00       9.20256E-01      9.52715E+02
+      r11       238      9.61921E+06      1.11255E+02        0.00000E+00          1.00000E+00       8.59633E-01      9.54392E+02
+      s11       239      9.62308E+06      1.09692E+02        0.00000E+00          1.00000E+00       8.18530E-01      9.55571E+02
+      t11       240      9.62506E+06      1.08871E+02        0.00000E+00          1.00000E+00       7.97566E-01      9.56187E+02
+      a12       241      1.10106E+07      2.68594E+02        0.00000E+00          1.00000E+00       2.74445E+01      7.77931E+02
+      b12       242      1.04133E+07      2.54733E+02        0.00000E+00          1.00000E+00       2.16888E+01      7.99372E+02
+      c12       243      1.04095E+07      2.37518E+02        0.00000E+00          1.00000E+00       1.60364E+01      8.24367E+02
+      d12       244      1.04083E+07      2.18831E+02        0.00000E+00          1.00000E+00       1.13688E+01      8.48892E+02
+      e12       245      1.04097E+07      2.01087E+02        0.00000E+00          1.00000E+00       8.03877E+00      8.70133E+02
+      f12       246      1.04135E+07      1.85625E+02        0.00000E+00          1.00000E+00       5.82957E+00      8.87255E+02
+      g12       247      1.04195E+07      1.72600E+02        0.00000E+00          1.00000E+00       4.37468E+00      9.00783E+02
+      h12       248      1.04272E+07      1.61807E+02        0.00000E+00          1.00000E+00       3.40403E+00      9.11416E+02
+      i12       249      1.04362E+07      1.52901E+02        0.00000E+00          1.00000E+00       2.74032E+00      9.19817E+02
+      j12       250      1.04463E+07      1.45510E+02        0.00000E+00          1.00000E+00       2.27204E+00      9.26540E+02
+      k12       251      1.04569E+07      1.39320E+02        0.00000E+00          1.00000E+00       1.93131E+00      9.32000E+02
+      l12       252      1.04677E+07      1.34070E+02        0.00000E+00          1.00000E+00       1.67561E+00      9.36511E+02
+      m12       253      1.04784E+07      1.29561E+02        0.00000E+00          1.00000E+00       1.47838E+00      9.40297E+02
+      n12       254      1.04885E+07      1.25655E+02        0.00000E+00          1.00000E+00       1.32301E+00      9.43512E+02
+      o12       255      1.04979E+07      1.22266E+02        0.00000E+00          1.00000E+00       1.19916E+00      9.46251E+02
+      p12       256      1.05062E+07      1.19359E+02        0.00000E+00          1.00000E+00       1.10052E+00      9.48564E+02
+      q12       257      1.05132E+07      1.16938E+02        0.00000E+00          1.00000E+00       1.02345E+00      9.50465E+02
+      r12       258      1.05186E+07      1.15037E+02        0.00000E+00          1.00000E+00       9.66063E-01      9.51940E+02
+      s12       259      1.05224E+07      1.13713E+02        0.00000E+00          1.00000E+00       9.27655E-01      9.52959E+02
+1     t12       260      1.05243E+07      1.13027E+02        0.00000E+00          1.00000E+00       9.08260E-01      9.53484E+02
+      a13       261      1.21106E+07      2.69673E+02        0.00000E+00          1.00000E+00       2.79458E+01      7.77594E+02
+      b13       262      1.13086E+07      2.56483E+02        0.00000E+00          1.00000E+00       2.23502E+01      7.97724E+02
+      c13       263      1.13030E+07      2.39510E+02        0.00000E+00          1.00000E+00       1.66176E+01      8.22486E+02
+      d13       264      1.13009E+07      2.20729E+02        0.00000E+00          1.00000E+00       1.17836E+01      8.47264E+02
+      e13       265      1.13022E+07      2.02832E+02        0.00000E+00          1.00000E+00       8.32561E+00      8.68789E+02
+      f13       266      1.13066E+07      1.87372E+02        0.00000E+00          1.00000E+00       6.05114E+00      8.85985E+02
+      g13       267      1.13136E+07      1.74409E+02        0.00000E+00          1.00000E+00       4.55716E+00      8.99513E+02
+      h13       268      1.13226E+07      1.63702E+02        0.00000E+00          1.00000E+00       3.56057E+00      9.10120E+02
+      i13       269      1.13330E+07      1.54888E+02        0.00000E+00          1.00000E+00       2.87850E+00      9.18486E+02
+      j13       270      1.13444E+07      1.47605E+02        0.00000E+00          1.00000E+00       2.39770E+00      9.25156E+02
+      k13       271      1.13563E+07      1.41543E+02        0.00000E+00          1.00000E+00       2.04861E+00      9.30544E+02
+      l13       272      1.13682E+07      1.36448E+02        0.00000E+00          1.00000E+00       1.78782E+00      9.34959E+02
+      m13       273      1.13798E+07      1.32124E+02        0.00000E+00          1.00000E+00       1.58805E+00      9.38625E+02
+      n13       274      1.13907E+07      1.28434E+02        0.00000E+00          1.00000E+00       1.43210E+00      9.41696E+02
+      o13       275      1.14006E+07      1.25287E+02        0.00000E+00          1.00000E+00       1.30908E+00      9.44272E+02
+      p13       276      1.14093E+07      1.22637E+02        0.00000E+00          1.00000E+00       1.21222E+00      9.46410E+02
+      q13       277      1.14166E+07      1.20470E+02        0.00000E+00          1.00000E+00       1.13740E+00      9.48138E+02
+      r13       278      1.14222E+07      1.18799E+02        0.00000E+00          1.00000E+00       1.08227E+00      9.49458E+02
+      s13       279      1.14261E+07      1.17652E+02        0.00000E+00          1.00000E+00       1.04571E+00      9.50357E+02
+      t13       280      1.14280E+07      1.17064E+02        0.00000E+00          1.00000E+00       1.02737E+00      9.50815E+02
+      a14       281      1.32163E+07      2.70683E+02        0.00000E+00          1.00000E+00       2.84227E+01      7.77381E+02
+      b14       282      1.21905E+07      2.57785E+02        0.00000E+00          1.00000E+00       2.28537E+01      7.96747E+02
+      c14       283      1.21839E+07      2.40429E+02        0.00000E+00          1.00000E+00       1.68915E+01      8.22078E+02
+      d14       284      1.21822E+07      2.21132E+02        0.00000E+00          1.00000E+00       1.18734E+01      8.47499E+02
+      e14       285      1.21852E+07      2.03299E+02        0.00000E+00          1.00000E+00       8.40375E+00      8.68907E+02
+      f14       286      1.21921E+07      1.88112E+02        0.00000E+00          1.00000E+00       6.14704E+00      8.85788E+02
+      g14       287      1.22020E+07      1.75495E+02        0.00000E+00          1.00000E+00       4.66956E+00      8.98970E+02
+      h14       288      1.22139E+07      1.65128E+02        0.00000E+00          1.00000E+00       3.68218E+00      9.09269E+02
+      i14       289      1.22273E+07      1.56615E+02        0.00000E+00          1.00000E+00       3.00316E+00      9.17386E+02
+      j14       290      1.22413E+07      1.49599E+02        0.00000E+00          1.00000E+00       2.52241E+00      9.23851E+02
+      k14       291      1.22555E+07      1.43776E+02        0.00000E+00          1.00000E+00       2.17210E+00      9.29066E+02
+      l14       292      1.22695E+07      1.38904E+02        0.00000E+00          1.00000E+00       1.90995E+00      9.33326E+02
+      m14       293      1.22828E+07      1.34798E+02        0.00000E+00          1.00000E+00       1.70932E+00      9.36843E+02
+      n14       294      1.22951E+07      1.31326E+02        0.00000E+00          1.00000E+00       1.55320E+00      9.39765E+02
+      o14       295      1.23062E+07      1.28400E+02        0.00000E+00          1.00000E+00       1.43071E+00      9.42191E+02
+      p14       296      1.23159E+07      1.25966E+02        0.00000E+00          1.00000E+00       1.33490E+00      9.44182E+02
+      q14       297      1.23238E+07      1.24003E+02        0.00000E+00          1.00000E+00       1.26141E+00      9.45772E+02
+      r14       298      1.23300E+07      1.22507E+02        0.00000E+00          1.00000E+00       1.20764E+00      9.46973E+02
+      s14       299      1.23341E+07      1.21491E+02        0.00000E+00          1.00000E+00       1.17219E+00      9.47784E+02
+      t14       300      1.23362E+07      1.20974E+02        0.00000E+00          1.00000E+00       1.15447E+00      9.48195E+02
+      a15       301      1.43293E+07      2.71650E+02        0.00000E+00          1.00000E+00       2.88862E+01      7.77249E+02
+      b15       302      1.30549E+07      2.58852E+02        0.00000E+00          1.00000E+00       2.32742E+01      7.96111E+02
+      c15       303      1.30487E+07      2.40413E+02        0.00000E+00          1.00000E+00       1.68869E+01      8.22946E+02
+      d15       304      1.30503E+07      2.20548E+02        0.00000E+00          1.00000E+00       1.17435E+01      8.48954E+02
+      e15       305      1.30580E+07      2.03092E+02        0.00000E+00          1.00000E+00       8.36905E+00      8.69788E+02
+      f15       306      1.30701E+07      1.88432E+02        0.00000E+00          1.00000E+00       6.18893E+00      8.86036E+02
+      g15       307      1.30852E+07      1.76363E+02        0.00000E+00          1.00000E+00       4.76095E+00      8.98644E+02
+      h15       308      1.31022E+07      1.66480E+02        0.00000E+00          1.00000E+00       3.80042E+00      9.08486E+02
+      i15       309      1.31200E+07      1.58372E+02        0.00000E+00          1.00000E+00       3.13431E+00      9.16252E+02
+      j15       310      1.31380E+07      1.51687E+02        0.00000E+00          1.00000E+00       2.65852E+00      9.22451E+02
+      k15       311      1.31556E+07      1.46138E+02        0.00000E+00          1.00000E+00       2.30913E+00      9.27461E+02
+      l15       312      1.31725E+07      1.41499E+02        0.00000E+00          1.00000E+00       2.04619E+00      9.31556E+02
+      m15       313      1.31882E+07      1.37600E+02        0.00000E+00          1.00000E+00       1.84429E+00      9.34931E+02
+      n15       314      1.32026E+07      1.34319E+02        0.00000E+00          1.00000E+00       1.68705E+00      9.37726E+02
+      o15       315      1.32154E+07      1.31571E+02        0.00000E+00          1.00000E+00       1.56383E+00      9.40034E+02
+      p15       316      1.32263E+07      1.29304E+02        0.00000E+00          1.00000E+00       1.46771E+00      9.41915E+02
+      q15       317      1.32353E+07      1.27489E+02        0.00000E+00          1.00000E+00       1.39425E+00      9.43407E+02
+1     r15       318      1.32421E+07      1.26118E+02        0.00000E+00          1.00000E+00       1.34070E+00      9.44526E+02
+      s15       319      1.32467E+07      1.25192E+02        0.00000E+00          1.00000E+00       1.30551E+00      9.45277E+02
+      t15       320      1.32491E+07      1.24723E+02        0.00000E+00          1.00000E+00       1.28795E+00      9.45656E+02
+      a16       321      1.54518E+07      2.72585E+02        0.00000E+00          1.00000E+00       2.93413E+01      7.77180E+02
+      b16       322      1.38910E+07      2.60101E+02        0.00000E+00          1.00000E+00       2.37749E+01      7.95163E+02
+      c16       323      1.38906E+07      2.39822E+02        0.00000E+00          1.00000E+00       1.67101E+01      8.24574E+02
+      d16       324      1.39017E+07      2.20293E+02        0.00000E+00          1.00000E+00       1.16873E+01      8.49973E+02
+      e16       325      1.39196E+07      2.03403E+02        0.00000E+00          1.00000E+00       8.42135E+00      8.70064E+02
+      f16       326      1.39413E+07      1.89350E+02        0.00000E+00          1.00000E+00       6.31026E+00      8.85637E+02
+      g16       327      1.39648E+07      1.77812E+02        0.00000E+00          1.00000E+00       4.91686E+00      8.97722E+02
+      h16       328      1.39890E+07      1.68356E+02        0.00000E+00          1.00000E+00       3.96963E+00      9.07186E+02
+      i16       329      1.40130E+07      1.60583E+02        0.00000E+00          1.00000E+00       3.30587E+00      9.14682E+02
+      j16       330      1.40361E+07      1.54158E+02        0.00000E+00          1.00000E+00       2.82709E+00      9.20690E+02
+      k16       331      1.40580E+07      1.48812E+02        0.00000E+00          1.00000E+00       2.47256E+00      9.25563E+02
+      l16       332      1.40785E+07      1.44336E+02        0.00000E+00          1.00000E+00       2.20401E+00      9.29555E+02
+      m16       333      1.40972E+07      1.40575E+02        0.00000E+00          1.00000E+00       1.99686E+00      9.32849E+02
+      n16       334      1.41141E+07      1.37414E+02        0.00000E+00          1.00000E+00       1.83510E+00      9.35575E+02
+      o16       335      1.41288E+07      1.34774E+02        0.00000E+00          1.00000E+00       1.70819E+00      9.37822E+02
+      p16       336      1.41414E+07      1.32602E+02        0.00000E+00          1.00000E+00       1.60920E+00      9.39650E+02
+      q16       337      1.41516E+07      1.30871E+02        0.00000E+00          1.00000E+00       1.53362E+00      9.41094E+02
+      r16       338      1.41593E+07      1.29567E+02        0.00000E+00          1.00000E+00       1.47859E+00      9.42173E+02
+      s16       339      1.41646E+07      1.28689E+02        0.00000E+00          1.00000E+00       1.44246E+00      9.42896E+02
+      t16       340      1.41672E+07      1.28244E+02        0.00000E+00          1.00000E+00       1.42444E+00      9.43261E+02
+ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+ 2D medium model   1200kJ/kg inflow                                              
+ OUTPUT AFTER  35 TIME STEPS    0.1000000000000000E+17 SECONDS
+ THE TIME IS 0.3169E+09 YEARS OR 0.1157E+12 DAYS OR 0.1000E+17 SECONDS
+ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+                                                          CONNECTION TABLE
+
+    ELEM1      ELEM1      INDEX        Heat flow          Mass flow          Enthalpy        Vapour mass flow    Liquid mass flow  
+
+      a 1        a 0          1      -1.127853E+04      -9.130620E-03       1.235242E+06       0.000000E+00       -9.130620E-03
+      b 1        b 0          2      -9.910420E+03      -7.839734E-03       1.264127E+06       0.000000E+00       -7.839734E-03
+      c 1        c 0          3      -8.498926E+03      -6.540190E-03       1.299492E+06       0.000000E+00       -6.540190E-03
+      d 1        d 0          4      -7.605004E+03      -5.748985E-03       1.322843E+06       0.000000E+00       -5.748985E-03
+      e 1        e 0          5      -7.210884E+03      -5.421478E-03       1.330059E+06       0.000000E+00       -5.421478E-03
+      f 1        f 0          6      -7.607408E+03      -5.798239E-03       1.312020E+06       0.000000E+00       -5.798239E-03
+      g 1        g 0          7      -9.714183E+03      -7.765199E-03       1.250990E+06       0.000000E+00       -7.765199E-03
+      h 1        h 0          8      -1.604667E+04      -1.386493E-02       1.157356E+06       0.000000E+00       -1.386493E-02
+      i 1        i 0          9      -3.229338E+04      -2.864289E-02       1.127448E+06       0.000000E+00       -2.864289E-02
+      j 1        j 0         10      -2.617357E+04      -2.326544E-02       1.124997E+06       0.000000E+00       -2.326544E-02
+      k 1        k 0         11      -1.492046E+04      -1.272231E-02       1.172779E+06       0.000000E+00       -1.272231E-02
+      l 1        l 0         12      -8.976798E+03      -6.985980E-03       1.284973E+06       0.000000E+00       -6.985980E-03
+      m 1        m 0         13      -5.916593E+03      -4.229888E-03       1.398759E+06       0.000000E+00       -4.229888E-03
+      n 1        n 0         14      -4.249192E+03      -2.901414E-03       1.464524E+06       0.000000E+00       -2.901414E-03
+      o 1        o 0         15      -3.263715E+03      -2.204932E-03       1.480189E+06       0.000000E+00       -2.204932E-03
+      p 1        p 0         16      -2.619695E+03      -1.793089E-03       1.460995E+06       0.000000E+00       -1.793089E-03
+      q 1        q 0         17      -2.149671E+03      -1.519148E-03       1.415051E+06       0.000000E+00       -1.519148E-03
+      r 1        r 0         18      -1.779586E+03      -1.323589E-03       1.344515E+06       0.000000E+00       -1.323589E-03
+      s 1        s 0         19      -1.496067E+03      -1.187836E-03       1.259490E+06       0.000000E+00       -1.187836E-03
+      t 1        t 0         20      -1.329263E+03      -1.114097E-03       1.193130E+06       0.000000E+00       -1.114097E-03
+      a 1        b 1         21       5.623583E+02       2.468602E-03       2.278044E+05       0.000000E+00        2.468602E-03
+      b 1        c 1         22       1.068226E+03       4.372695E-03       2.442946E+05       0.000000E+00        4.372695E-03
+      c 1        d 1         23       1.574735E+03       5.950365E-03       2.646452E+05       0.000000E+00        5.950365E-03
+      d 1        e 1         24       2.146861E+03       7.617356E-03       2.818381E+05       0.000000E+00        7.617356E-03
+      e 1        f 1         25       3.109563E+03       9.752380E-03       3.188516E+05       0.000000E+00        9.752380E-03
+      f 1        g 1         26       5.154890E+03       1.293657E-02       3.984742E+05       0.000000E+00        1.293657E-02
+      g 1        h 1         27       9.950550E+03       1.854763E-02       5.364862E+05       0.000000E+00        1.854763E-02
+1     h 1        i 1         28       2.170131E+04       3.035812E-02       7.148436E+05       0.000000E+00        3.035812E-02
+      i 1        j 1         29      -1.424081E+04      -2.103809E-02       6.769058E+05       0.000000E+00       -2.103809E-02
+      j 1        k 1         30      -2.960535E+04      -4.752347E-02       6.229628E+05       0.000000E+00       -4.752347E-02
+      k 1        l 1         31      -1.692955E+04      -3.479183E-02       4.865955E+05       0.000000E+00       -3.479183E-02
+      l 1        m 1         32      -1.011668E+04      -2.712555E-02       3.729574E+05       0.000000E+00       -2.712555E-02
+      m 1        n 1         33      -6.366667E+03      -2.188392E-02       2.909290E+05       0.000000E+00       -2.188392E-02
+      n 1        o 1         34      -4.206703E+03      -1.778653E-02       2.365106E+05       0.000000E+00       -1.778653E-02
+      o 1        p 1         35      -2.875034E+03      -1.426361E-02       2.015643E+05       0.000000E+00       -1.426361E-02
+      p 1        q 1         36      -1.980877E+03      -1.106524E-02       1.790180E+05       0.000000E+00       -1.106524E-02
+      q 1        r 1         37      -1.327594E+03      -8.083856E-03       1.642279E+05       0.000000E+00       -8.083856E-03
+      r 1        s 1         38      -8.154037E+02      -5.271778E-03       1.546734E+05       0.000000E+00       -5.271778E-03
+      s 1        t 1         39      -3.870261E+02      -2.594636E-03       1.491640E+05       0.000000E+00       -2.594636E-03
+      a 2        a 1         40      -1.071617E+04      -6.662019E-03       1.608547E+06       0.000000E+00       -6.662019E-03
+      b 2        b 1         41      -9.404552E+03      -5.935640E-03       1.584421E+06       0.000000E+00       -5.935640E-03
+      c 2        c 1         42      -7.992416E+03      -4.962521E-03       1.610556E+06       0.000000E+00       -4.962521E-03
+      d 2        d 1         43      -7.032878E+03      -4.081994E-03       1.722902E+06       0.000000E+00       -4.081994E-03
+      e 2        e 1         44      -6.248183E+03      -3.286453E-03       1.901194E+06       0.000000E+00       -3.286453E-03
+      f 2        f 1         45      -5.562080E+03      -2.614046E-03       2.127767E+06       0.000000E+00       -2.614046E-03
+      g 2        g 1         46      -4.918523E+03      -2.154138E-03       2.283290E+06       0.000000E+00       -2.154138E-03
+      h 2        h 1         47      -4.295912E+03      -2.054448E-03       2.091030E+06       0.000000E+00       -2.054448E-03
+      i 2        i 1         48      -6.823549E+04      -8.003910E-02       8.525269E+05       0.000000E+00       -8.003910E-02
+      j 2        j 1         49      -4.153811E+04      -4.975082E-02       8.349231E+05       0.000000E+00       -4.975082E-02
+      k 2        k 1         50      -2.244656E+03       9.324055E-06      -2.407382E+08       0.000000E+00        9.324055E-06
+      l 2        l 1         51      -2.163924E+03       6.802993E-04      -3.180840E+06       0.000000E+00        6.802993E-04
+      m 2        m 1         52      -2.166584E+03       1.011748E-03      -2.141426E+06       0.000000E+00        1.011748E-03
+      n 2        n 1         53      -2.089228E+03       1.195976E-03      -1.746882E+06       0.000000E+00        1.195976E-03
+      o 2        o 1         54      -1.932046E+03       1.317988E-03      -1.465906E+06       0.000000E+00        1.317988E-03
+      p 2        p 1         55      -1.725538E+03       1.405280E-03      -1.227896E+06       0.000000E+00        1.405280E-03
+      q 2        q 1         56      -1.496388E+03       1.462234E-03      -1.023357E+06       0.000000E+00        1.462234E-03
+      r 2        r 1         57      -1.267395E+03       1.488490E-03      -8.514639E+05       0.000000E+00        1.488490E-03
+      s 2        s 1         58      -1.067690E+03       1.489306E-03      -7.169041E+05       0.000000E+00        1.489306E-03
+      t 2        t 1         59      -9.422371E+02       1.480538E-03      -6.364152E+05       0.000000E+00        1.480538E-03
+      a 2        b 2         60      -6.727770E+02       4.396984E-06      -1.530087E+08       0.000000E+00        4.396984E-06
+      b 2        c 2         61      -7.221139E+02      -5.823725E-06       1.239952E+08       0.000000E+00       -5.823725E-06
+      c 2        d 2         62      -4.471503E+02      -1.694013E-05       2.639592E+07       0.000000E+00       -1.694013E-05
+      d 2        e 2         63      -3.020492E+02      -2.147621E-05       1.406436E+07       0.000000E+00       -2.147621E-05
+      e 2        f 2         64      -1.272850E+02      -2.478784E-05       5.134977E+06       0.000000E+00       -2.478784E-05
+      f 2        g 2         65       1.643795E+02      -2.858293E-05      -5.750968E+06       0.000000E+00       -2.858293E-05
+      g 2        h 2         66       6.206895E+02      -3.526739E-05      -1.759953E+07       0.000000E+00       -3.526739E-05
+      h 2        i 2         67       1.306543E+03      -3.322720E-05      -3.932149E+07       0.000000E+00       -3.322720E-05
+      i 2        j 2         68      -4.524091E+02      -3.054964E-05       1.480898E+07       0.000000E+00       -3.054964E-05
+      j 2        k 2         69      -1.703357E+03      -2.231800E-05       7.632213E+07       0.000000E+00       -2.231800E-05
+      k 2        l 2         70      -1.166487E+03      -1.825538E-05       6.389823E+07       0.000000E+00       -1.825538E-05
+      l 2        m 2         71      -8.746012E+02      -2.077812E-05       4.209241E+07       0.000000E+00       -2.077812E-05
+      m 2        n 2         72      -6.836312E+02      -1.953081E-05       3.500271E+07       0.000000E+00       -1.953081E-05
+      n 2        o 2         73      -5.625551E+02      -1.659884E-05       3.389123E+07       0.000000E+00       -1.659884E-05
+      o 2        p 2         74      -4.909611E+02      -1.330043E-05       3.691318E+07       0.000000E+00       -1.330043E-05
+      p 2        q 2         75      -4.479815E+02      -1.006691E-05       4.450041E+07       0.000000E+00       -1.006691E-05
+      q 2        r 2         76      -4.093480E+02      -6.986515E-06       5.859115E+07       0.000000E+00       -6.986515E-06
+      r 2        s 2         77      -3.430199E+02      -4.179010E-06       8.208162E+07       0.000000E+00       -4.179010E-06
+      s 2        t 2         78      -2.117246E+02      -1.876987E-06       1.128003E+08       0.000000E+00       -1.876987E-06
+      a 3        a 2         79      -1.138895E+04      -6.657622E-03       1.710663E+06      -1.874574E-03       -4.783048E-03
+      b 3        b 2         80      -9.453889E+03      -5.945861E-03       1.589995E+06      -8.319847E-04       -5.113876E-03
+      c 3        c 2         81      -7.717453E+03      -4.973637E-03       1.551672E+06      -1.710300E-05       -4.956534E-03
+      d 3        d 2         82      -6.887777E+03      -4.086530E-03       1.685483E+06       0.000000E+00       -4.086530E-03
+      e 3        e 2         83      -6.073419E+03      -3.289765E-03       1.846156E+06       0.000000E+00       -3.289765E-03
+      f 3        f 2         84      -5.270416E+03      -2.617841E-03       2.013268E+06       0.000000E+00       -2.617841E-03
+      g 3        g 2         85      -4.462213E+03      -2.160823E-03       2.065053E+06       0.000000E+00       -2.160823E-03
+1     h 3        h 2         86      -3.610058E+03      -2.052408E-03       1.758938E+06       0.000000E+00       -2.052408E-03
+      i 3        i 2         87      -6.999444E+04      -8.003643E-02       8.745323E+05       0.000000E+00       -8.003643E-02
+      j 3        j 2         88      -4.278906E+04      -4.974259E-02       8.602097E+05       0.000000E+00       -4.974259E-02
+      k 3        k 2         89      -1.707786E+03       1.338667E-05      -1.275736E+08       0.000000E+00        1.338667E-05
+      l 3        l 2         90      -1.872038E+03       6.777766E-04      -2.762028E+06       0.000000E+00        6.777766E-04
+      m 3        m 2         91      -1.975614E+03       1.012996E-03      -1.950269E+06       0.000000E+00        1.012996E-03
+      n 3        n 2         92      -1.968152E+03       1.198908E-03      -1.641621E+06       0.000000E+00        1.198908E-03
+      o 3        o 2         93      -1.860452E+03       1.321286E-03      -1.408061E+06       0.000000E+00        1.321286E-03
+      p 3        p 2         94      -1.682558E+03       1.408514E-03      -1.194563E+06       0.000000E+00        1.408514E-03
+      q 3        q 2         95      -1.457755E+03       1.465315E-03      -9.948408E+05       0.000000E+00        1.465315E-03
+      r 3        r 2         96      -1.201067E+03       1.491297E-03      -8.053842E+05       0.000000E+00        1.491297E-03
+      s 3        s 2         97      -9.363943E+02       1.491608E-03      -6.277751E+05       0.000000E+00        1.491608E-03
+      t 3        t 2         98      -7.305125E+02       1.482415E-03      -4.927853E+05       0.000000E+00        1.482415E-03
+      a 3        b 3         99      -1.959559E+04      -1.852391E-02       1.057854E+06      -8.840703E-04       -1.763984E-02
+      b 3        c 3        100      -3.697371E+04      -3.689871E-02       1.002033E+06      -6.521234E-04       -3.624659E-02
+      c 3        d 3        101      -5.256542E+04      -5.398352E-02       9.737309E+05      -1.739286E-05       -5.396613E-02
+      d 3        e 3        102      -6.194900E+04      -6.541230E-02       9.470542E+05       0.000000E+00       -6.541230E-02
+      e 3        f 3        103      -6.771918E+04      -7.349068E-02       9.214661E+05       0.000000E+00       -7.349068E-02
+      f 3        g 3        104      -7.240060E+04      -8.057473E-02       8.985522E+05       0.000000E+00       -8.057473E-02
+      g 3        h 3        105      -7.873939E+04      -8.937553E-02       8.809949E+05       0.000000E+00       -8.937553E-02
+      h 3        i 3        106      -9.052581E+04      -1.038645E-01       8.715759E+05       0.000000E+00       -1.038645E-01
+      i 3        j 3        107      -4.640740E+04      -5.314265E-02       8.732609E+05       0.000000E+00       -5.314265E-02
+      j 3        k 3        108      -2.430056E+04      -2.795396E-02       8.693064E+05       0.000000E+00       -2.795396E-02
+      k 3        l 3        109      -3.092773E+04      -3.825799E-02       8.083991E+05       0.000000E+00       -3.825799E-02
+      l 3        m 3        110      -3.145482E+04      -4.183409E-02       7.518945E+05       0.000000E+00       -4.183409E-02
+      m 3        n 3        111      -2.884739E+04      -4.147844E-02       6.954790E+05       0.000000E+00       -4.147844E-02
+      n 3        o 3        112      -2.475933E+04      -3.870429E-02       6.397051E+05       0.000000E+00       -3.870429E-02
+      o 3        p 3        113      -2.005556E+04      -3.430688E-02       5.845929E+05       0.000000E+00       -3.430688E-02
+      p 3        q 3        114      -1.522220E+04      -2.869792E-02       5.304287E+05       0.000000E+00       -2.869792E-02
+      q 3        r 3        115      -1.058321E+04      -2.213556E-02       4.781090E+05       0.000000E+00       -2.213556E-02
+      r 3        s 3        116      -6.414407E+03      -1.491319E-02       4.301163E+05       0.000000E+00       -1.491319E-02
+      s 3        t 3        117      -2.913645E+03      -7.432294E-03       3.920250E+05       0.000000E+00       -7.432294E-03
+      a 4        a 3        118      -3.098453E+04      -2.518153E-02       1.230447E+06      -2.255620E-03       -2.292591E-02
+      b 4        b 3        119      -2.683201E+04      -2.432066E-02       1.103260E+06      -4.120387E-04       -2.390862E-02
+      c 4        c 3        120      -2.330917E+04      -2.205845E-02       1.056700E+06       0.000000E+00       -2.205845E-02
+      d 4        d 3        121      -1.627135E+04      -1.551532E-02       1.048729E+06       0.000000E+00       -1.551532E-02
+      e 4        e 3        122      -1.184359E+04      -1.136814E-02       1.041823E+06       0.000000E+00       -1.136814E-02
+      f 4        f 3        123      -9.951837E+03      -9.701887E-03       1.025763E+06       0.000000E+00       -9.701887E-03
+      g 4        g 3        124      -1.080100E+04      -1.096162E-02       9.853470E+05       0.000000E+00       -1.096162E-02
+      h 4        h 3        125      -1.539648E+04      -1.654140E-02       9.307850E+05       0.000000E+00       -1.654140E-02
+      i 4        i 3        126      -2.587603E+04      -2.931456E-02       8.827022E+05       0.000000E+00       -2.931456E-02
+      j 4        j 3        127      -2.068222E+04      -2.455390E-02       8.423191E+05       0.000000E+00       -2.455390E-02
+      k 4        k 3        128      -8.334954E+03      -1.029065E-02       8.099545E+05       0.000000E+00       -1.029065E-02
+      l 4        l 3        129      -2.399131E+03      -2.898317E-03       8.277670E+05       0.000000E+00       -2.898317E-03
+      m 4        m 3        130       6.318189E+02       1.368637E-03       4.616408E+05       0.000000E+00        1.368637E-03
+      n 4        n 3        131       2.119902E+03       3.973062E-03       5.335689E+05       0.000000E+00        3.973062E-03
+      o 4        o 3        132       2.843321E+03       5.718695E-03       4.971975E+05       0.000000E+00        5.718695E-03
+      p 4        p 3        133       3.150801E+03       7.017476E-03       4.489935E+05       0.000000E+00        7.017476E-03
+      q 4        q 3        134       3.181235E+03       8.027674E-03       3.962835E+05       0.000000E+00        8.027674E-03
+      r 4        r 3        135       2.967737E+03       8.713665E-03       3.405843E+05       0.000000E+00        8.713665E-03
+      s 4        s 3        136       2.564367E+03       8.972506E-03       2.858028E+05       0.000000E+00        8.972506E-03
+      t 4        t 3        137       2.183133E+03       8.914710E-03       2.448911E+05       0.000000E+00        8.914710E-03
+      a 4        b 4        138      -2.491263E+04      -2.380781E-02       1.046406E+06      -5.110964E-05       -2.375670E-02
+      b 4        c 4        139      -4.236131E+04      -4.049310E-02       1.046136E+06      -1.569463E-05       -4.047741E-02
+      c 4        d 4        140      -5.059779E+04      -4.899364E-02       1.032742E+06       0.000000E+00       -4.899364E-02
+      d 4        e 4        141      -5.536251E+04      -5.480406E-02       1.010190E+06       0.000000E+00       -5.480406E-02
+      e 4        f 4        142      -5.794060E+04      -5.875936E-02       9.860659E+05       0.000000E+00       -5.875936E-02
+      f 4        g 4        143      -5.892744E+04      -6.127120E-02       9.617478E+05       0.000000E+00       -6.127120E-02
+1     g 4        h 4        144      -5.781903E+04      -6.168747E-02       9.372897E+05       0.000000E+00       -6.168747E-02
+      h 4        i 4        145      -5.225408E+04      -5.726281E-02       9.125308E+05       0.000000E+00       -5.726281E-02
+      i 4        j 4        146      -3.643871E+04      -4.101332E-02       8.884605E+05       0.000000E+00       -4.101332E-02
+      j 4        k 4        147      -2.321965E+04      -2.693864E-02       8.619456E+05       0.000000E+00       -2.693864E-02
+      k 4        l 4        148      -1.809607E+04      -2.195515E-02       8.242291E+05       0.000000E+00       -2.195515E-02
+      l 4        m 4        149      -1.558008E+04      -1.988307E-02       7.835849E+05       0.000000E+00       -1.988307E-02
+      m 4        n 4        150      -1.376168E+04      -1.863297E-02       7.385660E+05       0.000000E+00       -1.863297E-02
+      n 4        o 4        151      -1.195674E+04      -1.732232E-02       6.902505E+05       0.000000E+00       -1.732232E-02
+      o 4        p 4        152      -9.985495E+03      -1.556917E-02       6.413633E+05       0.000000E+00       -1.556917E-02
+      p 4        q 4        153      -7.851477E+03      -1.322715E-02       5.935879E+05       0.000000E+00       -1.322715E-02
+      q 4        r 4        154      -5.671275E+03      -1.032886E-02       5.490708E+05       0.000000E+00       -1.032886E-02
+      r 4        s 4        155      -3.594700E+03      -7.030898E-03       5.112717E+05       0.000000E+00       -7.030898E-03
+      s 4        t 4        156      -1.717918E+03      -3.541038E-03       4.851453E+05       0.000000E+00       -3.541038E-03
+      a 5        a 4        157      -5.589717E+04      -4.898934E-02       1.141007E+06      -7.026256E-04       -4.828672E-02
+      b 5        b 4        158      -4.428068E+04      -4.100595E-02       1.079860E+06       0.000000E+00       -4.100595E-02
+      c 5        c 4        159      -3.154565E+04      -3.055899E-02       1.032287E+06       0.000000E+00       -3.055899E-02
+      d 5        d 4        160      -2.103608E+04      -2.132573E-02       9.864177E+05       0.000000E+00       -2.132573E-02
+      e 5        e 4        161      -1.442168E+04      -1.532344E-02       9.411512E+05       0.000000E+00       -1.532344E-02
+      f 5        f 4        162      -1.093868E+04      -1.221373E-02       8.956053E+05       0.000000E+00       -1.221373E-02
+      g 5        g 4        163      -9.692594E+03      -1.137790E-02       8.518791E+05       0.000000E+00       -1.137790E-02
+      h 5        h 4        164      -9.831534E+03      -1.211674E-02       8.114012E+05       0.000000E+00       -1.211674E-02
+      i 5        i 4        165      -1.006066E+04      -1.306507E-02       7.700428E+05       0.000000E+00       -1.306507E-02
+      j 5        j 4        166      -7.463149E+03      -1.047922E-02       7.121855E+05       0.000000E+00       -1.047922E-02
+      k 5        k 4        167      -3.211383E+03      -5.307152E-03       6.051046E+05       0.000000E+00       -5.307152E-03
+      l 5        l 4        168       1.168667E+02      -8.262400E-04      -1.414441E+05       0.000000E+00       -8.262400E-04
+      m 5        m 4        169       2.450215E+03       2.618739E-03       9.356468E+05       0.000000E+00        2.618739E-03
+      n 5        n 4        170       3.924838E+03       5.283708E-03       7.428190E+05       0.000000E+00        5.283708E-03
+      o 5        o 4        171       4.814569E+03       7.471848E-03       6.443612E+05       0.000000E+00        7.471848E-03
+      p 5        p 4        172       5.284819E+03       9.359495E-03       5.646479E+05       0.000000E+00        9.359495E-03
+      q 5        q 4        173       5.361437E+03       1.092597E-02       4.907059E+05       0.000000E+00        1.092597E-02
+      r 5        r 4        174       5.044313E+03       1.201163E-02       4.199525E+05       0.000000E+00        1.201163E-02
+      s 5        s 4        175       4.441149E+03       1.246237E-02       3.563648E+05       0.000000E+00        1.246237E-02
+      t 5        t 4        176       3.901051E+03       1.245575E-02       3.131928E+05       0.000000E+00        1.245575E-02
+      a 5        b 5        177      -2.791003E+04      -2.496784E-02       1.117839E+06      -1.619414E-05       -2.495165E-02
+      b 5        c 5        178      -4.086869E+04      -3.771852E-02       1.083518E+06       0.000000E+00       -3.771852E-02
+      c 5        d 5        179      -4.288402E+04      -4.119215E-02       1.041073E+06       0.000000E+00       -4.119215E-02
+      d 5        e 5        180      -4.065843E+04      -4.057356E-02       1.002092E+06       0.000000E+00       -4.057356E-02
+      e 5        f 5        181      -3.716944E+04      -3.842518E-02       9.673198E+05       0.000000E+00       -3.842518E-02
+      f 5        g 5        182      -3.310268E+04      -3.540036E-02       9.350945E+05       0.000000E+00       -3.540036E-02
+      g 5        h 5        183      -2.817908E+04      -3.117205E-02       9.039856E+05       0.000000E+00       -3.117205E-02
+      h 5        i 5        184      -2.178282E+04      -2.492913E-02       8.737898E+05       0.000000E+00       -2.492913E-02
+      i 5        j 5        185      -1.381549E+04      -1.629296E-02       8.479418E+05       0.000000E+00       -1.629296E-02
+      j 5        k 5        186      -7.016803E+03      -8.377458E-03       8.375814E+05       0.000000E+00       -8.377458E-03
+      k 5        l 5        187      -2.999112E+03      -3.385410E-03       8.858931E+05       0.000000E+00       -3.385410E-03
+      l 5        m 5        188      -9.078201E+02      -6.232422E-04       1.456609E+06       0.000000E+00       -6.232422E-04
+      m 5        n 5        189      -1.327054E+02       5.676439E-04      -2.337828E+05       0.000000E+00        5.676439E-04
+      n 5        o 5        190      -3.220658E+01       8.488785E-04      -3.794016E+04       0.000000E+00        8.488785E-04
+      o 5        p 5        191      -1.829106E+02       7.159190E-04      -2.554907E+05       0.000000E+00        7.159190E-04
+      p 5        q 5        192      -3.821300E+02       4.337512E-04      -8.809891E+05       0.000000E+00        4.337512E-04
+      q 5        r 5        193      -5.290114E+02       1.306601E-04      -4.048759E+06       0.000000E+00        1.306601E-04
+      r 5        s 5        194      -5.509740E+02      -1.051856E-04       5.238111E+06       0.000000E+00       -1.051856E-04
+      s 5        t 5        195      -3.744744E+02      -1.621306E-04       2.309709E+06       0.000000E+00       -1.621306E-04
+      a 6        a 5        196      -8.380720E+04      -7.395719E-02       1.133185E+06       0.000000E+00       -7.395719E-02
+      b 6        b 5        197      -5.723935E+04      -5.375662E-02       1.064787E+06       0.000000E+00       -5.375662E-02
+      c 6        c 5        198      -3.356097E+04      -3.403262E-02       9.861413E+05       0.000000E+00       -3.403262E-02
+      d 6        d 5        199      -1.881049E+04      -2.070714E-02       9.084060E+05       0.000000E+00       -2.070714E-02
+      e 6        e 5        200      -1.093269E+04      -1.317507E-02       8.298016E+05       0.000000E+00       -1.317507E-02
+      f 6        f 5        201      -6.871924E+03      -9.188910E-03       7.478497E+05       0.000000E+00       -9.188910E-03
+1     g 6        g 5        202      -4.768992E+03      -7.149583E-03       6.670308E+05       0.000000E+00       -7.149583E-03
+      h 6        h 5        203      -3.435272E+03      -5.873818E-03       5.848448E+05       0.000000E+00       -5.873818E-03
+      i 6        i 5        204      -2.093325E+03      -4.428900E-03       4.726512E+05       0.000000E+00       -4.428900E-03
+      j 6        j 5        205      -6.644670E+02      -2.563715E-03       2.591813E+05       0.000000E+00       -2.563715E-03
+      k 6        k 5        206       8.063089E+02      -3.151044E-04      -2.558863E+06       0.000000E+00       -3.151044E-04
+      l 6        l 5        207       2.208158E+03       1.935928E-03       1.140620E+06       0.000000E+00        1.935928E-03
+      m 6        m 5        208       3.225330E+03       3.809625E-03       8.466265E+05       0.000000E+00        3.809625E-03
+      n 6        n 5        209       4.025337E+03       5.564942E-03       7.233385E+05       0.000000E+00        5.564942E-03
+      o 6        o 5        210       4.663865E+03       7.338889E-03       6.355002E+05       0.000000E+00        7.338889E-03
+      p 6        p 5        211       5.085600E+03       9.077327E-03       5.602530E+05       0.000000E+00        9.077327E-03
+      q 6        q 5        212       5.214556E+03       1.062288E-02       4.908798E+05       0.000000E+00        1.062288E-02
+      r 6        r 5        213       5.022350E+03       1.177578E-02       4.264983E+05       0.000000E+00        1.177578E-02
+      s 6        s 5        214       4.617649E+03       1.240542E-02       3.722283E+05       0.000000E+00        1.240542E-02
+      t 6        t 5        215       4.275525E+03       1.261788E-02       3.388466E+05       0.000000E+00        1.261788E-02
+      a 6        b 6        216      -2.391030E+04      -2.058948E-02       1.161287E+06       0.000000E+00       -2.058948E-02
+      b 6        c 6        217      -3.077075E+04      -2.818200E-02       1.091858E+06       0.000000E+00       -2.818200E-02
+      c 6        d 6        218      -2.635159E+04      -2.578946E-02       1.021797E+06       0.000000E+00       -2.578946E-02
+      d 6        e 6        219      -1.886792E+04      -1.954872E-02       9.651746E+05       0.000000E+00       -1.954872E-02
+      e 6        f 6        220      -1.264835E+04      -1.369872E-02       9.233239E+05       0.000000E+00       -1.369872E-02
+      f 6        g 6        221      -7.704880E+03      -8.582646E-03       8.977278E+05       0.000000E+00       -8.582646E-03
+      g 6        h 6        222      -3.521074E+03      -3.812556E-03       9.235469E+05       0.000000E+00       -3.812556E-03
+      h 6        i 6        223       1.641679E+02       8.752085E-04       1.875758E+05       0.000000E+00        8.752085E-04
+      i 6        j 6        224       3.178929E+03       5.267427E-03       6.035069E+05       0.000000E+00        5.267427E-03
+      j 6        k 6        225       5.328296E+03       8.785334E-03       6.064990E+05       0.000000E+00        8.785334E-03
+      k 6        l 6        226       6.515771E+03       1.104382E-02       5.899928E+05       0.000000E+00        1.104382E-02
+      l 6        m 6        227       6.719594E+03       1.193307E-02       5.631070E+05       0.000000E+00        1.193307E-02
+      m 6        n 6        228       6.321416E+03       1.191034E-02       5.307503E+05       0.000000E+00        1.191034E-02
+      n 6        o 6        229       5.537067E+03       1.122320E-02       4.933590E+05       0.000000E+00        1.122320E-02
+      o 6        p 6        230       4.498001E+03       9.979918E-03       4.507052E+05       0.000000E+00        9.979918E-03
+      p 6        q 6        231       3.335952E+03       8.279062E-03       4.029384E+05       0.000000E+00        8.279062E-03
+      q 6        r 6        232       2.197846E+03       6.255374E-03       3.513533E+05       0.000000E+00        6.255374E-03
+      r 6        s 6        233       1.229245E+03       4.092644E-03       3.003546E+05       0.000000E+00        4.092644E-03
+      s 6        t 6        234       5.144739E+02       1.984182E-03       2.592876E+05       0.000000E+00        1.984182E-03
+      a 7        a 6        235      -1.077175E+05      -9.454667E-02       1.139305E+06       0.000000E+00       -9.454667E-02
+      b 7        b 6        236      -6.409979E+04      -6.134914E-02       1.044836E+06       0.000000E+00       -6.134914E-02
+      c 7        c 6        237      -2.914181E+04      -3.164008E-02       9.210411E+05       0.000000E+00       -3.164008E-02
+      d 7        d 6        238      -1.132682E+04      -1.446639E-02       7.829750E+05       0.000000E+00       -1.446639E-02
+      e 7        e 6        239      -4.713123E+03      -7.325073E-03       6.434234E+05       0.000000E+00       -7.325073E-03
+      f 7        f 6        240      -1.928450E+03      -4.072838E-03       4.734906E+05       0.000000E+00       -4.072838E-03
+      g 7        g 6        241      -5.851861E+02      -2.379493E-03       2.459289E+05       0.000000E+00       -2.379493E-03
+      h 7        h 6        242       2.499699E+02      -1.186054E-03      -2.107577E+05       0.000000E+00       -1.186054E-03
+      i 7        i 6        243       9.214359E+02      -3.668142E-05      -2.511997E+07       0.000000E+00       -3.668142E-05
+      j 7        j 6        244       1.484900E+03       9.541914E-04       1.556186E+06       0.000000E+00        9.541914E-04
+      k 7        k 6        245       1.993784E+03       1.943377E-03       1.025938E+06       0.000000E+00        1.943377E-03
+      l 7        l 6        246       2.411981E+03       2.825181E-03       8.537439E+05       0.000000E+00        2.825181E-03
+      m 7        m 6        247       2.827151E+03       3.786894E-03       7.465619E+05       0.000000E+00        3.786894E-03
+      n 7        n 6        248       3.240988E+03       4.877806E-03       6.644357E+05       0.000000E+00        4.877806E-03
+      o 7        o 6        249       3.624799E+03       6.095605E-03       5.946577E+05       0.000000E+00        6.095605E-03
+      p 7        p 6        250       3.923551E+03       7.376472E-03       5.319008E+05       0.000000E+00        7.376472E-03
+      q 7        q 6        251       4.076450E+03       8.599189E-03       4.740506E+05       0.000000E+00        8.599189E-03
+      r 7        r 6        252       4.053748E+03       9.613050E-03       4.216922E+05       0.000000E+00        9.613050E-03
+      s 7        s 6        253       3.902878E+03       1.029696E-02       3.790321E+05       0.000000E+00        1.029696E-02
+      t 7        t 6        254       3.761052E+03       1.063370E-02       3.536918E+05       0.000000E+00        1.063370E-02
+      a 7        b 7        255      -1.718093E+04      -1.427530E-02       1.203543E+06       0.000000E+00       -1.427530E-02
+      b 7        c 7        256      -1.279792E+04      -1.111280E-02       1.151638E+06       0.000000E+00       -1.111280E-02
+      c 7        d 7        257      -1.665111E+03      -7.076139E-04       2.353135E+06       0.000000E+00       -7.076139E-04
+      d 7        e 7        258       4.372399E+03       6.354565E-03       6.880721E+05       0.000000E+00        6.354565E-03
+      e 7        f 7        259       7.584791E+03       1.083948E-02       6.997373E+05       0.000000E+00        1.083948E-02
+1     f 7        g 7        260       9.394831E+03       1.388736E-02       6.765024E+05       0.000000E+00        1.388736E-02
+      g 7        h 7        261       1.049160E+04       1.617807E-02       6.485077E+05       0.000000E+00        1.617807E-02
+      h 7        i 7        262       1.116575E+04       1.796120E-02       6.216596E+05       0.000000E+00        1.796120E-02
+      i 7        j 7        263       1.146583E+04       1.917092E-02       5.980843E+05       0.000000E+00        1.917092E-02
+      j 7        k 7        264       1.139287E+04       1.981558E-02       5.749452E+05       0.000000E+00        1.981558E-02
+      k 7        l 7        265       1.098469E+04       1.989293E-02       5.521906E+05       0.000000E+00        1.989293E-02
+      l 7        m 7        266       1.032106E+04       1.951993E-02       5.287450E+05       0.000000E+00        1.951993E-02
+      m 7        n 7        267       9.415941E+03       1.868309E-02       5.039820E+05       0.000000E+00        1.868309E-02
+      n 7        o 7        268       8.282526E+03       1.734462E-02       4.775271E+05       0.000000E+00        1.734462E-02
+      o 7        p 7        269       6.949122E+03       1.546639E-02       4.493047E+05       0.000000E+00        1.546639E-02
+      p 7        q 7        270       5.475972E+03       1.304486E-02       4.197800E+05       0.000000E+00        1.304486E-02
+      q 7        r 7        271       3.958558E+03       1.014122E-02       3.903432E+05       0.000000E+00        1.014122E-02
+      r 7        s 7        272       2.506849E+03       6.889973E-03       3.638403E+05       0.000000E+00        6.889973E-03
+      s 7        t 7        273       1.194457E+03       3.466016E-03       3.446196E+05       0.000000E+00        3.466016E-03
+      a 8        a 7        274      -1.248984E+05      -1.088220E-01       1.147732E+06       0.000000E+00       -1.088220E-01
+      b 8        b 7        275      -5.971678E+04      -5.818664E-02       1.026297E+06       0.000000E+00       -5.818664E-02
+      c 8        c 7        276      -1.800900E+04      -2.123490E-02       8.480851E+05       0.000000E+00       -2.123490E-02
+      d 8        d 7        277      -5.289313E+03      -7.404211E-03       7.143654E+05       0.000000E+00       -7.404211E-03
+      e 8        e 7        278      -1.500731E+03      -2.840153E-03       5.283978E+05       0.000000E+00       -2.840153E-03
+      f 8        f 7        279      -1.184107E+02      -1.024963E-03       1.155268E+05       0.000000E+00       -1.024963E-03
+      g 8        g 7        280       5.115836E+02      -8.878598E-05      -5.761986E+06       0.000000E+00       -8.878598E-05
+      h 8        h 7        281       9.241187E+02       5.970764E-04       1.547739E+06       0.000000E+00        5.970764E-04
+      i 8        i 7        282       1.221514E+03       1.173044E-03       1.041320E+06       0.000000E+00        1.173044E-03
+      j 8        j 7        283       1.411944E+03       1.598849E-03       8.831001E+05       0.000000E+00        1.598849E-03
+      k 8        k 7        284       1.585601E+03       2.020725E-03       7.846692E+05       0.000000E+00        2.020725E-03
+      l 8        l 7        285       1.748356E+03       2.452180E-03       7.129803E+05       0.000000E+00        2.452180E-03
+      m 8        m 7        286       1.922030E+03       2.950058E-03       6.515229E+05       0.000000E+00        2.950058E-03
+      n 8        n 7        287       2.107573E+03       3.539336E-03       5.954712E+05       0.000000E+00        3.539336E-03
+      o 8        o 7        288       2.291395E+03       4.217375E-03       5.433225E+05       0.000000E+00        4.217375E-03
+      p 8        p 7        289       2.450401E+03       4.954943E-03       4.945366E+05       0.000000E+00        4.954943E-03
+      q 8        q 7        290       2.559036E+03       5.695552E-03       4.493043E+05       0.000000E+00        5.695552E-03
+      r 8        r 7        291       2.602040E+03       6.361798E-03       4.090101E+05       0.000000E+00        6.361798E-03
+      s 8        s 7        292       2.590485E+03       6.873003E-03       3.769074E+05       0.000000E+00        6.873003E-03
+      t 8        t 7        293       2.566595E+03       7.167680E-03       3.580788E+05       0.000000E+00        7.167680E-03
+      a 8        b 8        294      -2.738466E+04      -2.281973E-02       1.200043E+06       0.000000E+00       -2.281973E-02
+      b 8        c 8        295       1.630844E+04       2.039140E-02       7.997702E+05       0.000000E+00        2.039140E-02
+      c 8        d 8        296       2.481063E+04       3.232539E-02       7.675278E+05       0.000000E+00        3.232539E-02
+      d 8        e 8        297       2.434671E+04       3.380167E-02       7.202812E+05       0.000000E+00        3.380167E-02
+      e 8        f 8        298       2.239353E+04       3.291958E-02       6.802496E+05       0.000000E+00        3.291958E-02
+      f 8        g 8        299       2.051200E+04       3.173236E-02       6.464063E+05       0.000000E+00        3.173236E-02
+      g 8        h 8        300       1.894045E+04       3.067290E-02       6.174978E+05       0.000000E+00        3.067290E-02
+      h 8        i 8        301       1.757704E+04       2.969418E-02       5.919358E+05       0.000000E+00        2.969418E-02
+      i 8        j 8        302       1.633016E+04       2.870420E-02       5.689119E+05       0.000000E+00        2.870420E-02
+      j 8        k 8        303       1.517260E+04       2.771363E-02       5.474778E+05       0.000000E+00        2.771363E-02
+      k 8        l 8        304       1.403883E+04       2.663845E-02       5.270137E+05       0.000000E+00        2.663845E-02
+      l 8        m 8        305       1.288295E+04       2.540990E-02       5.070051E+05       0.000000E+00        2.540990E-02
+      m 8        n 8        306       1.165331E+04       2.392254E-02       4.871266E+05       0.000000E+00        2.392254E-02
+      n 8        o 8        307       1.030677E+04       2.205835E-02       4.672504E+05       0.000000E+00        2.205835E-02
+      o 8        p 8        308       8.818836E+03       1.970778E-02       4.474799E+05       0.000000E+00        1.970778E-02
+      p 8        q 8        309       7.190597E+03       1.679111E-02       4.282382E+05       0.000000E+00        1.679111E-02
+      q 8        r 8        310       5.450718E+03       1.328163E-02       4.103953E+05       0.000000E+00        1.328163E-02
+      r 8        s 8        311       3.647049E+03       9.224152E-03       3.953804E+05       0.000000E+00        9.224152E-03
+      s 8        t 8        312       1.824608E+03       4.738108E-03       3.850920E+05       0.000000E+00        4.738108E-03
+      a 9        a 8        313      -1.522831E+05      -1.316417E-01       1.156800E+06       0.000000E+00       -1.316417E-01
+      b 9        b 8        314      -1.602368E+04      -1.497550E-02       1.069993E+06       0.000000E+00       -1.497550E-02
+      c 9        c 8        315      -9.506807E+03      -9.300916E-03       1.022137E+06       0.000000E+00       -9.300916E-03
+      d 9        d 8        316      -5.753237E+03      -5.927928E-03       9.705309E+05       0.000000E+00       -5.927928E-03
+      e 9        e 8        317      -3.453905E+03      -3.722240E-03       9.279104E+05       0.000000E+00       -3.722240E-03
+1     f 9        f 8        318      -1.999946E+03      -2.212182E-03       9.040600E+05       0.000000E+00       -2.212182E-03
+      g 9        g 8        319      -1.059969E+03      -1.148253E-03       9.231149E+05       0.000000E+00       -1.148253E-03
+      h 9        h 8        320      -4.392825E+02      -3.816448E-04       1.151025E+06       0.000000E+00       -3.816448E-04
+      i 9        i 8        321      -2.536864E+01       1.830676E-04      -1.385752E+05       0.000000E+00        1.830676E-04
+      j 9        j 8        322       2.543788E+02       6.082813E-04       4.181928E+05       0.000000E+00        6.082813E-04
+      k 9        k 8        323       4.518301E+02       9.455419E-04       4.778531E+05       0.000000E+00        9.455419E-04
+      l 9        l 8        324       5.924763E+02       1.223629E-03       4.841960E+05       0.000000E+00        1.223629E-03
+      m 9        m 8        325       6.923898E+02       1.462702E-03       4.733635E+05       0.000000E+00        1.462702E-03
+      n 9        n 8        326       7.610372E+02       1.675141E-03       4.543122E+05       0.000000E+00        1.675141E-03
+      o 9        o 8        327       8.034597E+02       1.866809E-03       4.303920E+05       0.000000E+00        1.866809E-03
+      p 9        p 8        328       8.221620E+02       2.038276E-03       4.033615E+05       0.000000E+00        2.038276E-03
+      q 9        q 8        329       8.191577E+02       2.186066E-03       3.747177E+05       0.000000E+00        2.186066E-03
+      r 9        r 8        330       7.983703E+02       2.304322E-03       3.464665E+05       0.000000E+00        2.304322E-03
+      s 9        s 8        331       7.680440E+02       2.386959E-03       3.217667E+05       0.000000E+00        2.386959E-03
+      t 9        t 8        332       7.419869E+02       2.429572E-03       3.053982E+05       0.000000E+00        2.429572E-03
+      a 9        b 9        333      -1.362878E+03      -2.650520E-04       5.141926E+06       0.000000E+00       -2.650520E-04
+      b 9        c 9        334       1.060951E+03       2.353202E-03       4.508543E+05       0.000000E+00        2.353202E-03
+      c 9        d 9        335       1.437578E+03       2.819401E-03       5.098878E+05       0.000000E+00        2.819401E-03
+      d 9        e 9        336       1.372057E+03       2.758617E-03       4.973711E+05       0.000000E+00        2.758617E-03
+      e 9        f 9        337       1.257600E+03       2.610460E-03       4.817543E+05       0.000000E+00        2.610460E-03
+      f 9        g 9        338       1.165959E+03       2.478239E-03       4.704789E+05       0.000000E+00        2.478239E-03
+      g 9        h 9        339       1.095720E+03       2.372243E-03       4.618921E+05       0.000000E+00        2.372243E-03
+      h 9        i 9        340       1.034825E+03       2.283308E-03       4.532130E+05       0.000000E+00        2.283308E-03
+      i 9        j 9        341       9.761445E+02       2.201049E-03       4.434905E+05       0.000000E+00        2.201049E-03
+      j 9        k 9        342       9.132338E+02       2.117072E-03       4.313664E+05       0.000000E+00        2.117072E-03
+      k 9        l 9        343       8.435295E+02       2.024563E-03       4.166478E+05       0.000000E+00        2.024563E-03
+      l 9        m 9        344       7.655677E+02       1.917457E-03       3.992621E+05       0.000000E+00        1.917457E-03
+      m 9        n 9        345       6.785905E+02       1.789290E-03       3.792513E+05       0.000000E+00        1.789290E-03
+      n 9        o 9        346       5.827562E+02       1.633586E-03       3.567343E+05       0.000000E+00        1.633586E-03
+      o 9        p 9        347       4.795637E+02       1.444744E-03       3.319369E+05       0.000000E+00        1.444744E-03
+      p 9        q 9        348       3.722390E+02       1.219115E-03       3.053354E+05       0.000000E+00        1.219115E-03
+      q 9        r 9        349       2.657315E+02       9.561930E-04       2.779057E+05       0.000000E+00        9.561930E-04
+      r 9        s 9        350       1.658551E+02       6.595388E-04       2.514714E+05       0.000000E+00        6.595388E-04
+      s 9        t 9        351       7.720430E+01       3.369885E-04       2.291007E+05       0.000000E+00        3.369885E-04
+      a10        a 9        352      -1.536460E+05      -1.319068E-01       1.164808E+06       0.000000E+00       -1.319068E-01
+      b10        b 9        353      -1.359985E+04      -1.235725E-02       1.100556E+06       0.000000E+00       -1.235725E-02
+      c10        c 9        354      -9.130180E+03      -8.834717E-03       1.033443E+06       0.000000E+00       -8.834717E-03
+      d10        d 9        355      -5.818759E+03      -5.988712E-03       9.716212E+05       0.000000E+00       -5.988712E-03
+      e10        e 9        356      -3.568362E+03      -3.870398E-03       9.219626E+05       0.000000E+00       -3.870398E-03
+      f10        f 9        357      -2.091587E+03      -2.344403E-03       8.921616E+05       0.000000E+00       -2.344403E-03
+      g10        g 9        358      -1.130208E+03      -1.254249E-03       9.011035E+05       0.000000E+00       -1.254249E-03
+      h10        h 9        359      -5.001777E+02      -4.705791E-04       1.062898E+06       0.000000E+00       -4.705791E-04
+      i10        i 9        360      -8.404922E+01       1.008085E-04      -8.337515E+05       0.000000E+00        1.008085E-04
+      j10        j 9        361       1.914681E+02       5.243045E-04       3.651850E+05       0.000000E+00        5.243045E-04
+      k10        k 9        362       3.821259E+02       8.530323E-04       4.479618E+05       0.000000E+00        8.530323E-04
+      l10        l 9        363       5.145145E+02       1.116523E-03       4.608185E+05       0.000000E+00        1.116523E-03
+      m10        m 9        364       6.054125E+02       1.334535E-03       4.536506E+05       0.000000E+00        1.334535E-03
+      n10        n 9        365       6.652030E+02       1.519438E-03       4.377953E+05       0.000000E+00        1.519438E-03
+      o10        o 9        366       7.002671E+02       1.677966E-03       4.173309E+05       0.000000E+00        1.677966E-03
+      p10        p 9        367       7.148372E+02       1.812647E-03       3.943609E+05       0.000000E+00        1.812647E-03
+      q10        q 9        368       7.126501E+02       1.923144E-03       3.705651E+05       0.000000E+00        1.923144E-03
+      r10        r 9        369       6.984940E+02       2.007668E-03       3.479131E+05       0.000000E+00        2.007668E-03
+      s10        s 9        370       6.793931E+02       2.064409E-03       3.290982E+05       0.000000E+00        2.064409E-03
+      t10        t 9        371       6.647826E+02       2.092584E-03       3.176851E+05       0.000000E+00        2.092584E-03
+      a10        b10        372      -1.714654E+03      -7.235464E-04       2.369791E+06       0.000000E+00       -7.235464E-04
+      b10        c10        373      -4.936331E+02       5.148101E-04      -9.588646E+05       0.000000E+00        5.148101E-04
+      c10        d10        374       3.220540E+01       1.107539E-03       2.907834E+04       0.000000E+00        1.107539E-03
+      d10        e10        375       2.981771E+02       1.401244E-03       2.127946E+05       0.000000E+00        1.401244E-03
+1     e10        f10        376       4.711735E+02       1.575039E-03       2.991503E+05       0.000000E+00        1.575039E-03
+      f10        g10        377       5.965105E+02       1.694235E-03       3.520826E+05       0.000000E+00        1.694235E-03
+      g10        h10        378       6.836802E+02       1.776865E-03       3.847677E+05       0.000000E+00        1.776865E-03
+      h10        i10        379       7.355055E+02       1.826166E-03       4.027594E+05       0.000000E+00        1.826166E-03
+      i10        j10        380       7.551356E+02       1.841951E-03       4.099650E+05       0.000000E+00        1.841951E-03
+      j10        k10        381       7.473165E+02       1.825263E-03       4.094295E+05       0.000000E+00        1.825263E-03
+      k10        l10        382       7.154660E+02       1.775729E-03       4.029140E+05       0.000000E+00        1.775729E-03
+      l10        m10        383       6.634478E+02       1.693490E-03       3.917636E+05       0.000000E+00        1.693490E-03
+      m10        n10        384       5.950983E+02       1.578671E-03       3.769616E+05       0.000000E+00        1.578671E-03
+      n10        o10        385       5.142745E+02       1.431443E-03       3.592700E+05       0.000000E+00        1.431443E-03
+      o10        p10        386       4.250784E+02       1.252469E-03       3.393925E+05       0.000000E+00        1.252469E-03
+      p10        q10        387       3.320099E+02       1.043494E-03       3.181713E+05       0.000000E+00        1.043494E-03
+      q10        r10        388       2.398006E+02       8.078806E-04       2.968268E+05       0.000000E+00        8.078806E-04
+      r10        s10        389       1.527072E+02       5.508231E-04       2.772345E+05       0.000000E+00        5.508231E-04
+      s10        t10        390       7.316354E+01       2.790452E-04       2.621925E+05       0.000000E+00        2.790452E-04
+      a11        a10        391      -1.553606E+05      -1.326303E-01       1.171381E+06       0.000000E+00       -1.326303E-01
+      b11        b10        392      -1.237883E+04      -1.111889E-02       1.113315E+06       0.000000E+00       -1.111889E-02
+      c11        c10        393      -8.604341E+03      -8.241988E-03       1.043964E+06       0.000000E+00       -8.241988E-03
+      d11        d10        394      -5.552787E+03      -5.695007E-03       9.750273E+05       0.000000E+00       -5.695007E-03
+      e11        e10        395      -3.395365E+03      -3.696602E-03       9.185098E+05       0.000000E+00       -3.696602E-03
+      f11        f10        396      -1.966250E+03      -2.225208E-03       8.836251E+05       0.000000E+00       -2.225208E-03
+      g11        g10        397      -1.043039E+03      -1.171619E-03       8.902540E+05       0.000000E+00       -1.171619E-03
+      h11        h10        398      -4.483524E+02      -4.212781E-04       1.064267E+06       0.000000E+00       -4.212781E-04
+      i11        i10        399      -6.441910E+01       1.165942E-04      -5.525071E+05       0.000000E+00        1.165942E-04
+      j11        j10        400       1.836490E+02       5.076158E-04       3.617874E+05       0.000000E+00        5.076158E-04
+      k11        k10        401       3.502754E+02       8.034986E-04       4.359378E+05       0.000000E+00        8.034986E-04
+      l11        l10        402       4.624962E+02       1.034284E-03       4.471656E+05       0.000000E+00        1.034284E-03
+      m11        m10        403       5.370631E+02       1.219716E-03       4.403183E+05       0.000000E+00        1.219716E-03
+      n11        n10        404       5.843792E+02       1.372211E-03       4.258670E+05       0.000000E+00        1.372211E-03
+      o11        o10        405       6.110711E+02       1.498992E-03       4.076547E+05       0.000000E+00        1.498992E-03
+      p11        p10        406       6.217687E+02       1.603673E-03       3.877154E+05       0.000000E+00        1.603673E-03
+      q11        q10        407       6.204409E+02       1.687531E-03       3.676620E+05       0.000000E+00        1.687531E-03
+      r11        r10        408       6.114006E+02       1.750610E-03       3.492500E+05       0.000000E+00        1.750610E-03
+      s11        s10        409       5.998495E+02       1.792631E-03       3.346196E+05       0.000000E+00        1.792631E-03
+      t11        t10        410       5.916191E+02       1.813539E-03       3.262236E+05       0.000000E+00        1.813539E-03
+      a11        b11        411      -2.219857E+03      -1.249588E-03       1.776470E+06       0.000000E+00       -1.249588E-03
+      b11        c11        412      -1.322264E+03      -3.758749E-04       3.517831E+06       0.000000E+00       -3.758749E-04
+      c11        d11        413      -7.408651E+02       2.209745E-04      -3.352717E+06       0.000000E+00        2.209745E-04
+      d11        e11        414      -3.154427E+02       6.605369E-04      -4.775549E+05       0.000000E+00        6.605369E-04
+      e11        f11        415       2.507316E+01       1.006332E-03       2.491539E+04       0.000000E+00        1.006332E-03
+      f11        g11        416       2.833897E+02       1.272637E-03       2.226792E+05       0.000000E+00        1.272637E-03
+      g11        h11        417       4.673075E+02       1.467936E-03       3.183433E+05       0.000000E+00        1.467936E-03
+      h11        i11        418       5.870788E+02       1.598612E-03       3.672427E+05       0.000000E+00        1.598612E-03
+      i11        j11        419       6.527038E+02       1.669996E-03       3.908415E+05       0.000000E+00        1.669996E-03
+      j11        k11        420       6.763907E+02       1.689618E-03       4.003217E+05       0.000000E+00        1.689618E-03
+      k11        l11        421       6.659105E+02       1.662029E-03       4.006612E+05       0.000000E+00        1.662029E-03
+      l11        m11        422       6.285242E+02       1.591758E-03       3.948616E+05       0.000000E+00        1.591758E-03
+      m11        n11        423       5.706851E+02       1.483013E-03       3.848147E+05       0.000000E+00        1.483013E-03
+      n11        o11        424       4.981315E+02       1.339717E-03       3.718183E+05       0.000000E+00        1.339717E-03
+      o11        p11        425       4.160740E+02       1.165766E-03       3.569103E+05       0.000000E+00        1.165766E-03
+      p11        q11        426       3.292923E+02       9.653422E-04       3.411146E+05       0.000000E+00        9.653422E-04
+      q11        r11        427       2.420022E+02       7.431518E-04       3.256431E+05       0.000000E+00        7.431518E-04
+      r11        s11        428       1.574179E+02       5.044616E-04       3.120513E+05       0.000000E+00        5.044616E-04
+      s11        t11        429       7.704790E+01       2.548820E-04       3.022885E+05       0.000000E+00        2.548820E-04
+      a12        a11        430      -1.575805E+05      -1.338799E-01       1.177029E+06       0.000000E+00       -1.338799E-01
+      b12        b11        431      -1.148124E+04      -1.024518E-02       1.120648E+06       0.000000E+00       -1.024518E-02
+      c12        c11        432      -8.022942E+03      -7.645138E-03       1.049418E+06       0.000000E+00       -7.645138E-03
+      d12        d11        433      -5.127365E+03      -5.255445E-03       9.756291E+05       0.000000E+00       -5.255445E-03
+1     e12        e11        434      -3.054849E+03      -3.350807E-03       9.116758E+05       0.000000E+00       -3.350807E-03
+      f12        f11        435      -1.707933E+03      -1.958904E-03       8.718822E+05       0.000000E+00       -1.958904E-03
+      g12        g11        436      -8.591209E+02      -9.763200E-04       8.799583E+05       0.000000E+00       -9.763200E-04
+      h12        h11        437      -3.285811E+02      -2.906015E-04       1.130693E+06       0.000000E+00       -2.906015E-04
+      i12        i11        438       1.205934E+00       1.879779E-04       6.415298E+03       0.000000E+00        1.879779E-04
+      j12        j11        439       2.073358E+02       5.272373E-04       3.932496E+05       0.000000E+00        5.272373E-04
+      k12        k11        440       3.397953E+02       7.759098E-04       4.379314E+05       0.000000E+00        7.759098E-04
+      l12        l11        441       4.251099E+02       9.640133E-04       4.409793E+05       0.000000E+00        9.640133E-04
+      m12        m11        442       4.792240E+02       1.110970E-03       4.313563E+05       0.000000E+00        1.110970E-03
+      n12        n11        443       5.118255E+02       1.228915E-03       4.164857E+05       0.000000E+00        1.228915E-03
+      o12        o11        444       5.290137E+02       1.325041E-03       3.992432E+05       0.000000E+00        1.325041E-03
+      p12        p11        445       5.349869E+02       1.403249E-03       3.812489E+05       0.000000E+00        1.403249E-03
+      q12        q11        446       5.331508E+02       1.465340E-03       3.638410E+05       0.000000E+00        1.465340E-03
+      r12        r11        447       5.268162E+02       1.511920E-03       3.484418E+05       0.000000E+00        1.511920E-03
+      s12        s11        448       5.194795E+02       1.543051E-03       3.366573E+05       0.000000E+00        1.543051E-03
+      t12        t11        449       5.145712E+02       1.558657E-03       3.301376E+05       0.000000E+00        1.558657E-03
+      a12        b12        450      -2.843027E+03      -1.827318E-03       1.555847E+06       0.000000E+00       -1.827318E-03
+      b12        c12        451      -1.955974E+03      -9.878947E-04       1.979942E+06       0.000000E+00       -9.878947E-04
+      c12        d12        452      -1.227215E+03      -2.852446E-04       4.302325E+06       0.000000E+00       -2.852446E-04
+      d12        e12        453      -6.199149E+02       3.104590E-04      -1.996769E+06       0.000000E+00        3.104590E-04
+      e12        f12        454      -1.391366E+02       7.998451E-04      -1.739544E+05       0.000000E+00        7.998451E-04
+      f12        g12        455       2.123565E+02       1.173793E-03       1.809148E+05       0.000000E+00        1.173793E-03
+      g12        h12        456       4.529802E+02       1.440509E-03       3.144584E+05       0.000000E+00        1.440509E-03
+      h12        i12        457       6.047538E+02       1.613502E-03       3.748083E+05       0.000000E+00        1.613502E-03
+      i12        j12        458       6.870107E+02       1.706392E-03       4.026101E+05       0.000000E+00        1.706392E-03
+      j12        k12        459       7.178496E+02       1.732986E-03       4.142270E+05       0.000000E+00        1.732986E-03
+      k12        l12        460       7.091987E+02       1.703196E-03       4.163927E+05       0.000000E+00        1.703196E-03
+      l12        m12        461       6.708444E+02       1.625499E-03       4.127005E+05       0.000000E+00        1.625499E-03
+      m12        n12        462       6.107408E+02       1.507055E-03       4.052545E+05       0.000000E+00        1.507055E-03
+      n12        o12        463       5.354145E+02       1.354011E-03       3.954284E+05       0.000000E+00        1.354011E-03
+      o12        p12        464       4.502983E+02       1.171849E-03       3.842632E+05       0.000000E+00        1.171849E-03
+      p12        q12        465       3.599153E+02       9.656940E-04       3.727012E+05       0.000000E+00        9.656940E-04
+      q12        r12        466       2.678765E+02       7.405388E-04       3.617319E+05       0.000000E+00        7.405388E-04
+      r12        s12        467       1.767000E+02       5.013256E-04       3.524655E+05       0.000000E+00        5.013256E-04
+      s12        t12        468       8.753530E+01       2.529145E-04       3.461063E+05       0.000000E+00        2.529145E-04
+      a13        a12        469      -1.604235E+05      -1.357072E-01       1.182130E+06       0.000000E+00       -1.357072E-01
+      b13        b12        470      -1.059418E+04      -9.405756E-03       1.126351E+06       0.000000E+00       -9.405756E-03
+      c13        c12        471      -7.294183E+03      -6.942488E-03       1.050658E+06       0.000000E+00       -6.942488E-03
+      d13        d12        472      -4.520065E+03      -4.659741E-03       9.700249E+05       0.000000E+00       -4.659741E-03
+      e13        e12        473      -2.574071E+03      -2.861421E-03       8.995780E+05       0.000000E+00       -2.861421E-03
+      f13        f12        474      -1.356440E+03      -1.584956E-03       8.558221E+05       0.000000E+00       -1.584956E-03
+      g13        g12        475      -6.184972E+02      -7.096040E-04       8.716090E+05       0.000000E+00       -7.096040E-04
+      h13        h12        476      -1.768074E+02      -1.176089E-04       1.503350E+06       0.000000E+00       -1.176089E-04
+      i13        i12        477       8.346282E+01       2.808686E-04       2.971597E+05       0.000000E+00        2.808686E-04
+      j13        j12        478       2.381747E+02       5.538308E-04       4.300495E+05       0.000000E+00        5.538308E-04
+      k13        k12        479       3.311443E+02       7.461205E-04       4.438216E+05       0.000000E+00        7.461205E-04
+      l13        l12        480       3.867557E+02       8.863161E-04       4.363631E+05       0.000000E+00        8.863161E-04
+      m13        m12        481       4.191204E+02       9.925262E-04       4.222764E+05       0.000000E+00        9.925262E-04
+      n13        n12        482       4.364992E+02       1.075871E-03       4.057169E+05       0.000000E+00        1.075871E-03
+      o13        o12        483       4.438975E+02       1.142878E-03       3.884031E+05       0.000000E+00        1.142878E-03
+      p13        p12        484       4.446039E+02       1.197094E-03       3.714027E+05       0.000000E+00        1.197094E-03
+      q13        q12        485       4.411121E+02       1.240185E-03       3.556825E+05       0.000000E+00        1.240185E-03
+      r13        r12        486       4.356396E+02       1.272707E-03       3.422938E+05       0.000000E+00        1.272707E-03
+      s13        s12        487       4.303148E+02       1.294640E-03       3.323818E+05       0.000000E+00        1.294640E-03
+      t13        t12        488       4.270359E+02       1.305742E-03       3.270446E+05       0.000000E+00        1.305742E-03
+      a13        b13        489      -3.561392E+03      -2.455628E-03       1.450298E+06       0.000000E+00       -2.455628E-03
+      b13        c13        490      -2.472254E+03      -1.453467E-03       1.700935E+06       0.000000E+00       -1.453467E-03
+      c13        d13        491      -1.484099E+03      -5.259445E-04       2.821779E+06       0.000000E+00       -5.259445E-04
+1     d13        e13        492      -6.444421E+02       2.881300E-04      -2.236636E+06       0.000000E+00        2.881300E-04
+      e13        f13        493      -3.022128E+01       9.276316E-04      -3.257897E+04       0.000000E+00        9.276316E-04
+      f13        g13        494       3.861485E+02       1.389944E-03       2.778158E+05       0.000000E+00        1.389944E-03
+      g13        h13        495       6.492500E+02       1.697709E-03       3.824271E+05       0.000000E+00        1.697709E-03
+      h13        i13        496       7.991637E+02       1.878992E-03       4.253152E+05       0.000000E+00        1.878992E-03
+      i13        j13        497       8.685166E+02       1.960621E-03       4.429804E+05       0.000000E+00        1.960621E-03
+      j13        k13        498       8.810727E+02       1.964186E-03       4.485690E+05       0.000000E+00        1.964186E-03
+      k13        l13        499       8.529218E+02       1.905822E-03       4.475350E+05       0.000000E+00        1.905822E-03
+      l13        m13        500       7.958013E+02       1.797906E-03       4.426268E+05       0.000000E+00        1.797906E-03
+      m13        n13        501       7.183960E+02       1.649955E-03       4.354035E+05       0.000000E+00        1.649955E-03
+      n13        o13        502       6.272710E+02       1.469451E-03       4.268745E+05       0.000000E+00        1.469451E-03
+      o13        p13        503       5.274827E+02       1.262509E-03       4.178051E+05       0.000000E+00        1.262509E-03
+      p13        q13        504       4.229311E+02       1.034374E-03       4.088763E+05       0.000000E+00        1.034374E-03
+      q13        r13        505       3.165123E+02       7.897625E-04       4.007689E+05       0.000000E+00        7.897625E-04
+      r13        s13        506       2.101302E+02       5.330698E-04       3.941889E+05       0.000000E+00        5.330698E-04
+      s13        t13        507       1.046612E+02       2.684774E-04       3.898326E+05       0.000000E+00        2.684774E-04
+      a14        a13        508      -1.639849E+05      -1.381628E-01       1.186896E+06       0.000000E+00       -1.381628E-01
+      b14        b13        509      -9.505047E+03      -8.403596E-03       1.131069E+06       0.000000E+00       -8.403596E-03
+      c14        c13        510      -6.306028E+03      -6.014965E-03       1.048390E+06       0.000000E+00       -6.014965E-03
+      d14        d13        511      -3.680408E+03      -3.845667E-03       9.570273E+05       0.000000E+00       -3.845667E-03
+      e14        e13        512      -1.959850E+03      -2.221919E-03       8.820530E+05       0.000000E+00       -2.221919E-03
+      f14        f13        513      -9.400703E+02      -1.122643E-03       8.373726E+05       0.000000E+00       -1.122643E-03
+      g14        g13        514      -3.553958E+02      -4.018391E-04       8.844230E+05       0.000000E+00       -4.018391E-04
+      h14        h13        515      -2.689366E+01       6.367353E-05      -4.223680E+05       0.000000E+00        6.367353E-05
+      i14        i13        516       1.528157E+02       3.624978E-04       4.215633E+05       0.000000E+00        3.624978E-04
+      j14        j13        517       2.507308E+02       5.573954E-04       4.498256E+05       0.000000E+00        5.573954E-04
+      k14        k13        518       3.029934E+02       6.877565E-04       4.405533E+05       0.000000E+00        6.877565E-04
+      l14        l13        519       3.296352E+02       7.784003E-04       4.234777E+05       0.000000E+00        7.784003E-04
+      m14        m13        520       3.417151E+02       8.445749E-04       4.046001E+05       0.000000E+00        8.445749E-04
+      n14        n13        521       3.453742E+02       8.953673E-04       3.857347E+05       0.000000E+00        8.953673E-04
+      o14        o13        522       3.441091E+02       9.359367E-04       3.676628E+05       0.000000E+00        9.359367E-04
+      p14        p13        523       3.400524E+02       9.689591E-04       3.509461E+05       0.000000E+00        9.689591E-04
+      q14        q13        524       3.346932E+02       9.955732E-04       3.361814E+05       0.000000E+00        9.955732E-04
+      r14        r13        525       3.292576E+02       1.016014E-03       3.240679E+05       0.000000E+00        1.016014E-03
+      s14        s13        526       3.248459E+02       1.030048E-03       3.153697E+05       0.000000E+00        1.030048E-03
+      t14        t13        527       3.223746E+02       1.037265E-03       3.107930E+05       0.000000E+00        1.037265E-03
+      a14        b14        528      -4.373824E+03      -3.142704E-03       1.391739E+06       0.000000E+00       -3.142704E-03
+      b14        c14        529      -2.818386E+03      -1.736436E-03       1.623087E+06       0.000000E+00       -1.736436E-03
+      c14        d14        530      -1.397910E+03      -4.161413E-04       3.359219E+06       0.000000E+00       -4.161413E-04
+      d14        e14        531      -3.031029E+02       6.753430E-04      -4.488133E+05       0.000000E+00        6.753430E-04
+      e14        f14        532       4.136164E+02       1.458144E-03       2.836594E+05       0.000000E+00        1.458144E-03
+      f14        g14        533       8.466837E+02       1.971817E-03       4.293926E+05       0.000000E+00        1.971817E-03
+      g14        h14        534       1.083285E+03       2.273576E-03       4.764673E+05       0.000000E+00        2.273576E-03
+      h14        i14        535       1.188062E+03       2.416370E-03       4.916723E+05       0.000000E+00        2.416370E-03
+      i14        j14        536       1.208009E+03       2.444081E-03       4.942591E+05       0.000000E+00        2.444081E-03
+      j14        k14        537       1.172563E+03       2.387926E-03       4.910382E+05       0.000000E+00        2.387926E-03
+      k14        l14        538       1.100798E+03       2.270040E-03       4.849245E+05       0.000000E+00        2.270040E-03
+      l14        m14        539       1.005203E+03       2.105878E-03       4.773318E+05       0.000000E+00        2.105878E-03
+      m14        n14        540       8.941342E+02       1.906280E-03       4.690466E+05       0.000000E+00        1.906280E-03
+      n14        o14        541       7.733410E+02       1.679026E-03       4.605891E+05       0.000000E+00        1.679026E-03
+      o14        p14        542       6.468705E+02       1.429937E-03       4.523771E+05       0.000000E+00        1.429937E-03
+      p14        q14        543       5.175869E+02       1.163632E-03       4.448029E+05       0.000000E+00        1.163632E-03
+      q14        r14        544       3.874416E+02       8.840340E-04       4.382656E+05       0.000000E+00        8.840340E-04
+      r14        s14        545       2.575992E+02       5.946828E-04       4.331707E+05       0.000000E+00        5.946828E-04
+      s14        t14        546       1.285077E+02       2.989242E-04       4.299008E+05       0.000000E+00        2.989242E-04
+      a15        a14        547      -1.683587E+05      -1.413055E-01       1.191452E+06       0.000000E+00       -1.413055E-01
+      b15        b14        548      -7.949608E+03      -6.997327E-03       1.136092E+06       0.000000E+00       -6.997327E-03
+      c15        c14        549      -4.885552E+03      -4.694671E-03       1.040659E+06       0.000000E+00       -4.694671E-03
+1     d15        d14        550      -2.585601E+03      -2.754182E-03       9.387908E+05       0.000000E+00       -2.754182E-03
+      e15        e14        551      -1.243131E+03      -1.439118E-03       8.638147E+05       0.000000E+00       -1.439118E-03
+      f15        f14        552      -5.070030E+02      -6.089700E-04       8.325583E+05       0.000000E+00       -6.089700E-04
+      g15        g14        553      -1.187949E+02      -1.000801E-04       1.186997E+06       0.000000E+00       -1.000801E-04
+      h15        h14        554       7.788384E+01       2.064671E-04       3.772215E+05       0.000000E+00        2.064671E-04
+      i15        i14        555       1.727628E+02       3.902085E-04       4.427448E+05       0.000000E+00        3.902085E-04
+      j15        j14        556       2.152844E+02       5.012406E-04       4.295032E+05       0.000000E+00        5.012406E-04
+      k15        k14        557       2.312287E+02       5.698708E-04       4.057563E+05       0.000000E+00        5.698708E-04
+      l15        l14        558       2.340397E+02       6.142383E-04       3.810243E+05       0.000000E+00        6.142383E-04
+      m15        m14        559       2.306466E+02       6.449768E-04       3.576045E+05       0.000000E+00        6.449768E-04
+      n15        n14        560       2.245810E+02       6.681131E-04       3.361423E+05       0.000000E+00        6.681131E-04
+      o15        o14        561       2.176387E+02       6.868476E-04       3.168661E+05       0.000000E+00        6.868476E-04
+      p15        p14        562       2.107688E+02       7.026547E-04       2.999607E+05       0.000000E+00        7.026547E-04
+      q15        q14        563       2.045479E+02       7.159749E-04       2.856914E+05       0.000000E+00        7.159749E-04
+      r15        r14        564       1.994151E+02       7.266630E-04       2.744258E+05       0.000000E+00        7.266630E-04
+      s15        s14        565       1.957544E+02       7.342891E-04       2.665904E+05       0.000000E+00        7.342891E-04
+      t15        t14        566       1.938669E+02       7.383406E-04       2.625711E+05       0.000000E+00        7.383406E-04
+      a15        b15        567      -5.293639E+03      -3.907081E-03       1.354883E+06       0.000000E+00       -3.907081E-03
+      b15        c15        568      -2.730393E+03      -1.602567E-03       1.703762E+06       0.000000E+00       -1.602567E-03
+      c15        d15        569      -6.484025E+02       3.632386E-04      -1.785059E+06       0.000000E+00        3.632386E-04
+      d15        e15        570       6.351647E+02       1.731314E-03       3.668686E+05       0.000000E+00        1.731314E-03
+      e15        f15        571       1.344129E+03       2.576231E-03       5.217423E+05       0.000000E+00        2.576231E-03
+      f15        g15        572       1.685693E+03       3.037753E-03       5.549143E+05       0.000000E+00        3.037753E-03
+      g15        h15        573       1.805939E+03       3.235932E-03       5.580891E+05       0.000000E+00        3.235932E-03
+      h15        i15        574       1.797817E+03       3.259603E-03       5.515447E+05       0.000000E+00        3.259603E-03
+      i15        j15        575       1.717252E+03       3.169370E-03       5.418277E+05       0.000000E+00        3.169370E-03
+      j15        k15        576       1.596044E+03       3.004312E-03       5.312511E+05       0.000000E+00        3.004312E-03
+      k15        l15        577       1.452354E+03       2.789203E-03       5.207056E+05       0.000000E+00        2.789203E-03
+      l15        m15        578       1.296587E+03       2.539563E-03       5.105552E+05       0.000000E+00        2.539563E-03
+      m15        n15        579       1.134773E+03       2.265109E-03       5.009793E+05       0.000000E+00        2.265109E-03
+      n15        o15        580       9.704528E+02       1.972022E-03       4.921104E+05       0.000000E+00        1.972022E-03
+      o15        p15        581       8.057280E+02       1.664416E-03       4.840906E+05       0.000000E+00        1.664416E-03
+      p15        q15        582       6.418136E+02       1.345267E-03       4.770900E+05       0.000000E+00        1.345267E-03
+      q15        r15        583       4.793234E+02       1.017009E-03       4.713069E+05       0.000000E+00        1.017009E-03
+      r15        s15        584       3.184053E+02       6.818782E-04       4.669533E+05       0.000000E+00        6.818782E-04
+      s15        t15        585       1.588169E+02       3.421083E-04       4.642299E+05       0.000000E+00        3.421083E-04
+      a16        a15        586      -1.736524E+05      -1.452126E-01       1.195849E+06       0.000000E+00       -1.452126E-01
+      b16        b15        587      -5.386362E+03      -4.692813E-03       1.147790E+06       0.000000E+00       -4.692813E-03
+      c16        c15        588      -2.803562E+03      -2.728866E-03       1.027373E+06       0.000000E+00       -2.728866E-03
+      d16        d15        589      -1.302034E+03      -1.386107E-03       9.393456E+05       0.000000E+00       -1.386107E-03
+      e16        e15        590      -5.341666E+02      -5.941998E-04       8.989681E+05       0.000000E+00       -5.941998E-04
+      f16        f15        591      -1.654394E+02      -1.474485E-04       1.122015E+06       0.000000E+00       -1.474485E-04
+      g16        g15        592       1.451268E+00       9.809917E-05       1.479388E+04       0.000000E+00        9.809917E-05
+      h16        h15        593       6.976172E+01       2.301375E-04       3.031307E+05       0.000000E+00        2.301375E-04
+      i16        i15        594       9.219848E+01       2.999757E-04       3.073532E+05       0.000000E+00        2.999757E-04
+      j16        j15        595       9.407640E+01       3.361833E-04       2.798366E+05       0.000000E+00        3.361833E-04
+      k16        k15        596       8.753813E+01       3.547616E-04       2.467520E+05       0.000000E+00        3.547616E-04
+      l16        l15        597       7.827319E+01       3.645980E-04       2.146835E+05       0.000000E+00        3.645980E-04
+      m16        m15        598       6.883210E+01       3.705227E-04       1.857703E+05       0.000000E+00        3.705227E-04
+      n16        n15        599       6.026124E+01       3.750267E-04       1.606852E+05       0.000000E+00        3.750267E-04
+      o16        o15        600       5.291385E+01       3.792409E-04       1.395257E+05       0.000000E+00        3.792409E-04
+      p16        p15        601       4.685443E+01       3.835063E-04       1.221738E+05       0.000000E+00        3.835063E-04
+      q16        q15        602       4.205766E+01       3.877166E-04       1.084753E+05       0.000000E+00        3.877166E-04
+      r16        r15        603       3.849699E+01       3.915322E-04       9.832397E+04       0.000000E+00        3.915322E-04
+      s16        s15        604       3.616601E+01       3.945192E-04       9.167112E+04       0.000000E+00        3.945192E-04
+      t16        t15        605       3.505001E+01       3.962323E-04       8.845825E+04       0.000000E+00        3.962323E-04
+      a16        b16        606      -6.347632E+03      -4.787382E-03       1.325909E+06       0.000000E+00       -4.787382E-03
+      b16        c16        607      -1.121270E+03      -9.456920E-05       1.185661E+07       0.000000E+00       -9.456920E-05
+1     c16        d16        608       1.522292E+03       2.634296E-03       5.778741E+05       0.000000E+00        2.634296E-03
+      d16        e16        609       2.664325E+03       4.020404E-03       6.627010E+05       0.000000E+00        4.020404E-03
+      e16        f16        610       3.038492E+03       4.614603E-03       6.584514E+05       0.000000E+00        4.614603E-03
+      f16        g16        611       3.043931E+03       4.762052E-03       6.392059E+05       0.000000E+00        4.762052E-03
+      g16        h16        612       2.882480E+03       4.663953E-03       6.180338E+05       0.000000E+00        4.663953E-03
+      h16        i16        613       2.652719E+03       4.433815E-03       5.982925E+05       0.000000E+00        4.433815E-03
+      i16        j16        614       2.400520E+03       4.133840E-03       5.806998E+05       0.000000E+00        4.133840E-03
+      j16        k16        615       2.146444E+03       3.797656E-03       5.652022E+05       0.000000E+00        3.797656E-03
+      k16        l16        616       1.898906E+03       3.442895E-03       5.515433E+05       0.000000E+00        3.442895E-03
+      l16        m16        617       1.660632E+03       3.078297E-03       5.394647E+05       0.000000E+00        3.078297E-03
+      m16        n16        618       1.431800E+03       2.707774E-03       5.287739E+05       0.000000E+00        2.707774E-03
+      n16        o16        619       1.211539E+03       2.332747E-03       5.193614E+05       0.000000E+00        2.332747E-03
+      o16        p16        620       9.986251E+02       1.953506E-03       5.111962E+05       0.000000E+00        1.953506E-03
+      p16        q16        621       7.917707E+02       1.570000E-03       5.043125E+05       0.000000E+00        1.570000E-03
+      q16        r16        622       5.897130E+02       1.182284E-03       4.987915E+05       0.000000E+00        1.182284E-03
+      r16        s16        623       3.912160E+02       7.907515E-04       4.947396E+05       0.000000E+00        7.907515E-04
+      s16        t16        624       1.950500E+02       3.962323E-04       4.922618E+05       0.000000E+00        3.962323E-04
+ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+ 2D medium model   1200kJ/kg inflow                                              
+ OUTPUT AFTER  35 TIME STEPS    0.1000000000000000E+17 SECONDS
+ THE TIME IS 0.3169E+09 YEARS OR 0.1157E+12 DAYS OR 0.1000E+17 SECONDS
+ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+                                                          GENERATION TABLE
+
+   ELEMENT       SOURCE      INDEX       Generation rate        Enthalpy          Steam frac.       Steam sepa.    Wellbore pressu 
+
+       a16         a97           1         1.50000E-01        1.200000E+06       0.000000E+00       0.000000E+00     0.000000E+00
+       b16         b98           2         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       c16         c98           3         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       d16         d98           4         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       e16         e98           5         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       f16         f98           6         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       g16         g98           7         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       h16         h98           8         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       i16         i98           9         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       j16         j98          10         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       k16         k98          11         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       l16         l98          12         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       m16         m98          13         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       n16         n98          14         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       o16         o98          15         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       p16         p98          16         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       q16         q98          17         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       r16         r98          18         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       s16         s98          19         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+       t16         t98          20         1.60000E+02        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ 2D medium model   1200kJ/kg inflow                                              
+ OUTPUT AFTER  35 TIME STEPS    0.1000000000000000E+17 SECONDS
+ THE TIME IS 0.3169E+09 YEARS OR 0.1157E+12 DAYS OR 0.1000E+17 SECONDS
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ VOLUME BALANCE
+ Vapour 0.47603E+04 M**3;  Liquid 0.20000E+26 M**3;  
+ MASS BALANCE
+ Vapour 0.62566585E+05 KG;  Liquid 0.19984268E+29 KG;  
+ ENERGY BALANCE
+ Internal 0.80077E+34 J;  
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+
+
+ END OF TOUGH2 SIMULATION RUN --- ELAPSED TIME =      0.3 SEC-- CALCULATION TIME =      0.3 SEC-- DATA INPUT TIME =      0.0 SEC
+

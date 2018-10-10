@@ -1,0 +1,112 @@
+GENER01  1.00e+25  1.00e-06                                0.00
+VERTICES
+aaa      0.00      0.00
+aab    200.00      0.00
+aac    400.00      0.00
+aad    600.00      0.00
+aae    800.00      0.00
+aaf   1000.00      0.00
+aag   1200.00      0.00
+aah   1400.00      0.00
+aai   1600.00      0.00
+aaj   1800.00      0.00
+aak   2000.00      0.00
+aba      0.00    200.00
+abb    200.00    200.00
+abc    400.00    200.00
+abd    600.00    200.00
+abe    800.00    200.00
+abf   1000.00    200.00
+abg   1200.00    200.00
+abh   1400.00    200.00
+abi   1600.00    200.00
+abj   1800.00    200.00
+abk   2000.00    200.00
+
+GRID
+aaa1 4    100.00    100.00
+aaa
+aab
+abb
+aba
+aab1 4    300.00    100.00
+aab
+aac
+abc
+abb
+aac1 4    500.00    100.00
+aac
+aad
+abd
+abc
+aad1 4    700.00    100.00
+aad
+aae
+abe
+abd
+aae1 4    900.00    100.00
+aae
+aaf
+abf
+abe
+aaf1 4   1100.00    100.00
+aaf
+aag
+abg
+abf
+aag1 4   1300.00    100.00
+aag
+aah
+abh
+abg
+aah1 4   1500.00    100.00
+aah
+aai
+abi
+abh
+aai1 4   1700.00    100.00
+aai
+aaj
+abj
+abi
+aaj1 4   1900.00    100.00
+aaj
+aak
+abk
+abj
+
+CONNECTIONS
+aaaaab
+aabaac
+aacaad
+aadaae
+aaeaaf
+aafaag
+aagaah
+aahaai
+aaiaaj
+
+LAYERS
+ 0        0.0   0.0001
+ 1     -200.0  -100.0
+ 2     -400.0  -300.0
+ 3     -600.0  -500.0
+ 4     -800.0  -700.0
+ 5    -1000.0  -900.0
+ 6    -1200.0 -1100.0
+ 7    -1400.0 -1300.0
+ 8    -1600.0 -1500.0
+
+SURFA
+aaa       0.0
+
+
+
+
+
+
+
+
+
+
+

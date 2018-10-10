@@ -1,0 +1,916 @@
+GENER01  1.00e+25  1.00e-06                                0.00
+VERTICES
+aaa      0.00      0.00
+aab     20.00      0.00
+aac     40.00      0.00
+aad     60.00      0.00
+aae     80.00      0.00
+aaf    100.00      0.00
+aag    120.00      0.00
+aah    140.00      0.00
+aai    160.00      0.00
+aaj    180.00      0.00
+aak    200.00      0.00
+aal    220.00      0.00
+aam    240.00      0.00
+aan    260.00      0.00
+aao    280.00      0.00
+aap    300.00      0.00
+aaq    320.00      0.00
+aar    340.00      0.00
+aas    360.00      0.00
+aat    380.00      0.00
+aau    400.00      0.00
+aav    420.00      0.00
+aaw    440.00      0.00
+aax    460.00      0.00
+aay    480.00      0.00
+aaz    500.00      0.00
+baa    520.00      0.00
+bab    540.00      0.00
+bac    560.00      0.00
+bad    580.00      0.00
+bae    600.00      0.00
+baf    620.00      0.00
+bag    640.00      0.00
+bah    660.00      0.00
+bai    680.00      0.00
+baj    700.00      0.00
+bak    720.00      0.00
+bal    740.00      0.00
+bam    760.00      0.00
+ban    780.00      0.00
+bao    800.00      0.00
+bap    820.00      0.00
+baq    840.00      0.00
+bar    860.00      0.00
+bas    880.00      0.00
+bat    900.00      0.00
+bau    920.00      0.00
+bav    940.00      0.00
+baw    960.00      0.00
+bax    980.00      0.00
+bay   1000.00      0.00
+baz   1020.00      0.00
+caa   1040.00      0.00
+cab   1060.00      0.00
+cac   1080.00      0.00
+cad   1100.00      0.00
+cae   1120.00      0.00
+caf   1140.00      0.00
+cag   1160.00      0.00
+cah   1180.00      0.00
+cai   1200.00      0.00
+caj   1220.00      0.00
+cak   1240.00      0.00
+cal   1260.00      0.00
+cam   1280.00      0.00
+can   1300.00      0.00
+cao   1320.00      0.00
+cap   1340.00      0.00
+caq   1360.00      0.00
+car   1380.00      0.00
+cas   1400.00      0.00
+cat   1420.00      0.00
+cau   1440.00      0.00
+cav   1460.00      0.00
+caw   1480.00      0.00
+cax   1500.00      0.00
+cay   1520.00      0.00
+caz   1540.00      0.00
+daa   1560.00      0.00
+dab   1580.00      0.00
+dac   1600.00      0.00
+dad   1620.00      0.00
+dae   1640.00      0.00
+daf   1660.00      0.00
+dag   1680.00      0.00
+dah   1700.00      0.00
+dai   1720.00      0.00
+daj   1740.00      0.00
+dak   1760.00      0.00
+dal   1780.00      0.00
+dam   1800.00      0.00
+dan   1820.00      0.00
+dao   1840.00      0.00
+dap   1860.00      0.00
+daq   1880.00      0.00
+dar   1900.00      0.00
+das   1920.00      0.00
+dat   1940.00      0.00
+dau   1960.00      0.00
+dav   1980.00      0.00
+daw   2000.00      0.00
+aba      0.00     20.00
+abb     20.00     20.00
+abc     40.00     20.00
+abd     60.00     20.00
+abe     80.00     20.00
+abf    100.00     20.00
+abg    120.00     20.00
+abh    140.00     20.00
+abi    160.00     20.00
+abj    180.00     20.00
+abk    200.00     20.00
+abl    220.00     20.00
+abm    240.00     20.00
+abn    260.00     20.00
+abo    280.00     20.00
+abp    300.00     20.00
+abq    320.00     20.00
+abr    340.00     20.00
+abs    360.00     20.00
+abt    380.00     20.00
+abu    400.00     20.00
+abv    420.00     20.00
+abw    440.00     20.00
+abx    460.00     20.00
+aby    480.00     20.00
+abz    500.00     20.00
+bba    520.00     20.00
+bbb    540.00     20.00
+bbc    560.00     20.00
+bbd    580.00     20.00
+bbe    600.00     20.00
+bbf    620.00     20.00
+bbg    640.00     20.00
+bbh    660.00     20.00
+bbi    680.00     20.00
+bbj    700.00     20.00
+bbk    720.00     20.00
+bbl    740.00     20.00
+bbm    760.00     20.00
+bbn    780.00     20.00
+bbo    800.00     20.00
+bbp    820.00     20.00
+bbq    840.00     20.00
+bbr    860.00     20.00
+bbs    880.00     20.00
+bbt    900.00     20.00
+bbu    920.00     20.00
+bbv    940.00     20.00
+bbw    960.00     20.00
+bbx    980.00     20.00
+bby   1000.00     20.00
+bbz   1020.00     20.00
+cba   1040.00     20.00
+cbb   1060.00     20.00
+cbc   1080.00     20.00
+cbd   1100.00     20.00
+cbe   1120.00     20.00
+cbf   1140.00     20.00
+cbg   1160.00     20.00
+cbh   1180.00     20.00
+cbi   1200.00     20.00
+cbj   1220.00     20.00
+cbk   1240.00     20.00
+cbl   1260.00     20.00
+cbm   1280.00     20.00
+cbn   1300.00     20.00
+cbo   1320.00     20.00
+cbp   1340.00     20.00
+cbq   1360.00     20.00
+cbr   1380.00     20.00
+cbs   1400.00     20.00
+cbt   1420.00     20.00
+cbu   1440.00     20.00
+cbv   1460.00     20.00
+cbw   1480.00     20.00
+cbx   1500.00     20.00
+cby   1520.00     20.00
+cbz   1540.00     20.00
+dba   1560.00     20.00
+dbb   1580.00     20.00
+dbc   1600.00     20.00
+dbd   1620.00     20.00
+dbe   1640.00     20.00
+dbf   1660.00     20.00
+dbg   1680.00     20.00
+dbh   1700.00     20.00
+dbi   1720.00     20.00
+dbj   1740.00     20.00
+dbk   1760.00     20.00
+dbl   1780.00     20.00
+dbm   1800.00     20.00
+dbn   1820.00     20.00
+dbo   1840.00     20.00
+dbp   1860.00     20.00
+dbq   1880.00     20.00
+dbr   1900.00     20.00
+dbs   1920.00     20.00
+dbt   1940.00     20.00
+dbu   1960.00     20.00
+dbv   1980.00     20.00
+dbw   2000.00     20.00
+
+GRID
+aaa1 4     10.00     10.00
+aaa
+aab
+abb
+aba
+aab1 4     30.00     10.00
+aab
+aac
+abc
+abb
+aac1 4     50.00     10.00
+aac
+aad
+abd
+abc
+aad1 4     70.00     10.00
+aad
+aae
+abe
+abd
+aae1 4     90.00     10.00
+aae
+aaf
+abf
+abe
+aaf1 4    110.00     10.00
+aaf
+aag
+abg
+abf
+aag1 4    130.00     10.00
+aag
+aah
+abh
+abg
+aah1 4    150.00     10.00
+aah
+aai
+abi
+abh
+aai1 4    170.00     10.00
+aai
+aaj
+abj
+abi
+aaj1 4    190.00     10.00
+aaj
+aak
+abk
+abj
+aak1 4    210.00     10.00
+aak
+aal
+abl
+abk
+aal1 4    230.00     10.00
+aal
+aam
+abm
+abl
+aam1 4    250.00     10.00
+aam
+aan
+abn
+abm
+aan1 4    270.00     10.00
+aan
+aao
+abo
+abn
+aao1 4    290.00     10.00
+aao
+aap
+abp
+abo
+aap1 4    310.00     10.00
+aap
+aaq
+abq
+abp
+aaq1 4    330.00     10.00
+aaq
+aar
+abr
+abq
+aar1 4    350.00     10.00
+aar
+aas
+abs
+abr
+aas1 4    370.00     10.00
+aas
+aat
+abt
+abs
+aat1 4    390.00     10.00
+aat
+aau
+abu
+abt
+aau1 4    410.00     10.00
+aau
+aav
+abv
+abu
+aav1 4    430.00     10.00
+aav
+aaw
+abw
+abv
+aaw1 4    450.00     10.00
+aaw
+aax
+abx
+abw
+aax1 4    470.00     10.00
+aax
+aay
+aby
+abx
+aay1 4    490.00     10.00
+aay
+aaz
+abz
+aby
+aaz1 4    510.00     10.00
+aaz
+baa
+bba
+abz
+baa1 4    530.00     10.00
+baa
+bab
+bbb
+bba
+bab1 4    550.00     10.00
+bab
+bac
+bbc
+bbb
+bac1 4    570.00     10.00
+bac
+bad
+bbd
+bbc
+bad1 4    590.00     10.00
+bad
+bae
+bbe
+bbd
+bae1 4    610.00     10.00
+bae
+baf
+bbf
+bbe
+baf1 4    630.00     10.00
+baf
+bag
+bbg
+bbf
+bag1 4    650.00     10.00
+bag
+bah
+bbh
+bbg
+bah1 4    670.00     10.00
+bah
+bai
+bbi
+bbh
+bai1 4    690.00     10.00
+bai
+baj
+bbj
+bbi
+baj1 4    710.00     10.00
+baj
+bak
+bbk
+bbj
+bak1 4    730.00     10.00
+bak
+bal
+bbl
+bbk
+bal1 4    750.00     10.00
+bal
+bam
+bbm
+bbl
+bam1 4    770.00     10.00
+bam
+ban
+bbn
+bbm
+ban1 4    790.00     10.00
+ban
+bao
+bbo
+bbn
+bao1 4    810.00     10.00
+bao
+bap
+bbp
+bbo
+bap1 4    830.00     10.00
+bap
+baq
+bbq
+bbp
+baq1 4    850.00     10.00
+baq
+bar
+bbr
+bbq
+bar1 4    870.00     10.00
+bar
+bas
+bbs
+bbr
+bas1 4    890.00     10.00
+bas
+bat
+bbt
+bbs
+bat1 4    910.00     10.00
+bat
+bau
+bbu
+bbt
+bau1 4    930.00     10.00
+bau
+bav
+bbv
+bbu
+bav1 4    950.00     10.00
+bav
+baw
+bbw
+bbv
+baw1 4    970.00     10.00
+baw
+bax
+bbx
+bbw
+bax1 4    990.00     10.00
+bax
+bay
+bby
+bbx
+bay1 4   1010.00     10.00
+bay
+baz
+bbz
+bby
+baz1 4   1030.00     10.00
+baz
+caa
+cba
+bbz
+caa1 4   1050.00     10.00
+caa
+cab
+cbb
+cba
+cab1 4   1070.00     10.00
+cab
+cac
+cbc
+cbb
+cac1 4   1090.00     10.00
+cac
+cad
+cbd
+cbc
+cad1 4   1110.00     10.00
+cad
+cae
+cbe
+cbd
+cae1 4   1130.00     10.00
+cae
+caf
+cbf
+cbe
+caf1 4   1150.00     10.00
+caf
+cag
+cbg
+cbf
+cag1 4   1170.00     10.00
+cag
+cah
+cbh
+cbg
+cah1 4   1190.00     10.00
+cah
+cai
+cbi
+cbh
+cai1 4   1210.00     10.00
+cai
+caj
+cbj
+cbi
+caj1 4   1230.00     10.00
+caj
+cak
+cbk
+cbj
+cak1 4   1250.00     10.00
+cak
+cal
+cbl
+cbk
+cal1 4   1270.00     10.00
+cal
+cam
+cbm
+cbl
+cam1 4   1290.00     10.00
+cam
+can
+cbn
+cbm
+can1 4   1310.00     10.00
+can
+cao
+cbo
+cbn
+cao1 4   1330.00     10.00
+cao
+cap
+cbp
+cbo
+cap1 4   1350.00     10.00
+cap
+caq
+cbq
+cbp
+caq1 4   1370.00     10.00
+caq
+car
+cbr
+cbq
+car1 4   1390.00     10.00
+car
+cas
+cbs
+cbr
+cas1 4   1410.00     10.00
+cas
+cat
+cbt
+cbs
+cat1 4   1430.00     10.00
+cat
+cau
+cbu
+cbt
+cau1 4   1450.00     10.00
+cau
+cav
+cbv
+cbu
+cav1 4   1470.00     10.00
+cav
+caw
+cbw
+cbv
+caw1 4   1490.00     10.00
+caw
+cax
+cbx
+cbw
+cax1 4   1510.00     10.00
+cax
+cay
+cby
+cbx
+cay1 4   1530.00     10.00
+cay
+caz
+cbz
+cby
+caz1 4   1550.00     10.00
+caz
+daa
+dba
+cbz
+daa1 4   1570.00     10.00
+daa
+dab
+dbb
+dba
+dab1 4   1590.00     10.00
+dab
+dac
+dbc
+dbb
+dac1 4   1610.00     10.00
+dac
+dad
+dbd
+dbc
+dad1 4   1630.00     10.00
+dad
+dae
+dbe
+dbd
+dae1 4   1650.00     10.00
+dae
+daf
+dbf
+dbe
+daf1 4   1670.00     10.00
+daf
+dag
+dbg
+dbf
+dag1 4   1690.00     10.00
+dag
+dah
+dbh
+dbg
+dah1 4   1710.00     10.00
+dah
+dai
+dbi
+dbh
+dai1 4   1730.00     10.00
+dai
+daj
+dbj
+dbi
+daj1 4   1750.00     10.00
+daj
+dak
+dbk
+dbj
+dak1 4   1770.00     10.00
+dak
+dal
+dbl
+dbk
+dal1 4   1790.00     10.00
+dal
+dam
+dbm
+dbl
+dam1 4   1810.00     10.00
+dam
+dan
+dbn
+dbm
+dan1 4   1830.00     10.00
+dan
+dao
+dbo
+dbn
+dao1 4   1850.00     10.00
+dao
+dap
+dbp
+dbo
+dap1 4   1870.00     10.00
+dap
+daq
+dbq
+dbp
+daq1 4   1890.00     10.00
+daq
+dar
+dbr
+dbq
+dar1 4   1910.00     10.00
+dar
+das
+dbs
+dbr
+das1 4   1930.00     10.00
+das
+dat
+dbt
+dbs
+dat1 4   1950.00     10.00
+dat
+dau
+dbu
+dbt
+dau1 4   1970.00     10.00
+dau
+dav
+dbv
+dbu
+dav1 4   1990.00     10.00
+dav
+daw
+dbw
+dbv
+
+CONNECTIONS
+aaaaab
+aabaac
+aacaad
+aadaae
+aaeaaf
+aafaag
+aagaah
+aahaai
+aaiaaj
+aajaak
+aakaal
+aalaam
+aamaan
+aanaao
+aaoaap
+aapaaq
+aaqaar
+aaraas
+aasaat
+aataau
+aauaav
+aavaaw
+aawaax
+aaxaay
+aayaaz
+aazbaa
+baabab
+babbac
+bacbad
+badbae
+baebaf
+bafbag
+bagbah
+bahbai
+baibaj
+bajbak
+bakbal
+balbam
+bamban
+banbao
+baobap
+bapbaq
+baqbar
+barbas
+basbat
+batbau
+baubav
+bavbaw
+bawbax
+baxbay
+baybaz
+bazcaa
+caacab
+cabcac
+caccad
+cadcae
+caecaf
+cafcag
+cagcah
+cahcai
+caicaj
+cajcak
+cakcal
+calcam
+camcan
+cancao
+caocap
+capcaq
+caqcar
+carcas
+cascat
+catcau
+caucav
+cavcaw
+cawcax
+caxcay
+caycaz
+cazdaa
+daadab
+dabdac
+dacdad
+daddae
+daedaf
+dafdag
+dagdah
+dahdai
+daidaj
+dajdak
+dakdal
+daldam
+damdan
+dandao
+daodap
+dapdaq
+daqdar
+dardas
+dasdat
+datdau
+daudav
+
+LAYERS
+ 0        0.0   0.0001
+ 1      -20.0   -10.0
+ 2      -40.0   -30.0
+ 3      -60.0   -50.0
+ 4      -80.0   -70.0
+ 5     -100.0   -90.0
+ 6     -120.0  -110.0
+ 7     -140.0  -130.0
+ 8     -160.0  -150.0
+ 9     -180.0  -170.0
+10     -200.0  -190.0
+11     -220.0  -210.0
+12     -240.0  -230.0
+13     -260.0  -250.0
+14     -280.0  -270.0
+15     -300.0  -290.0
+16     -320.0  -310.0
+17     -340.0  -330.0
+18     -360.0  -350.0
+19     -380.0  -370.0
+20     -400.0  -390.0
+21     -420.0  -410.0
+22     -440.0  -430.0
+23     -460.0  -450.0
+24     -480.0  -470.0
+25     -500.0  -490.0
+26     -520.0  -510.0
+27     -540.0  -530.0
+28     -560.0  -550.0
+29     -580.0  -570.0
+30     -600.0  -590.0
+31     -620.0  -610.0
+32     -640.0  -630.0
+33     -660.0  -650.0
+34     -680.0  -670.0
+35     -700.0  -690.0
+36     -720.0  -710.0
+37     -740.0  -730.0
+38     -760.0  -750.0
+39     -780.0  -770.0
+40     -800.0  -790.0
+41     -820.0  -810.0
+42     -840.0  -830.0
+43     -860.0  -850.0
+44     -880.0  -870.0
+45     -900.0  -890.0
+46     -920.0  -910.0
+47     -940.0  -930.0
+48     -960.0  -950.0
+49     -980.0  -970.0
+50    -1000.0  -990.0
+51    -1020.0 -1010.0
+52    -1040.0 -1030.0
+53    -1060.0 -1050.0
+54    -1080.0 -1070.0
+55    -1100.0 -1090.0
+56    -1120.0 -1110.0
+57    -1140.0 -1130.0
+58    -1160.0 -1150.0
+59    -1180.0 -1170.0
+60    -1200.0 -1190.0
+61    -1220.0 -1210.0
+62    -1240.0 -1230.0
+63    -1260.0 -1250.0
+64    -1280.0 -1270.0
+65    -1300.0 -1290.0
+66    -1320.0 -1310.0
+67    -1340.0 -1330.0
+68    -1360.0 -1350.0
+69    -1380.0 -1370.0
+70    -1400.0 -1390.0
+71    -1420.0 -1410.0
+72    -1440.0 -1430.0
+73    -1460.0 -1450.0
+74    -1480.0 -1470.0
+75    -1500.0 -1490.0
+76    -1520.0 -1510.0
+77    -1540.0 -1530.0
+78    -1560.0 -1550.0
+79    -1580.0 -1570.0
+80    -1600.0 -1590.0
+
+SURFA
+aaa       0.0
+
+WELLS
+PRO 1    110.0      10.0       0.0
+PRO 1    110.0      10.0    -350.0
+PRO 2    310.0      10.0       0.0
+PRO 2    310.0      10.0    -270.0
+PRO 3     30.0      10.0       0.0
+PRO 3     30.0      10.0    -230.0
+INJ 1    390.0      10.0       0.0
+INJ 1    390.0      10.0    -490.0
+INJ 2    470.0      10.0       0.0
+INJ 2    470.0      10.0    -350.0
+
+
+
+
+
+
+
+
+
+
+

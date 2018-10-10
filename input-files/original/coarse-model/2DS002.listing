@@ -1,0 +1,495 @@
+You are running AUTOUGH 2.4
+
+*******************************************************************************
+SVN Commit Rev.: 12
+Date: 3
+Update Range: 45
+URL: 
+6                                                                              
+*******************************************************************************
+1EW   .  One water component, non-isothermal (default)
+  The primary variables are:
+   P - Pressure, T - Temperature, S - Gas phase saturation
+ _______________________________________________________
+      PHASE CONDITION               PRIMARY VARIABLES
+ _______________________________________________________
+      SINGLE-PHASE GAS                P, T
+      SINGLE-PHASE LIQUID             P, T
+      TWO-PHASE                       P, S
+ _______________________________________________________
+ Using SIMUL AUTOUGH2.2
+ STEAM FRACTION FOR SOURCE *aaa97* AT ELEMENT *aaa 8* IS  0.477122E-06*H+-.312898E+00
+1***********************************************************************************************************************************
+ *                    EOS1: EQUATION OF STATE FOR WATER (OPTIONAL: TWO-WATER MIXTURES)                                             *
+ ***********************************************************************************************************************************
+
+
+    OPTIONS SELECTED ARE: (NK,NEQ,NPH,NB) = (1,2,2,6)
+
+                           NK  =  1   - NUMBER OF FLUID COMPONENTS
+                           NEQ =  2   - NUMBER OF EQUATIONS PER GRID BLOCK
+                           NPH =  2   - NUMBER OF PHASES THAT CAN BE PRESENT
+                           NB  =  6   - NUMBER OF SECONDARY PARAMETERS (OTHER THAN COMPONENT MASS FRACTIONS)
+
+                   For NK = 2 and NB = 8, diffusion is "on", otherwise, diffusion is "off"
+
+
+   AVAILABLE OPTIONS ARE: (NK,NEQ,NPH,NB) = (1,2,2,6) - ONE WATER COMPONENT, NON-ISOTHERMAL (DEFAULT)
+                                            (1,1,2,6) - ONLY LIQUID, OR ONLY VAPOR, ISOTHERMAL
+                                            (2,3,2,6) - TWO WATERS, NON-ISOTHERMAL
+                                            (2,3,2,8) - TWO WATERS, NON-ISOTHERMAL, DIFFUSION
+
+ ***********************************************************************************************************************************
+
+
+ THE PRIMARY VARIABLES ARE
+  P - PRESSURE         T - TEMPERATURE         X2 - MASS FRACTION OF WATER "2"         S - GAS PHASE SATURATION
+
+ _______________________________________________________
+
+     PHASE CONDITION               PRIMARY VARIABLES
+ _______________________________________________________
+
+     SINGLE-PHASE GAS                P, T, [X2]
+
+     SINGLE-PHASE LIQUID             P, T, [X2]
+
+     TWO-PHASE                       P, S, [X2]
+
+ _______________________________________________________
+
+
+ ..... NEGLECT VAPOR PRESSURE LOWERING .....
+
+ ***********************************************************************************************************************************
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ 2D coarse model   1200kJ/kg inflow                                              
+ OUTPUT AFTER   0 TIME STEPS    0.0000000000000000E+00 SECONDS
+ THE TIME IS 0.0000E+00 YEARS OR 0.0000E+00 DAYS OR 0.0000E+00 SECONDS
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ VOLUME BALANCE
+ Vapour 0.00000E+00 M**3;  Liquid 0.10000E+26 M**3;  
+ MASS BALANCE
+ Vapour 0.00000000E+00 KG;  Liquid 0.99921339E+28 KG;  
+ ENERGY BALANCE
+ Internal 0.40039E+34 J;  
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+ ...ITERATING...  AT [   1,  1] --- DELTEX = 0.864000E+05   MAX. RES. = 0.663848E-04  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(   1,  2) ST = 0.864000E+05 DT = 0.864000E+05 DX1= 0.166913E+01 DX2= 0.875542E-07 T = 135.489 P =  1067823. S = 0.000000E+00
+ ...ITERATING...  AT [   2,  1] --- DELTEX = 0.172800E+06   MAX. RES. = 0.670541E-04  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(   2,  2) ST = 0.259200E+06 DT = 0.172800E+06 DX1= 0.288196E+02 DX2= 0.204569E-05 T = 135.489 P =  1067852. S = 0.000000E+00
+ ...ITERATING...  AT [   3,  1] --- DELTEX = 0.345600E+06   MAX. RES. = 0.660350E-04  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(   3,  2) ST = 0.604800E+06 DT = 0.345600E+06 DX1= 0.140774E+03 DX2= 0.184407E-04 T = 135.489 P =  1067993. S = 0.000000E+00
+ ...ITERATING...  AT [   4,  1] --- DELTEX = 0.691200E+06   MAX. RES. = 0.591395E-04  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(   4,  2) ST = 0.129600E+07 DT = 0.691200E+06 DX1= 0.366767E+03 DX2= 0.101607E-03 T = 135.489 P =  1068360. S = 0.000000E+00
+ ...ITERATING...  AT [   5,  1] --- DELTEX = 0.138240E+07   MAX. RES. = 0.543234E-04  AT ELEMENT aaa 7  EQUATION   1
+ aaa 1(   5,  2) ST = 0.267840E+07 DT = 0.138240E+07 DX1= 0.622027E+03 DX2= 0.407739E-03 T = 135.489 P =  1068982. S = 0.000000E+00
+ ...ITERATING...  AT [   6,  1] --- DELTEX = 0.276480E+07   MAX. RES. = 0.938032E-04  AT ELEMENT aaa 8  EQUATION   2
+ ...ITERATING...  AT [   6,  2] --- DELTEX = 0.276480E+07   MAX. RES. = 0.429960E-04  AT ELEMENT aah 1  EQUATION   1
+ aaa 1(   6,  3) ST = 0.544320E+07 DT = 0.276480E+07 DX1= 0.752612E+03 DX2= 0.130594E-02 T = 135.491 P =  1069734. S = 0.000000E+00
+ ...ITERATING...  AT [   7,  1] --- DELTEX = 0.552960E+07   MAX. RES. = 0.178565E-03  AT ELEMENT aaa 8  EQUATION   2
+ ...ITERATING...  AT [   7,  2] --- DELTEX = 0.552960E+07   MAX. RES. = 0.148221E-04  AT ELEMENT aaj 1  EQUATION   1
+ aaa 1(   7,  3) ST = 0.109728E+08 DT = 0.552960E+07 DX1= 0.676994E+03 DX2= 0.348470E-02 T = 135.494 P =  1070411. S = 0.000000E+00
+ ...ITERATING...  AT [   8,  1] --- DELTEX = 0.110592E+08   MAX. RES. = 0.345508E-03  AT ELEMENT aaa 8  EQUATION   2
+ aaa 1(   8,  2) ST = 0.220320E+08 DT = 0.110592E+08 DX1= 0.429840E+03 DX2= 0.807720E-02 T = 135.502 P =  1070841. S = 0.000000E+00
+ ...ITERATING...  AT [   9,  1] --- DELTEX = 0.221184E+08   MAX. RES. = 0.676111E-03  AT ELEMENT aaa 8  EQUATION   2
+ aaa 1(   9,  2) ST = 0.441504E+08 DT = 0.221184E+08 DX1= 0.170591E+03 DX2= 0.170346E-01 T = 135.519 P =  1071012. S = 0.000000E+00
+ ...ITERATING...  AT [  10,  1] --- DELTEX = 0.442368E+08   MAX. RES. = 0.133075E-02  AT ELEMENT aaa 8  EQUATION   2
+ aaa 1(  10,  2) ST = 0.883872E+08 DT = 0.442368E+08 DX1= 0.247201E+02 DX2= 0.343311E-01 T = 135.554 P =  1071036. S = 0.000000E+00
+ ...ITERATING...  AT [  11,  1] --- DELTEX = 0.884736E+08   MAX. RES. = 0.260767E-02  AT ELEMENT aaa 8  EQUATION   2
+ ...ITERATING...  AT [  11,  2] --- DELTEX = 0.884736E+08   MAX. RES. = 0.197274E-04  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  11,  3) ST = 0.176861E+09 DT = 0.884736E+08 DX1= -.310156E+02 DX2= 0.680453E-01 T = 135.622 P =  1071005. S = 0.000000E+00
+ ...ITERATING...  AT [  12,  1] --- DELTEX = 0.176947E+09   MAX. RES. = 0.514069E-02  AT ELEMENT aah 1  EQUATION   2
+ ...ITERATING...  AT [  12,  2] --- DELTEX = 0.176947E+09   MAX. RES. = 0.830229E-04  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  12,  3) ST = 0.353808E+09 DT = 0.176947E+09 DX1= -.710726E+02 DX2= 0.133272E+00 T = 135.755 P =  1070934. S = 0.000000E+00
+ ...ITERATING...  AT [  13,  1] --- DELTEX = 0.353894E+09   MAX. RES. = 0.101920E-01  AT ELEMENT aah 1  EQUATION   2
+ ...ITERATING...  AT [  13,  2] --- DELTEX = 0.353894E+09   MAX. RES. = 0.356815E-03  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  13,  3) ST = 0.707702E+09 DT = 0.353894E+09 DX1= -.136827E+03 DX2= 0.255868E+00 T = 136.011 P =  1070797. S = 0.000000E+00
+ ...ITERATING...  AT [  14,  1] --- DELTEX = 0.707789E+09   MAX. RES. = 0.200169E-01  AT ELEMENT aah 1  EQUATION   2
+ ...ITERATING...  AT [  14,  2] --- DELTEX = 0.707789E+09   MAX. RES. = 0.154132E-02  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  14,  3) ST = 0.141549E+10 DT = 0.707789E+09 DX1= -.250484E+03 DX2= 0.474298E+00 T = 136.485 P =  1070547. S = 0.000000E+00
+ ...ITERATING...  AT [  15,  1] --- DELTEX = 0.141558E+10   MAX. RES. = 0.385708E-01  AT ELEMENT aah 1  EQUATION   2
+ ...ITERATING...  AT [  15,  2] --- DELTEX = 0.141558E+10   MAX. RES. = 0.618218E-02  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  15,  3) ST = 0.283107E+10 DT = 0.141558E+10 DX1= -.422120E+03 DX2= 0.838894E+00 T = 137.324 P =  1070125. S = 0.000000E+00
+ ...ITERATING...  AT [  16,  1] --- DELTEX = 0.283116E+10   MAX. RES. = 0.712990E-01  AT ELEMENT aah 1  EQUATION   2
+ ...ITERATING...  AT [  16,  2] --- DELTEX = 0.283116E+10   MAX. RES. = 0.181863E-01  AT ELEMENT aaa 8  EQUATION   1
+ ...ITERATING...  AT [  16,  3] --- DELTEX = 0.283116E+10   MAX. RES. = 0.265717E-04  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  16,  4) ST = 0.566222E+10 DT = 0.283116E+10 DX1= -.639904E+03 DX2= 0.150806E+01 T = 138.832 P =  1069485. S = 0.000000E+00
+ ...ITERATING...  AT [  17,  1] --- DELTEX = 0.566231E+10   MAX. RES. = 0.119170E+00  AT ELEMENT aah 1  EQUATION   2
+ ...ITERATING...  AT [  17,  2] --- DELTEX = 0.566231E+10   MAX. RES. = 0.536432E-01  AT ELEMENT aaa 5  EQUATION   1
+ ...ITERATING...  AT [  17,  3] --- DELTEX = 0.566231E+10   MAX. RES. = 0.661578E-03  AT ELEMENT aaa 5  EQUATION   1
+ aaa 1(  17,  4) ST = 0.113245E+11 DT = 0.566231E+10 DX1= -.110068E+04 DX2= 0.333222E+01 T = 142.164 P =  1068384. S = 0.000000E+00
+ ...ITERATING...  AT [  18,  1] --- DELTEX = 0.113246E+11   MAX. RES. = 0.154171E+00  AT ELEMENT aah 1  EQUATION   2
+ ...ITERATING...  AT [  18,  2] --- DELTEX = 0.113246E+11   MAX. RES. = 0.102003E+00  AT ELEMENT aaa 3  EQUATION   1
+ ...ITERATING...  AT [  18,  3] --- DELTEX = 0.113246E+11   MAX. RES. = 0.316507E-03  AT ELEMENT aaa 5  EQUATION   1
+ aaa 1(  18,  4) ST = 0.226492E+11 DT = 0.113246E+11 DX1= -.245749E+04 DX2= 0.701684E+01 T = 149.181 P =  1065927. S = 0.000000E+00
+ ...ITERATING...  AT [  19,  1] --- DELTEX = 0.226492E+11   MAX. RES. = 0.109561E+00  AT ELEMENT aah 1  EQUATION   2
+ ...ITERATING...  AT [  19,  2] --- DELTEX = 0.226492E+11   MAX. RES. = 0.105984E+00  AT ELEMENT aac 3  EQUATION   1
+ ...ITERATING...  AT [  19,  3] --- DELTEX = 0.226492E+11   MAX. RES. = 0.892083E-03  AT ELEMENT aah 2  EQUATION   1
+ aaa 1(  19,  4) ST = 0.452984E+11 DT = 0.226492E+11 DX1= -.374946E+04 DX2= 0.889046E+01 T = 158.072 P =  1062177. S = 0.000000E+00
+ ...ITERATING...  AT [  20,  1] --- DELTEX = 0.452985E+11   MAX. RES. = 0.120502E+00  AT ELEMENT aai 3  EQUATION   2
+ ...ITERATING...  AT [  20,  2] --- DELTEX = 0.452985E+11   MAX. RES. = 0.331385E+00  AT ELEMENT aah 3  EQUATION   1
+ ...ITERATING...  AT [  20,  3] --- DELTEX = 0.452985E+11   MAX. RES. = 0.578888E-01  AT ELEMENT aag 1  EQUATION   1
+ ...ITERATING...  AT [  20,  4] --- DELTEX = 0.452985E+11   MAX. RES. = 0.651961E-04  AT ELEMENT aah 1  EQUATION   1
+ aaa 1(  20,  5) ST = 0.905969E+11 DT = 0.452985E+11 DX1= -.320024E+04 DX2= 0.629328E+01 T = 164.365 P =  1058977. S = 0.000000E+00
+ ...ITERATING...  AT [  21,  1] --- DELTEX = 0.905970E+11   MAX. RES. = 0.141731E+00  AT ELEMENT aaj 3  EQUATION   2
+ ...ITERATING...  AT [  21,  2] --- DELTEX = 0.905970E+11   MAX. RES. = 0.569823E+02  AT ELEMENT aaa 2  EQUATION   1
+ ...ITERATING...  AT [  21,  3] --- DELTEX = 0.905970E+11   MAX. RES. = 0.521704E+00  AT ELEMENT aaa 2  EQUATION   1
+ ...ITERATING...  AT [  21,  4] --- DELTEX = 0.905970E+11   MAX. RES. = 0.145068E-02  AT ELEMENT aab 2  EQUATION   1
+ aaa 1(  21,  5) ST = 0.181194E+12 DT = 0.905970E+11 DX1= -.199937E+04 DX2= 0.326121E+01 T = 167.626 P =  1056978. S = 0.000000E+00
+ ...ITERATING...  AT [  22,  1] --- DELTEX = 0.181194E+12   MAX. RES. = 0.120039E+00  AT ELEMENT aaj 5  EQUATION   2
+ ...ITERATING...  AT [  22,  2] --- DELTEX = 0.181194E+12   MAX. RES. = 0.301246E+00  AT ELEMENT aae 5  EQUATION   1
+ ...ITERATING...  AT [  22,  3] --- DELTEX = 0.181194E+12   MAX. RES. = 0.106614E-02  AT ELEMENT aaa 5  EQUATION   1
+ aaa 1(  22,  4) ST = 0.362388E+12 DT = 0.181194E+12 DX1= -.120846E+04 DX2= 0.189196E+01 T = 169.518 P =  1055769. S = 0.000000E+00
+ ...ITERATING...  AT [  23,  1] --- DELTEX = 0.362388E+12   MAX. RES. = 0.105078E+00  AT ELEMENT aaj 7  EQUATION   2
+ ...ITERATING...  AT [  23,  2] --- DELTEX = 0.362388E+12   MAX. RES. = 0.211373E+00  AT ELEMENT aab 5  EQUATION   1
+ ...ITERATING...  AT [  23,  3] --- DELTEX = 0.362388E+12   MAX. RES. = 0.953645E-03  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  23,  4) ST = 0.724776E+12 DT = 0.362388E+12 DX1= -.696866E+03 DX2= 0.120998E+01 T = 170.728 P =  1055072. S = 0.000000E+00
+ ...ITERATING...  AT [  24,  1] --- DELTEX = 0.724776E+12   MAX. RES. = 0.929618E-01  AT ELEMENT aaj 8  EQUATION   2
+ ...ITERATING...  AT [  24,  2] --- DELTEX = 0.724776E+12   MAX. RES. = 0.113989E+00  AT ELEMENT aaa 8  EQUATION   1
+ ...ITERATING...  AT [  24,  3] --- DELTEX = 0.724776E+12   MAX. RES. = 0.611264E-03  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  24,  4) ST = 0.144955E+13 DT = 0.724776E+12 DX1= -.289909E+03 DX2= 0.537945E+00 T = 171.266 P =  1054782. S = 0.000000E+00
+ ...ITERATING...  AT [  25,  1] --- DELTEX = 0.144955E+13   MAX. RES. = 0.458148E-01  AT ELEMENT aaj 8  EQUATION   2
+ ...ITERATING...  AT [  25,  2] --- DELTEX = 0.144955E+13   MAX. RES. = 0.462157E-01  AT ELEMENT aaa 8  EQUATION   1
+ ...ITERATING...  AT [  25,  3] --- DELTEX = 0.144955E+13   MAX. RES. = 0.231020E-03  AT ELEMENT aaa 5  EQUATION   1
+ aaa 1(  25,  4) ST = 0.289910E+13 DT = 0.144955E+13 DX1= -.718448E+02 DX2= 0.137206E+00 T = 171.403 P =  1054711. S = 0.000000E+00
+ ...ITERATING...  AT [  26,  1] --- DELTEX = 0.289910E+13   MAX. RES. = 0.120913E-01  AT ELEMENT aaj 8  EQUATION   2
+ ...ITERATING...  AT [  26,  2] --- DELTEX = 0.289910E+13   MAX. RES. = 0.116040E-01  AT ELEMENT aaa 8  EQUATION   1
+ ...ITERATING...  AT [  26,  3] --- DELTEX = 0.289910E+13   MAX. RES. = 0.692713E-04  AT ELEMENT aaa 5  EQUATION   1
+ aaa 1(  26,  4) ST = 0.579821E+13 DT = 0.289910E+13 DX1= -.971778E+01 DX2= 0.187843E-01 T = 171.422 P =  1054701. S = 0.000000E+00
+ ...ITERATING...  AT [  27,  1] --- DELTEX = 0.579821E+13   MAX. RES. = 0.166824E-02  AT ELEMENT aaj 8  EQUATION   2
+ ...ITERATING...  AT [  27,  2] --- DELTEX = 0.579821E+13   MAX. RES. = 0.162790E-02  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  27,  3) ST = 0.115964E+14 DT = 0.579821E+13 DX1= -.684374E+00 DX2= 0.132955E-02 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  28,  1] --- DELTEX = 0.115964E+14   MAX. RES. = 0.118077E-03  AT ELEMENT aaj 8  EQUATION   2
+ ...ITERATING...  AT [  28,  2] --- DELTEX = 0.115964E+14   MAX. RES. = 0.117136E-03  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  28,  3) ST = 0.231928E+14 DT = 0.115964E+14 DX1= -.245398E-01 DX2= 0.477856E-04 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  29,  1] --- DELTEX = 0.231928E+14   MAX. RES. = 0.423871E-05  AT ELEMENT aaj 8  EQUATION   2
+ aaa 1(  29,  2) ST = 0.463856E+14 DT = 0.231928E+14 DX1= -.426240E-03 DX2= 0.870557E-06 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  30,  1] --- DELTEX = 0.463856E+14   MAX. RES. = 0.851622E-05  AT ELEMENT aaa 8  EQUATION   1
+ aaa 1(  30,  2) ST = 0.927713E+14 DT = 0.463856E+14 DX1= 0.385183E-04 DX2= 0.475099E-08 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  31,  1] --- DELTEX = 0.927713E+14   MAX. RES. = 0.274816E-05  AT ELEMENT aaa 6  EQUATION   1
+ aaa 1(  31,  2) ST = 0.185543E+15 DT = 0.927713E+14 DX1= 0.785648E-04 DX2= 0.595287E-08 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  32,  1] --- DELTEX = 0.185543E+15   MAX. RES. = 0.170551E-04  AT ELEMENT aab 1  EQUATION   1
+ ...ITERATING...  AT [  32,  2] --- DELTEX = 0.185543E+15   MAX. RES. = 0.311955E-04  AT ELEMENT aab 1  EQUATION   1
+ aaa 1(  32,  3) ST = 0.371085E+15 DT = 0.185543E+15 DX1= 0.149135E-03 DX2= 0.318441E-07 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  33,  1] --- DELTEX = 0.371085E+15   MAX. RES. = 0.723422E-06  AT ELEMENT aaa 4  EQUATION   1
+ ...ITERATING...  AT [  33,  2] --- DELTEX = 0.371085E+15   MAX. RES. = 0.191520E-03  AT ELEMENT aaa 2  EQUATION   1
+ aaa 1(  33,  3) ST = 0.742170E+15 DT = 0.371085E+15 DX1= 0.306472E-03 DX2= 0.430579E-07 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  34,  1] --- DELTEX = 0.742170E+15   MAX. RES. = 0.545475E-05  AT ELEMENT aab 4  EQUATION   1
+ ...ITERATING...  AT [  34,  2] --- DELTEX = 0.742170E+15   MAX. RES. = 0.790331E-03  AT ELEMENT aab 1  EQUATION   1
+ aaa 1(  34,  3) ST = 0.148434E+16 DT = 0.742170E+15 DX1= 0.612049E-03 DX2= 0.854131E-07 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  35,  1] --- DELTEX = 0.148434E+16   MAX. RES. = 0.167369E-04  AT ELEMENT aaa 5  EQUATION   1
+ ...ITERATING...  AT [  35,  2] --- DELTEX = 0.148434E+16   MAX. RES. = 0.993305E-03  AT ELEMENT aab 4  EQUATION   1
+ ...ITERATING...  AT [  35,  3] --- DELTEX = 0.148434E+16   MAX. RES. = 0.317971E-04  AT ELEMENT aaa 5  EQUATION   1
+ aaa 1(  35,  4) ST = 0.296868E+16 DT = 0.148434E+16 DX1= 0.122459E-02 DX2= 0.170744E-06 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  36,  1] --- DELTEX = 0.296868E+16   MAX. RES. = 0.322862E-05  AT ELEMENT aaa 7  EQUATION   2
+ ...ITERATING...  AT [  36,  2] --- DELTEX = 0.296868E+16   MAX. RES. = 0.361361E-02  AT ELEMENT aac 4  EQUATION   1
+ ...ITERATING...  AT [  36,  3] --- DELTEX = 0.296868E+16   MAX. RES. = 0.960274E-04  AT ELEMENT aaa 5  EQUATION   1
+ aaa 1(  36,  4) ST = 0.593736E+16 DT = 0.296868E+16 DX1= 0.244867E-02 DX2= 0.341773E-06 T = 171.423 P =  1054700. S = 0.000000E+00
+ ...ITERATING...  AT [  37,  1] --- DELTEX = 0.406264E+16   MAX. RES. = 0.156342E-05  AT ELEMENT aaa 5  EQUATION   1
+ ...ITERATING...  AT [  37,  2] --- DELTEX = 0.406264E+16   MAX. RES. = 0.737112E-02  AT ELEMENT aab 4  EQUATION   1
+ ...ITERATING...  AT [  37,  3] --- DELTEX = 0.406264E+16   MAX. RES. = 0.235802E-03  AT ELEMENT aaa 5  EQUATION   1
+ aaa 1(  37,  4) ST = 0.100000E+17 DT = 0.406264E+16 DX1= 0.335166E-02 DX2= 0.467950E-06 T = 171.423 P =  1054700. S = 0.000000E+00
+ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+ 2D coarse model   1200kJ/kg inflow                                              
+ OUTPUT AFTER  37 TIME STEPS    0.1000000000000000E+17 SECONDS
+ THE TIME IS 0.3169E+09 YEARS OR 0.1157E+12 DAYS OR 0.1000E+17 SECONDS
+ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+                                                           ELEMENT TABLE
+
+  ELEMENT     INDEX       Pressure        Temperature     Vapour saturation   Liquid saturation   Vapour density   Liquid density  
+
+    aaa 0         1      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aab 0         2      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aac 0         3      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aad 0         4      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aae 0         5      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aaf 0         6      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aag 0         7      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aah 0         8      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aai 0         9      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aaj 0        10      1.01350E+05      1.50000E+01        0.00000E+00          1.00000E+00       1.28241E-02      9.99213E+02
+    aaa 1        11      1.05470E+06      1.71423E+02        0.00000E+00          1.00000E+00       4.25921E+00      8.96000E+02
+    aab 1        12      1.05704E+06      1.57683E+02        0.00000E+00          1.00000E+00       3.08238E+00      9.09783E+02
+    aac 1        13      1.06041E+06      1.41983E+02        0.00000E+00          1.00000E+00       2.07247E+00      9.24485E+02
+    aad 1        14      1.06408E+06      1.24585E+02        0.00000E+00          1.00000E+00       1.28284E+00      9.39530E+02
+    aae 1        15      1.06742E+06      1.05716E+02        0.00000E+00          1.00000E+00       7.21084E-01      9.54391E+02
+    aaf 1        16      1.06975E+06      8.53316E+01        0.00000E+00          1.00000E+00       3.57830E-01      9.68685E+02
+    aag 1        17      1.07011E+06      6.28236E+01        0.00000E+00          1.00000E+00       1.47056E-01      9.82119E+02
+    aah 1        18      1.06844E+06      4.60098E+01        0.00000E+00          1.00000E+00       6.87272E-02      9.90262E+02
+    aai 1        19      1.07007E+06      3.99893E+01        0.00000E+00          1.00000E+00       5.11336E-02      9.92720E+02
+    aaj 1        20      1.07074E+06      3.75058E+01        0.00000E+00          1.00000E+00       4.50852E-02      9.93656E+02
+    aaa 2        21      3.04491E+06      2.34666E+02        1.59771E-02          9.84023E-01       1.52347E+01      8.21011E+02
+    aab 2        22      3.03703E+06      2.29091E+02        0.00000E+00          1.00000E+00       1.37646E+01      8.28811E+02
+    aac 2        23      3.02870E+06      2.17421E+02        0.00000E+00          1.00000E+00       1.10684E+01      8.44353E+02
+    aad 2        24      3.02042E+06      2.03151E+02        0.00000E+00          1.00000E+00       8.37898E+00      8.62075E+02
+    aae 2        25      3.01173E+06      1.85820E+02        0.00000E+00          1.00000E+00       5.85391E+00      8.81957E+02
+    aaf 2        26      3.00115E+06      1.64016E+02        0.00000E+00          1.00000E+00       3.58705E+00      9.04755E+02
+    aag 2        27      2.98549E+06      1.36007E+02        0.00000E+00          1.00000E+00       1.76654E+00      9.30851E+02
+1   aah 2        28      2.95981E+06      1.01326E+02        0.00000E+00          1.00000E+00       6.24680E-01      9.58540E+02
+    aai 2        29      2.94120E+06      9.28005E+01        0.00000E+00          1.00000E+00       4.67423E-01      9.64549E+02
+    aaj 2        30      2.92836E+06      8.54568E+01        0.00000E+00          1.00000E+00       3.59475E-01      9.69461E+02
+    aaa 3        31      4.92465E+06      2.55677E+02        0.00000E+00          1.00000E+00       2.20434E+01      7.91314E+02
+    aab 3        32      4.90515E+06      2.46010E+02        0.00000E+00          1.00000E+00       1.86409E+01      8.06372E+02
+    aac 3        33      4.88065E+06      2.37395E+02        0.00000E+00          1.00000E+00       1.60012E+01      8.19000E+02
+    aad 3        34      4.85599E+06      2.28507E+02        0.00000E+00          1.00000E+00       1.36178E+01      8.31356E+02
+    aae 3        35      4.83271E+06      2.18795E+02        0.00000E+00          1.00000E+00       1.13610E+01      8.44166E+02
+    aaf 3        36      4.81172E+06      2.07289E+02        0.00000E+00          1.00000E+00       9.09663E+00      8.58515E+02
+    aag 3        37      4.79266E+06      1.91906E+02        0.00000E+00          1.00000E+00       6.65821E+00      8.76457E+02
+    aah 3        38      4.77510E+06      1.66631E+02        0.00000E+00          1.00000E+00       3.81381E+00      9.03253E+02
+    aai 3        39      4.75822E+06      1.49825E+02        0.00000E+00          1.00000E+00       2.53685E+00      9.19421E+02
+    aaj 3        40      4.74766E+06      1.33190E+02        0.00000E+00          1.00000E+00       1.63553E+00      9.34235E+02
+    aaa 4        41      6.55212E+06      2.58170E+02        0.00000E+00          1.00000E+00       2.30048E+01      7.89322E+02
+    aab 4        42      6.53889E+06      2.37337E+02        0.00000E+00          1.00000E+00       1.59846E+01      8.20775E+02
+    aac 4        43      6.52962E+06      2.22743E+02        0.00000E+00          1.00000E+00       1.22376E+01      8.40555E+02
+    aad 4        44      6.52523E+06      2.09231E+02        0.00000E+00          1.00000E+00       9.45032E+00      8.57534E+02
+    aae 4        45      6.52468E+06      1.94034E+02        0.00000E+00          1.00000E+00       6.95962E+00      8.75314E+02
+    aaf 4        46      6.52718E+06      1.81296E+02        0.00000E+00          1.00000E+00       5.30841E+00      8.89262E+02
+    aag 4        47      6.53212E+06      1.70832E+02        0.00000E+00          1.00000E+00       4.20213E+00      9.00126E+02
+    aah 4        48      6.53856E+06      1.59633E+02        0.00000E+00          1.00000E+00       3.23122E+00      9.11198E+02
+    aai 4        49      6.54296E+06      1.47947E+02        0.00000E+00          1.00000E+00       2.41871E+00      9.22165E+02
+    aaj 4        50      6.54559E+06      1.37383E+02        0.00000E+00          1.00000E+00       1.83356E+00      9.31582E+02
+    aaa 5        51      8.21043E+06      2.59547E+02        0.00000E+00          1.00000E+00       2.35515E+01      7.89176E+02
+    aab 5        52      8.21212E+06      2.11491E+02        0.00000E+00          1.00000E+00       9.87596E+00      8.56144E+02
+    aac 5        53      8.22537E+06      1.91713E+02        0.00000E+00          1.00000E+00       6.63142E+00      8.79124E+02
+    aad 5        54      8.24324E+06      1.80639E+02        0.00000E+00          1.00000E+00       5.23272E+00      8.91099E+02
+    aae 5        55      8.26343E+06      1.72690E+02        0.00000E+00          1.00000E+00       4.38364E+00      8.99336E+02
+    aaf 5        56      8.28393E+06      1.65812E+02        0.00000E+00          1.00000E+00       3.74161E+00      9.06231E+02
+    aag 5        57      8.30367E+06      1.59464E+02        0.00000E+00          1.00000E+00       3.21813E+00      9.12408E+02
+    aah 5        58      8.32182E+06      1.53405E+02        0.00000E+00          1.00000E+00       2.77488E+00      9.18142E+02
+    aai 5        59      8.33644E+06      1.47403E+02        0.00000E+00          1.00000E+00       2.38534E+00      9.23668E+02
+    aaj 5        60      8.34519E+06      1.42198E+02        0.00000E+00          1.00000E+00       2.08419E+00      9.28336E+02
+    aaa 6        61      9.85910E+06      2.64027E+02        0.00000E+00          1.00000E+00       2.54120E+01      7.83988E+02
+    aab 6        62      9.89026E+06      2.27059E+02        0.00000E+00          1.00000E+00       1.32595E+01      8.37927E+02
+    aac 6        63      9.93069E+06      2.03572E+02        0.00000E+00          1.00000E+00       8.44983E+00      8.66906E+02
+    aad 6        64      9.97034E+06      1.88870E+02        0.00000E+00          1.00000E+00       6.24654E+00      8.83458E+02
+    aae 6        65      1.00080E+07      1.78884E+02        0.00000E+00          1.00000E+00       5.03478E+00      8.94090E+02
+    aaf 6        66      1.00429E+07      1.71275E+02        0.00000E+00          1.00000E+00       4.24487E+00      9.01881E+02
+    aag 6        67      1.00743E+07      1.64980E+02        0.00000E+00          1.00000E+00       3.66937E+00      9.08132E+02
+    aah 6        68      1.01013E+07      1.59561E+02        0.00000E+00          1.00000E+00       3.22566E+00      9.13374E+02
+    aai 6        69      1.01223E+07      1.54987E+02        0.00000E+00          1.00000E+00       2.88553E+00      9.17701E+02
+    aaj 6        70      1.01345E+07      1.51893E+02        0.00000E+00          1.00000E+00       2.67227E+00      9.20576E+02
+    aaa 7        71      1.14981E+07      2.67017E+02        0.00000E+00          1.00000E+00       2.67263E+01      7.81196E+02
+    aab 7        72      1.15514E+07      2.33670E+02        0.00000E+00          1.00000E+00       1.49626E+01      8.30692E+02
+    aac 7        73      1.16138E+07      2.10770E+02        0.00000E+00          1.00000E+00       9.73844E+00      8.59715E+02
+    aad 7        74      1.16761E+07      1.95465E+02        0.00000E+00          1.00000E+00       7.16843E+00      8.77398E+02
+    aae 7        75      1.17336E+07      1.84907E+02        0.00000E+00          1.00000E+00       5.74039E+00      8.88901E+02
+    aaf 7        76      1.17845E+07      1.77132E+02        0.00000E+00          1.00000E+00       4.84319E+00      8.97037E+02
+    aag 7        77      1.18280E+07      1.71065E+02        0.00000E+00          1.00000E+00       4.22455E+00      9.03195E+02
+    aah 7        78      1.18631E+07      1.66227E+02        0.00000E+00          1.00000E+00       3.77805E+00      9.07990E+02
+    aai 7        79      1.18885E+07      1.62557E+02        0.00000E+00          1.00000E+00       3.46531E+00      9.11559E+02
+    aaj 7        80      1.19021E+07      1.60401E+02        0.00000E+00          1.00000E+00       3.29149E+00      9.13628E+02
+    aaa 8        81      1.31288E+07      2.70032E+02        0.00000E+00          1.00000E+00       2.81147E+01      7.78346E+02
+    aab 8        82      1.31963E+07      2.37946E+02        0.00000E+00          1.00000E+00       1.61599E+01      8.26467E+02
+    aac 8        83      1.32885E+07      2.16177E+02        0.00000E+00          1.00000E+00       1.08088E+01      8.54525E+02
+    aad 8        84      1.33785E+07      2.01322E+02        0.00000E+00          1.00000E+00       8.07697E+00      8.72038E+02
+    aae 8        85      1.34580E+07      1.90905E+02        0.00000E+00          1.00000E+00       6.52009E+00      8.83636E+02
+1   aaf 8        86      1.35257E+07      1.83259E+02        0.00000E+00          1.00000E+00       5.53986E+00      8.91815E+02
+    aag 8        87      1.35814E+07      1.77426E+02        0.00000E+00          1.00000E+00       4.87497E+00      8.97874E+02
+    aah 8        88      1.36251E+07      1.72950E+02        0.00000E+00          1.00000E+00       4.40956E+00      9.02420E+02
+    aai 8        89      1.36558E+07      1.69737E+02        0.00000E+00          1.00000E+00       4.09801E+00      9.05628E+02
+    aaj 8        90      1.36718E+07      1.67970E+02        0.00000E+00          1.00000E+00       3.93432E+00      9.07373E+02
+ EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+ 2D coarse model   1200kJ/kg inflow                                              
+ OUTPUT AFTER  37 TIME STEPS    0.1000000000000000E+17 SECONDS
+ THE TIME IS 0.3169E+09 YEARS OR 0.1157E+12 DAYS OR 0.1000E+17 SECONDS
+ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+                                                          CONNECTION TABLE
+
+    ELEM1      ELEM1      INDEX        Heat flow          Mass flow          Enthalpy        Vapour mass flow    Liquid mass flow  
+
+    aaa 1      aaa 0          1      -5.491956E+05      -5.413935E-01       1.014411E+06       0.000000E+00       -5.413935E-01
+    aab 1      aab 0          2      -4.152336E+05      -4.094233E-01       1.014191E+06       0.000000E+00       -4.094233E-01
+    aac 1      aac 0          3      -3.052317E+05      -2.980469E-01       1.024106E+06       0.000000E+00       -2.980469E-01
+    aad 1      aad 0          4      -2.144368E+05      -2.001768E-01       1.071237E+06       0.000000E+00       -2.001768E-01
+    aae 1      aae 0          5      -1.410597E+05      -1.134137E-01       1.243762E+06       0.000000E+00       -1.134137E-01
+    aaf 1      aaf 0          6      -8.358385E+04      -3.700708E-02       2.258591E+06       0.000000E+00       -3.700708E-02
+    aag 1      aag 0          7      -4.713982E+04       1.084712E-02      -4.345837E+06       0.000000E+00        1.084712E-02
+    aah 1      aah 0          8      -2.907048E+04       3.076586E-02      -9.448942E+05       0.000000E+00        3.076586E-02
+    aai 1      aai 0          9      -2.314308E+04       2.928827E-02      -7.901825E+05       0.000000E+00        2.928827E-02
+    aaj 1      aaj 0         10      -2.070546E+04       2.856001E-02      -7.249809E+05       0.000000E+00        2.856001E-02
+    aaa 1      aab 1         11       7.568430E+04       1.240125E-01       6.102956E+05       0.000000E+00        1.240125E-01
+    aab 1      aac 1         12       8.915460E+04       1.622002E-01       5.496577E+05       0.000000E+00        1.622002E-01
+    aac 1      aad 1         13       7.289390E+04       1.557721E-01       4.679521E+05       0.000000E+00        1.557721E-01
+    aad 1      aae 1         14       4.423695E+04       1.209103E-01       3.658657E+05       0.000000E+00        1.209103E-01
+    aae 1      aaf 1         15       1.438873E+04       6.864248E-02       2.096184E+05       0.000000E+00        6.864248E-02
+    aaf 1      aag 1         16      -9.129854E+03       8.052632E-03      -1.133773E+06       0.000000E+00        8.052632E-03
+    aag 1      aah 1         17      -1.813268E+04      -3.687062E-02       4.917922E+05       0.000000E+00       -3.687062E-02
+    aah 1      aai 1         18       1.158671E+03       2.476385E-02       4.678881E+04       0.000000E+00        2.476385E-02
+    aai 1      aaj 1         19       2.874164E+02       9.679756E-03       2.969253E+04       0.000000E+00        9.679756E-03
+    aaa 2      aaa 1         20      -4.735112E+05      -4.173809E-01       1.134482E+06      -1.083431E-02       -4.065466E-01
+    aab 2      aab 1         21      -4.017633E+05      -3.712356E-01       1.082233E+06       0.000000E+00       -3.712356E-01
+    aac 2      aac 1         22      -3.214924E+05      -3.044750E-01       1.055891E+06       0.000000E+00       -3.044750E-01
+    aad 2      aad 1         23      -2.430938E+05      -2.350386E-01       1.034272E+06       0.000000E+00       -2.350386E-01
+    aae 2      aae 1         24      -1.709079E+05      -1.656815E-01       1.031545E+06       0.000000E+00       -1.656815E-01
+    aaf 2      aaf 1         25      -1.071024E+05      -9.759692E-02       1.097396E+06       0.000000E+00       -9.759692E-02
+    aag 2      aag 1         26      -5.614265E+04      -3.407613E-02       1.647565E+06       0.000000E+00       -3.407613E-02
+    aah 2      aah 1         27      -9.779125E+03       9.240033E-02      -1.058343E+05       0.000000E+00        9.240033E-02
+    aai 2      aai 1         28      -2.401433E+04       1.420417E-02      -1.690653E+06       0.000000E+00        1.420417E-02
+    aaj 2      aaj 1         29      -2.099287E+04       1.888025E-02      -1.111896E+06       0.000000E+00        1.888025E-02
+    aaa 2      aab 2         30      -1.405275E+04      -1.104825E-02       1.271943E+06      -4.549409E-05       -1.100276E-02
+    aab 2      aac 2         31      -1.749546E+04      -1.182545E-02       1.479476E+06       0.000000E+00       -1.182545E-02
+    aac 2      aad 2         32      -1.771955E+04      -1.135664E-02       1.560280E+06       0.000000E+00       -1.135664E-02
+    aad 2      aae 2         33      -1.850892E+04      -1.135151E-02       1.630526E+06       0.000000E+00       -1.135151E-02
+    aae 2      aaf 2         34      -2.108087E+04      -1.288795E-02       1.635704E+06       0.000000E+00       -1.288795E-02
+    aaf 2      aag 2         35      -2.590966E+04      -1.714717E-02       1.511016E+06       0.000000E+00       -1.714717E-02
+    aag 2      aah 2         36      -3.094495E+04      -2.371167E-02       1.305051E+06       0.000000E+00       -2.371167E-02
+    aah 2      aai 2         37      -9.783913E+03      -1.293662E-02       7.562959E+05       0.000000E+00       -1.293662E-02
+    aai 2      aaj 2         38      -6.876810E+03      -8.198598E-03       8.387787E+05       0.000000E+00       -8.198598E-03
+    aaa 3      aaa 2         39      -4.875640E+05      -4.284292E-01       1.138027E+06       0.000000E+00       -4.284292E-01
+    aab 3      aab 2         40      -4.052060E+05      -3.720128E-01       1.089226E+06       0.000000E+00       -3.720128E-01
+    aac 3      aac 2         41      -3.217165E+05      -3.040062E-01       1.058256E+06       0.000000E+00       -3.040062E-01
+    aad 3      aad 2         42      -2.438831E+05      -2.350335E-01       1.037653E+06       0.000000E+00       -2.350335E-01
+    aae 3      aae 2         43      -1.734798E+05      -1.672180E-01       1.037447E+06       0.000000E+00       -1.672180E-01
+    aaf 3      aaf 2         44      -1.119312E+05      -1.018561E-01       1.098915E+06       0.000000E+00       -1.018561E-01
+    aag 3      aag 2         45      -6.117794E+04      -4.064063E-02       1.505339E+06       0.000000E+00       -4.064063E-02
+1   aah 3      aah 2         46       1.138191E+04       1.031754E-01       1.103161E+05       0.000000E+00        1.031754E-01
+    aai 3      aai 2         47      -2.110723E+04       1.894220E-02      -1.114297E+06       0.000000E+00        1.894220E-02
+    aaj 3      aaj 2         48      -1.411607E+04       2.707885E-02      -5.212949E+05       0.000000E+00        2.707885E-02
+    aaa 3      aab 3         49      -8.239890E+05      -7.356544E-01       1.120076E+06       0.000000E+00       -7.356544E-01
+    aab 3      aac 3         50      -9.709957E+05      -9.064243E-01       1.071237E+06       0.000000E+00       -9.064243E-01
+    aac 3      aad 3         51      -9.207961E+05      -8.936489E-01       1.030378E+06       0.000000E+00       -8.936489E-01
+    aad 3      aae 3         52      -8.155322E+05      -8.240992E-01       9.896043E+05       0.000000E+00       -8.240992E-01
+    aae 3      aaf 3         53      -6.834317E+05      -7.218200E-01       9.468173E+05       0.000000E+00       -7.218200E-01
+    aaf 3      aag 3         54      -5.666996E+05      -6.305853E-01       8.986882E+05       0.000000E+00       -6.305853E-01
+    aag 3      aah 3         55      -4.606018E+05      -5.478918E-01       8.406802E+05       0.000000E+00       -5.478918E-01
+    aah 3      aai 3         56      -3.390539E+05      -4.679082E-01       7.246163E+05       0.000000E+00       -4.679082E-01
+    aai 3      aaj 3         57      -1.771734E+05      -2.663111E-01       6.652873E+05       0.000000E+00       -2.663111E-01
+    aaa 4      aaa 3         58      -1.311553E+06      -1.164084E+00       1.126683E+06       0.000000E+00       -1.164084E+00
+    aab 4      aab 3         59      -5.522127E+05      -5.427828E-01       1.017373E+06       0.000000E+00       -5.427828E-01
+    aac 4      aac 3         60      -2.715169E+05      -2.912308E-01       9.323085E+05       0.000000E+00       -2.912308E-01
+    aad 4      aad 3         61      -1.386192E+05      -1.654838E-01       8.376602E+05       0.000000E+00       -1.654838E-01
+    aae 4      aae 3         62      -4.137936E+04      -6.493875E-02       6.372060E+05       0.000000E+00       -6.493875E-02
+    aaf 4      aaf 3         63       4.800896E+03      -1.062143E-02      -4.520011E+05       0.000000E+00       -1.062143E-02
+    aag 4      aag 3         64       4.491985E+04       4.205286E-02       1.068176E+06       0.000000E+00        4.205286E-02
+    aah 4      aah 3         65       1.329298E+05       1.831590E-01       7.257617E+05       0.000000E+00        1.831590E-01
+    aai 4      aai 3         66       1.407733E+05       2.205393E-01       6.383139E+05       0.000000E+00        2.205393E-01
+    aaj 4      aaj 3         67       1.630573E+05       2.933900E-01       5.557700E+05       0.000000E+00        2.933900E-01
+    aaa 4      aab 4         68      -5.742212E+05      -5.008872E-01       1.146408E+06       0.000000E+00       -5.008872E-01
+    aab 4      aac 4         69      -3.510760E+05      -3.352754E-01       1.047127E+06       0.000000E+00       -3.352754E-01
+    aac 4      aad 4         70      -1.529768E+05      -1.527169E-01       1.001702E+06       0.000000E+00       -1.527169E-01
+    aad 4      aae 4         71      -2.383721E+04      -1.812529E-02       1.315135E+06       0.000000E+00       -1.812529E-02
+    aae 4      aaf 4         72       5.088573E+04       7.419950E-02       6.857961E+05       0.000000E+00        7.419950E-02
+    aaf 4      aag 4         73       9.625704E+04       1.398086E-01       6.884915E+05       0.000000E+00        1.398086E-01
+    aag 4      aah 4         74       1.108133E+05       1.718583E-01       6.447944E+05       0.000000E+00        1.718583E-01
+    aah 4      aai 4         75       6.284651E+04       1.095320E-01       5.737733E+05       0.000000E+00        1.095320E-01
+    aai 4      aaj 4         76       3.028070E+04       6.110617E-02       4.955425E+05       0.000000E+00        6.110617E-02
+    aaa 5      aaa 4         77      -1.885774E+06      -1.664971E+00       1.132617E+06       0.000000E+00       -1.664971E+00
+    aab 5      aab 4         78      -3.290675E+05      -3.771710E-01       8.724624E+05       0.000000E+00       -3.771710E-01
+    aac 5      aac 4         79      -7.341780E+04      -1.086723E-01       6.755888E+05       0.000000E+00       -1.086723E-01
+    aad 5      aad 4         80      -9.479549E+03      -3.089216E-02       3.068594E+05       0.000000E+00       -3.089216E-02
+    aae 5      aae 4         81       3.334357E+04       2.738604E-02       1.217539E+06       0.000000E+00        2.738604E-02
+    aaf 5      aaf 4         82       5.017221E+04       5.498768E-02       9.124263E+05       0.000000E+00        5.498768E-02
+    aag 5      aag 4         83       5.947610E+04       7.410258E-02       8.026185E+05       0.000000E+00        7.410258E-02
+    aah 5      aah 4         84       8.496301E+04       1.208326E-01       7.031463E+05       0.000000E+00        1.208326E-01
+    aai 5      aai 4         85       1.082075E+05       1.721135E-01       6.286984E+05       0.000000E+00        1.721135E-01
+    aaj 5      aaj 4         86       1.327766E+05       2.322838E-01       5.716139E+05       0.000000E+00        2.322838E-01
+    aaa 5      aab 5         87       2.717155E+04       5.646629E-02       4.811994E+05       0.000000E+00        5.646629E-02
+    aab 5      aac 5         88       3.272012E+05       4.119103E-01       7.943505E+05       0.000000E+00        4.119103E-01
+    aac 5      aad 5         89       4.019884E+05       5.295018E-01       7.591825E+05       0.000000E+00        5.295018E-01
+    aad 5      aae 5         90       4.192902E+05       5.759047E-01       7.280549E+05       0.000000E+00        5.759047E-01
+    aae 5      aaf 5         91       3.946843E+05       5.646212E-01       6.990250E+05       0.000000E+00        5.646212E-01
+    aaf 5      aag 5         92       3.527576E+05       5.252015E-01       6.716616E+05       0.000000E+00        5.252015E-01
+    aag 5      aah 5         93       3.010601E+05       4.666463E-01       6.451569E+05       0.000000E+00        4.666463E-01
+    aah 5      aai 5         94       2.239918E+05       3.626518E-01       6.176498E+05       0.000000E+00        3.626518E-01
+    aai 5      aaj 5         95       1.241192E+05       2.099125E-01       5.912900E+05       0.000000E+00        2.099125E-01
+    aaa 6      aaa 5         96      -1.858603E+06      -1.608504E+00       1.155485E+06       0.000000E+00       -1.608504E+00
+    aab 6      aab 5         97      -2.903787E+04      -2.172694E-02       1.336492E+06       0.000000E+00       -2.172694E-02
+    aac 6      aac 5         98       1.369459E+03       8.919104E-03       1.535422E+05       0.000000E+00        8.919104E-03
+    aad 6      aad 5         99       7.822254E+03       1.551083E-02       5.043093E+05       0.000000E+00        1.551083E-02
+    aae 6      aae 5        100       8.737662E+03       1.610249E-02       5.426279E+05       0.000000E+00        1.610249E-02
+    aaf 6      aaf 5        101       8.245513E+03       1.556794E-02       5.296469E+05       0.000000E+00        1.556794E-02
+    aag 6      aag 5        102       7.778529E+03       1.554741E-02       5.003101E+05       0.000000E+00        1.554741E-02
+    aah 6      aah 5        103       7.894754E+03       1.683815E-02       4.688613E+05       0.000000E+00        1.683815E-02
+1   aai 6      aai 5        104       8.334860E+03       1.937424E-02       4.302032E+05       0.000000E+00        1.937424E-02
+    aaj 6      aaj 5        105       8.657448E+03       2.237124E-02       3.869902E+05       0.000000E+00        2.237124E-02
+    aaa 6      aab 6        106       2.904748E+03       2.186471E-02       1.328510E+05       0.000000E+00        2.186471E-02
+    aab 6      aac 6        107       1.117106E+04       2.628363E-02       4.250197E+05       0.000000E+00        2.628363E-02
+    aac 6      aad 6        108       1.226632E+04       2.431965E-02       5.043791E+05       0.000000E+00        2.431965E-02
+    aad 6      aae 6        109       1.185190E+04       2.208009E-02       5.367684E+05       0.000000E+00        2.208009E-02
+    aae 6      aaf 6        110       1.060006E+04       1.973751E-02       5.370512E+05       0.000000E+00        1.973751E-02
+    aaf 6      aag 6        111       8.947253E+03       1.721556E-02       5.197190E+05       0.000000E+00        1.721556E-02
+    aag 6      aah 6        112       7.067229E+03       1.439460E-02       4.909640E+05       0.000000E+00        1.439460E-02
+    aah 6      aai 6        113       4.882648E+03       1.087077E-02       4.491540E+05       0.000000E+00        1.087077E-02
+    aai 6      aaj 6        114       2.460688E+03       6.200705E-03       3.968401E+05       0.000000E+00        6.200705E-03
+    aaa 7      aaa 6        115      -1.855698E+06      -1.586640E+00       1.169577E+06       0.000000E+00       -1.586640E+00
+    aab 7      aab 6        116      -2.077156E+04      -1.730801E-02       1.200112E+06       0.000000E+00       -1.730801E-02
+    aac 7      aac 6        117       2.464720E+03       6.955123E-03       3.543748E+05       0.000000E+00        6.955123E-03
+    aad 7      aad 6        118       7.407825E+03       1.327126E-02       5.581854E+05       0.000000E+00        1.327126E-02
+    aae 7      aae 6        119       7.485823E+03       1.375992E-02       5.440311E+05       0.000000E+00        1.375992E-02
+    aaf 7      aaf 6        120       6.592709E+03       1.304599E-02       5.053439E+05       0.000000E+00        1.304599E-02
+    aag 7      aag 6        121       5.898505E+03       1.272645E-02       4.634838E+05       0.000000E+00        1.272645E-02
+    aah 7      aah 6        122       5.710173E+03       1.331432E-02       4.288747E+05       0.000000E+00        1.331432E-02
+    aai 7      aai 6        123       5.912900E+03       1.470418E-02       4.021238E+05       0.000000E+00        1.470418E-02
+    aaj 7      aaj 6        124       6.196760E+03       1.617053E-02       3.832131E+05       0.000000E+00        1.617053E-02
+    aaa 7      aab 7        125       2.170525E+04       3.803066E-02       5.707303E+05       0.000000E+00        3.803066E-02
+    aab 7      aac 7        126       2.612084E+04       4.152641E-02       6.290176E+05       0.000000E+00        4.152641E-02
+    aac 7      aad 7        127       2.514050E+04       3.919992E-02       6.413406E+05       0.000000E+00        3.919992E-02
+    aad 7      aae 7        128       2.209102E+04       3.463960E-02       6.377389E+05       0.000000E+00        3.463960E-02
+    aae 7      aaf 7        129       1.848445E+04       2.958450E-02       6.248016E+05       0.000000E+00        2.958450E-02
+    aaf 7      aag 7        130       1.485690E+04       2.451085E-02       6.061356E+05       0.000000E+00        2.451085E-02
+    aag 7      aah 7        131       1.128810E+04       1.933380E-02       5.838530E+05       0.000000E+00        1.933380E-02
+    aah 7      aai 7        132       7.665720E+03       1.370597E-02       5.592977E+05       0.000000E+00        1.370597E-02
+    aai 7      aaj 7        133       3.898068E+03       7.275906E-03       5.357502E+05       0.000000E+00        7.275906E-03
+    aaa 8      aaa 7        134      -1.833993E+06      -1.548609E+00       1.184284E+06       0.000000E+00       -1.548609E+00
+    aab 8      aab 7        135      -1.635597E+04      -1.381226E-02       1.184162E+06       0.000000E+00       -1.381226E-02
+    aac 8      aac 7        136       1.484376E+03       4.628634E-03       3.206942E+05       0.000000E+00        4.628634E-03
+    aad 8      aad 7        137       4.358345E+03       8.710940E-03       5.003300E+05       0.000000E+00        8.710940E-03
+    aae 8      aae 7        138       3.879249E+03       8.704825E-03       4.456435E+05       0.000000E+00        8.704825E-03
+    aaf 8      aaf 7        139       2.965161E+03       7.972329E-03       3.719317E+05       0.000000E+00        7.972329E-03
+    aag 8      aag 7        140       2.329708E+03       7.549412E-03       3.085946E+05       0.000000E+00        7.549412E-03
+    aah 8      aah 7        141       2.087793E+03       7.686483E-03       2.716188E+05       0.000000E+00        7.686483E-03
+    aai 8      aai 7        142       2.145248E+03       8.274112E-03       2.592723E+05       0.000000E+00        8.274112E-03
+    aaj 8      aaj 7        143       2.298692E+03       8.894625E-03       2.584361E+05       0.000000E+00        8.894625E-03
+    aaa 8      aab 8        144       3.399261E+04       4.860909E-02       6.993055E+05       0.000000E+00        4.860909E-02
+    aab 8      aac 8        145       4.714857E+04       6.242136E-02       7.553275E+05       0.000000E+00        6.242136E-02
+    aac 8      aad 8        146       4.246420E+04       5.779273E-02       7.347671E+05       0.000000E+00        5.779273E-02
+    aad 8      aae 8        147       3.490585E+04       4.908179E-02       7.111773E+05       0.000000E+00        4.908179E-02
+    aae 8      aaf 8        148       2.782660E+04       4.037696E-02       6.891703E+05       0.000000E+00        4.037696E-02
+    aaf 8      aag 8        149       2.166144E+04       3.240463E-02       6.684674E+05       0.000000E+00        3.240463E-02
+    aag 8      aah 8        150       1.613173E+04       2.485522E-02       6.490280E+05       0.000000E+00        2.485522E-02
+    aah 8      aai 8        151       1.084394E+04       1.716874E-02       6.316097E+05       0.000000E+00        1.716874E-02
+    aai 8      aaj 8        152       5.498692E+03       8.894625E-03       6.182039E+05       0.000000E+00        8.894625E-03
+ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+
+1GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+ 2D coarse model   1200kJ/kg inflow                                              
+ OUTPUT AFTER  37 TIME STEPS    0.1000000000000000E+17 SECONDS
+ THE TIME IS 0.3169E+09 YEARS OR 0.1157E+12 DAYS OR 0.1000E+17 SECONDS
+ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+                                                          GENERATION TABLE
+
+   ELEMENT       SOURCE      INDEX       Generation rate        Enthalpy          Steam frac.       Steam sepa.    Wellbore pressu 
+
+     aaa 8       aaa97           1         1.50000E+00        1.200000E+06       0.000000E+00       0.000000E+00     0.000000E+00
+     aab 8       aab98           2         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+     aac 8       aac98           3         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+     aad 8       aad98           4         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+     aae 8       aae98           5         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+     aaf 8       aaf98           6         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+     aag 8       aag98           7         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+     aah 8       aah98           8         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+     aai 8       aai98           9         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+     aaj 8       aaj98          10         3.20000E+03        0.000000E+00       0.000000E+00       0.000000E+00     0.000000E+00
+ GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ 2D coarse model   1200kJ/kg inflow                                              
+ OUTPUT AFTER  37 TIME STEPS    0.1000000000000000E+17 SECONDS
+ THE TIME IS 0.3169E+09 YEARS OR 0.1157E+12 DAYS OR 0.1000E+17 SECONDS
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+ VOLUME BALANCE
+ Vapour 0.12782E+05 M**3;  Liquid 0.10000E+26 M**3;  
+ MASS BALANCE
+ Vapour 0.19472407E+06 KG;  Liquid 0.99921339E+28 KG;  
+ ENERGY BALANCE
+ Internal 0.40039E+34 J;  
+ BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+
+
+
+ END OF TOUGH2 SIMULATION RUN --- ELAPSED TIME =      0.1 SEC-- CALCULATION TIME =      0.0 SEC-- DATA INPUT TIME =      0.0 SEC
+
