@@ -6,17 +6,21 @@ import pickle
 import os
 import errno
 import re
+import platform
+from collections import OrderedDict
 from t2data import *
 from t2listing import *
+import copy
 
 class GeoModel:
     '''
     Class for holding geothermal simulation models, esp. autough2 models.
-    Can also hold pure data model.
+    Can also hold pure data models?
     '''
     def __init__(self, name=None, datfile_name=None, incon_name=None, geom_name=None, 
                 results=None, is_good_model=False, ss_temps=None, ss_temps_obs_well=None, 
-                d_obs_well = None,jacobian=None,T_noise=None):
+                d_obs_well=None, jacobian=None, T_noise=None, islayered=False,
+                rocktype_to_perm_power_index=None,free_perm_power_values=None):
 
         self.name = name
         self.datfile_name = datfile_name
@@ -33,7 +37,9 @@ class GeoModel:
         # add actual datfile and geom to model
         self.datfile = t2data(self.datfile_name + '.dat')
         self.geom = mulgrid(self.geom_name + '.dat')
-
+        self.islayered = islayered
+        self.rocktype_to_perm_power_index = self.construct_rocktype_to_perm_index()
+        self.free_perm_power_values = free_perm_power_values
 
     def set_rock_permeabilities(self, perm_powers):
         '''
@@ -42,21 +48,71 @@ class GeoModel:
         '''
         #datfile = t2data(self.datfile_name + '.dat')
 
-        for i, rt in enumerate(self.datfile.grid.rocktypelist):
-            rt.permeability[0:2] = np.power(10, perm_powers[2 * i])
-            rt.permeability[2] = np.power(10, perm_powers[2 * i + 1])
+        #xy permeabilities are the same
+        if self.islayered:
+            for i, rt in enumerate(self.datfile.grid.rocktypelist):
+                rt.permeability[0:2] = np.power(10, perm_powers[2 * i])
+                rt.permeability[2] = np.power(10, perm_powers[2 * i + 1])
+
+        else:
+            #need to use perm_powers_dict
+            #raise Exception('Non-layered models not implemented yet')
+            for i, rt in enumerate(self.datfile.grid.rocktypelist):
+                #dict needs to return indices of x,y,z perm in perm powers, given rock type. Must be set.
+                rt.permeability = np.power(10,perm_powers[self.rocktype_to_perm_power_index[str(rt)]])
+
+        self.free_perm_power_values = np.copy(perm_powers) #store copy of free perm_power values. These are params for est.
         
         #need to write and reload?? Why?? 
         self.datfile.write(self.datfile_name + '.dat')
         self.datfile = t2data(self.datfile_name + '.dat')
 
+    def construct_rocktype_to_perm_index(self):
+        '''
+        Only actually needed if not assuming layered, but will construct anyway by default.
+
+        Here assumes each rocktype has own x,y,z permeability.
+
+        Necessary to relate model to external user input in form of permeability array.
+
+        These enable a full permeability array to be built from an array of free permeabilities.
+        '''
+
+        ppi = {}
+        if self.islayered:
+            for i, rt in enumerate(self.datfile.grid.rocktypelist):
+                #self.rocktype_to_perm_power_index[str(rt)] = np.array(
+                ppi[str(rt)] = np.array([int(2 * i), int(2 * i), int(2 * i) + 1])
+        else:
+            #print('Using fully layered since only layered or fully unlayered implemented. Todo - intermediate cases.')
+            #self.rocktype_to_perm_power_index = {}
+            for i, rt in enumerate(self.datfile.grid.rocktypelist):
+                #self.rocktype_to_perm_power_index[str(rt)] = np.array(
+                ppi[str(rt)] = np.array([int(3 * i), int(3 * i) + 1, int(3 * i) + 2])
+
+        return ppi
+
     def get_all_rock_permeabilities(self):
         perm_array = np.asarray([rt.permeability for rt in self.datfile.grid.rocktypelist])
         return perm_array.flatten()
 
-    def get_free_rock_permeabilities(self):
-        perm_array = np.asarray([[rt.permeability[0], rt.permeability[2]] for rt in self.datfile.grid.rocktypelist])
-        return perm_array.flatten()
+    # def get_free_rock_permeabilities(self):
+    #     '''
+    #     Updated to use mapping? Only returns one value for any duplicated permeability. 
+    #     E.g. if x and y perms are the same, just returns e.g. [px,pz] not [px,py,pz] etc.
+
+    #     WARNING: INCORRECT AND UNNEEDED!
+    #     '''
+    #     perm_array_all = self.get_all_rock_permeabilities()
+
+    #     unique_indices = []
+    #     #the following removes repeated indices (for each rock type) in the rocktype_to_perm_power_index
+    #     for rt in self.datfile.grid.rocktypelist:
+    #         unique_indices.extend(list(OrderedDict.fromkeys((self.rocktype_to_perm_power_index[str(rt)]))))
+
+    #     perm_array = np.array(perm_array_all[unique_indices])
+
+    #     return perm_array.flatten()
 
     def add_fixed_wells(self, save_geom=False):
         '''
@@ -84,6 +140,25 @@ class GeoModel:
         if save_geom:
             self.geom.write()
 
+    def rename_wells_as_obs(self, well_list_for_rename, delete_old=False, save_geom=False):
+
+        '''
+        To be used when you have existing wells and want to make them the targets for matching observations.
+
+        Renames these so they fit common format.
+        '''
+
+        for welli in well_list_for_rename:
+            obs_name = 'OBS_' + welli
+            self.geom.well[obs_name] = self.geom.well[welli]
+            self.geom.well[obs_name].name = obs_name
+            
+            if delete_old:
+                del self.geom.well[welli]
+
+        if save_geom:
+            self.geom.write()
+
     def update_obs_well_temps(self):
         
         try:
@@ -98,16 +173,19 @@ class GeoModel:
                                                      self.ss_temps, elevation=True)
 
         #ignore first n_ignore entries in fitting.
-        all_obs_temps = np.zeros((len(obs_wells_list), len(T_well_0)))
-        all_obs_d = np.zeros((len(obs_wells_list), len(d_well_0)))
+        #all_obs_temps = np.zeros((len(obs_wells_list), len(T_well_0)))
+        #all_obs_d = np.zeros((len(obs_wells_list), len(d_well_0)))
+
+        all_obs_temps = {}
+        all_obs_d = {}
 
         for i, welli in enumerate(obs_wells_list):
             (d_well, T_well) = self.geom.well_values(welli, self.ss_temps, elevation=True)
-            all_obs_temps[i, :] = T_well
-            all_obs_d[i, :] = d_well
-           
-        self.ss_temps_obs_well = np.copy(all_obs_temps)
-        self.d_obs_well = np.copy(all_obs_d)
+            all_obs_temps[i] = T_well
+            all_obs_d[i] = d_well
+
+        self.ss_temps_obs_well = copy.deepcopy(all_obs_temps)
+        self.d_obs_well = copy.deepcopy(all_obs_d)
 
     def simulate(self, is_silent=True, reshape=False, do_update_obs_wells=True):
         '''
@@ -121,12 +199,19 @@ class GeoModel:
         self.is_good_model = True
         #datfile = t2data(self.datfile_name + '.dat')
         #geom = mulgrid(self.geom_name + '.dat')
-
-        #self.datfile.run(save_filename='output-files/saved_run',
-        #            incon_filename=self.incon_name, simulator='AUTOUGH2_42D', silent=is_silent)
         
-        self.datfile.run(save_filename='output-files/saved_run',
-                    incon_filename=self.incon_name, simulator='AUTOUGH2_MAC', silent=is_silent)
+        if platform.system() =='Linux':
+
+            self.datfile.run(save_filename='output-files/saved_run',
+                    incon_filename=self.incon_name, simulator='AUTOUGH2_42D', silent=is_silent)
+        elif platform.system() == 'Darwin':
+            self.datfile.run(save_filename='output-files/saved_run',
+                incon_filename=self.incon_name, simulator='AUTOUGH2_MAC', silent=is_silent)
+        else:
+            print('UNRECOGNISED SIMULATOR SYSTEM')
+            #results = t2listing(datfile_name+'.listing')
+            self.is_good_model = False
+            self.ss_temps = np.zeros(int(self.geom.num_layers * self.geom.num_columns))
 
         try:
             #might need to make sure I delete edit file each time...
@@ -213,7 +298,8 @@ class GeoModel:
 
     def generate_synthetic_data(self,perm_powers_truths,do_plot=False,save_data=True):
         '''
-        Generate synthetic well data. Currently has hard-coded well locations etc.
+        Generate synthetic well data. Note that this will be fine-scale, i.e. model scale. Will need to create a coarser version 
+        using inverse core functionality to get proper data.
         To avoid having to re-simulate, save to a dict by default. Then reload when needed and pass to constructor.
         '''
 

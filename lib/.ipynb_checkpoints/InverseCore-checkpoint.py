@@ -261,13 +261,12 @@ class BayesModel:
                                                                                well_number=i)
                 #print(d_true)
                 #print(temp_true)
-                plt.plot(temp_true[n_ignore:],d_true[n_ignore:],linestyle='-',color='k',marker='o',markersize=2.0,linewidth=1.0) 
+                plt.plot(temp_true[n_ignore:],d_true[n_ignore:],'-',color='k',linewidth=1.0) 
             else:
                 (d_true, temp_true) = geom_measured.well_values(welli, temps_measured, elevation=True)
-                plt.plot(temp_true[n_ignore:],d_true[n_ignore:],linestyle='-',color='k',marker='o',markersize=2.0,linewidth=1.0)
+                plt.plot(temp_true[n_ignore:],d_true[n_ignore:],'-',color='k',linewidth=1.0)
 
         for param_set in parameter_sets:
-            #print(param_set)
             self.process_model.set_rock_permeabilities(param_set)
             self.process_model.simulate()
 
@@ -318,11 +317,6 @@ class BayesModel:
 
         #print(num_params)
         #print(ranges)
-        
-        labels = []
-        for rt in self.process_model.datfile.grid.rocktypelist:
-            labels.append('$k^{'+str(rt)+'}_x$')
-            labels.append('$k^{'+str(rt)+'}_y$')
 
         if perm_powers_truths is None:
             print('setting truths to middle of parameter range')
@@ -330,8 +324,8 @@ class BayesModel:
 
         if do_corner_plot:
             corner_plot_log = corner.corner(self.sampler_flatchain,
-                                            truths=perm_powers_truths, range=ranges, bins=nbins,labelpad=100,label_kwargs={"fontsize":20})
-            corner_plot_log.savefig('./figures/corner_plot_log_' + self.name + '.pdf')
+                                            truths=perm_powers_truths, range=ranges, bins=nbins)
+            corner_plot_log.savefig('corner_plot_log_' + self.name + '.pdf')
             
         #kernel density estimation for marginals
         if do_marginal_plots:
@@ -340,15 +334,11 @@ class BayesModel:
             plt.figure()
             for i in range(0, len(perm_powers_truths)):
                 my_pdf = stats.gaussian_kde(self.sampler_flatchain[:, i])
-                plt.plot(x, my_pdf(x),linewidth=2.0,label='posterior')
+                plt.plot(x, my_pdf(x))
                 #prior
-                plt.plot(x, stats.norm.pdf(x, loc=-15, scale=1.5),linewidth=2.0,linestyle='--',label='prior')
+                plt.plot(x, stats.norm.pdf(x, loc=-15, scale=1.5))
                 #truths
                 plt.vlines(x=perm_powers_truths[i], ymin=0, ymax=np.max(my_pdf(x))+0.1, linestyles='dashed')
-                plt.xlabel(labels[i],labelpad=15)
-                plt.ylabel('Probability density',labelpad=10)
-                plt.legend()
-                plt.savefig('./figures/marginal_' + labels[i] + '_' + self.name + '.pdf')
                 plt.show()
 
 

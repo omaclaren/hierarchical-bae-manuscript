@@ -1,0 +1,3167 @@
+GENER01  1.00e+25  1.00e-06                              -62.85
+VERTICES
+  a 781928.139739437.23
+  b 782840.779741216.86
+  c 783753.429742996.49
+  d 784666.069744776.12
+  e 785578.709746555.75
+  f 786491.359748335.38
+  g 787403.999750115.01
+  h 788316.639751894.64
+  i 789229.289753674.27
+  j 780148.509740349.87
+  k 781100.109742009.00
+  l 782113.659743809.90
+  m 783067.299745603.90
+  n 783970.589747383.40
+  o 784859.979749169.60
+  p 785722.429751065.50
+  q 786567.739752821.50
+  r 787449.659754586.91
+  s 778368.879741262.52
+  t 779245.469742904.10
+  u 780194.169744821.78
+  v 781106.809746601.41
+  w 782019.449748381.04
+  x 782932.099750160.67
+  y 783964.779752082.90
+  z 784812.299753729.50
+ aa 785670.029755499.55
+ ab 776589.249742175.16
+ ac 777452.879743803.20
+ ad 778414.539745734.42
+ ae 779327.179747514.05
+ af 780239.819749293.68
+ ag 781152.469751073.31
+ ah 782172.869753027.40
+ ai 782991.989754648.30
+ aj 783890.399756412.20
+ ak 774809.619743087.80
+ al 775630.969744724.70
+ am 776634.909746647.06
+ an 777547.549748426.69
+ ao 778460.199750206.32
+ ap 779372.839751985.95
+ aq 780348.469753931.90
+ ar 781193.319755577.90
+ as 782110.769757324.84
+ at 773029.989744000.45
+ au 773873.229745635.80
+ av 774855.279747559.71
+ aw 775767.919749339.33
+ ax 776680.569751118.96
+ ay 777593.209752898.59
+ az 778577.449754832.20
+ ba 779426.809756480.50
+ bb 780331.139758237.48
+ bc 771250.359744913.09
+ bd 772022.629746642.10
+ be 772895.279748576.20
+ bf 773772.039750340.20
+ bg 774695.279752118.80
+ bh 775725.349753906.40
+ bi 776727.799755707.10
+ bj 777638.049757391.80
+ bk 778551.509759150.13
+ bl 769470.729745825.73
+ bm 770383.379747605.36
+ bn 771296.019749384.99
+ bo 772208.659751164.62
+ bp 773121.309752944.25
+ bq 774033.949754723.88
+ br 774946.589756503.51
+ bs 775859.239758283.14
+ bt 776771.879760062.77
+ bu 784124.469748460.80
+ bv 774837.599749811.10
+ bw 782475.779749270.85
+ bx 775734.339751596.70
+ by 780696.149750183.49
+ bz 784956.599750288.60
+ ca 778916.519751096.14
+ cb 777532.219754958.50
+ cc 777136.889752008.78
+ cd 782280.389744887.00
+ ce 775539.209752850.60
+ cf 780297.669742788.40
+ cg 781143.809744328.70
+ ch 782046.389746115.80
+ ci 782980.269747894.10
+ cj 783439.679751118.00
+ ck 783873.019749678.30
+ cl 784738.409751235.90
+ cm 778495.399743667.90
+ cn 779304.349745278.10
+ co 781654.269752033.10
+ cp 780216.999747057.73
+ cq 781129.639748837.36
+ cr 782042.279750616.99
+ cs 782902.999752258.30
+ ct 781327.759743084.10
+ cu 779729.599743919.00
+ cv 776711.449744594.30
+ cw 777934.189744791.20
+ cx 777524.719746190.74
+ cy 779864.409752947.90
+ cz 776138.759745702.30
+ da 778437.369747970.37
+ db 774376.419746614.60
+ dc 779350.009749750.00
+ dd 772796.999747420.90
+ de 780262.649751529.63
+ df 776665.189753376.30
+ dg 781082.199753154.40
+ dh 780650.489745711.59
+ di 778870.859746624.23
+ dj 774920.279745487.90
+ dk 777091.229747536.88
+ dl 775745.089747103.38
+ dm 775311.599748449.52
+ dn 776657.739748883.01
+ do 778076.119753834.60
+ dp 773638.839749296.80
+ dq 777570.379750662.64
+ dr 783198.259746642.20
+ ds 778483.019752442.27
+ dt 781563.129747491.22
+ du 779293.179754073.20
+ dv 779783.499748403.86
+ dw 776538.829754630.50
+ dx 778003.869749316.51
+ dy 773097.999746465.80
+ dz 776224.239750229.15
+ ea 773915.519748038.40
+ eb 774535.099751070.50
+ ec 782565.309751621.20
+ ed 777001.759745179.70
+ ee 777981.049747080.56
+ ef 778893.689748860.19
+ eg 779806.329750639.81
+ eh 780770.679752539.10
+ ei 775240.399746122.10
+ ej 776201.419747993.20
+ ek 777114.059749772.83
+ el 778026.699751552.46
+ em 778983.429753439.10
+ en 773377.109747088.80
+ eo 774347.759748945.30
+ ep 775232.479750715.20
+ eq 776126.649752524.50
+ er 780677.559743407.50
+ es 777165.209754336.70
+ et 781651.429745206.30
+ eu 782544.909746986.70
+ ev 783457.119748776.40
+ ew 784436.559750608.20
+ ex 778813.999744308.60
+ ey 779760.679746167.91
+ ez 780673.319747947.54
+ fa 781585.959749727.17
+ fb 776643.669745604.90
+ fc 775756.509748221.36
+ fd 780661.899746829.57
+ fe 775779.339750457.31
+ ff 779555.339747958.96
+ fg 775774.989746065.30
+ fh 774627.119747114.80
+ fi 777102.639748654.85
+ fj 779600.999752430.86
+ fk 779966.009744376.87
+ fl 777148.299753126.76
+ fm 779772.089747285.89
+ fn 779817.749751757.79
+ fo 777992.459748198.53
+ fp 782703.939749715.76
+ fq 782030.869749499.01
+ fr 780684.729749065.52
+ fs 778015.289750434.48
+ ft 777775.709748871.60
+ fu 780011.659748848.77
+ fv 778471.609751324.30
+ fw 778232.029749761.41
+ fx 775300.189747331.54
+ fy 776406.749746202.15
+ fz 783783.009750731.40
+ ga 782270.439751061.89
+ gb 774866.689748677.68
+ gc 779099.019747069.14
+ gd 780878.649746156.50
+ ge 782464.359748152.87
+ gf 777565.419745135.70
+ gg 777536.139747308.72
+ gh 782012.959751684.40
+ gi 783509.329749316.40
+ gj 781551.719746373.24
+ gk 778882.269747742.21
+ gl 779076.189744833.19
+ gm 783059.629748400.10
+ gn 774410.369747787.87
+ go 781357.799749282.26
+ gp 780251.239750411.65
+ gq 780773.569743982.10
+ gr 782140.379746623.60
+ gs 778447.639744714.90
+ gt 777821.369753343.50
+ gu 778905.099749978.16
+ gv 782604.079747521.60
+ gw 777319.389747981.78
+ gx 776235.659751347.13
+ gy 780205.579745939.75
+ gz 776083.029751966.90
+ ha 781698.149745750.70
+ hb 777079.819746418.90
+ hc 781236.109744836.30
+ hd 779121.849749305.09
+ he 781597.379750845.15
+ hf 778438.149753483.70
+ hg 777969.629745962.58
+ hh 780707.559751301.47
+ hi 781118.229747719.38
+ hj 779749.259745049.94
+ hk 776908.729751563.87
+ hl 777558.969749544.67
+ hm 781814.119750172.08
+ hn 775653.119751101.10
+ ho 781791.289747936.13
+ hp 781380.629751518.22
+ hq 780901.479748392.45
+ hr 782008.039747263.06
+ hs 780236.479752587.10
+ ht 778254.859751997.37
+ hu 776863.069747091.97
+ hv 773843.989747531.90
+ hw 782487.189750388.83
+ hx 781095.399745483.43
+ hy 779358.979753029.60
+ hz 780034.489751084.72
+ ia 777798.539751107.55
+ ib 778859.449745506.26
+ ic 779363.559744270.60
+ id 776574.199752884.50
+ ie 777571.339753915.60
+ if 775996.079749784.24
+ ig 782920.679749042.69
+ ih 779532.509745723.00
+ ii 778038.119752670.43
+ ij 776646.319747765.04
+ ik 778665.529748415.28
+ il 774749.749749309.40
+ im 778688.359750651.23
+ in 777342.219750217.74
+ io 776429.579748438.11
+ ip 776885.899749327.92
+ iq 777125.469750890.80
+ ir 779315.769746396.07
+ is 776189.999746875.22
+ it 783951.849750175.90
+ iu 774286.389748409.90
+ iv 777296.559745745.83
+ iw 774013.879746994.50
+ ix 778209.209747525.46
+ iy 775323.009749567.50
+ iz 781133.979752127.30
+ ja 775973.249747548.29
+ jb 776212.829749111.17
+ jc 780924.309750628.40
+ jd 779794.919749521.84
+ je 781334.969747046.31
+ jf 780445.159747502.63
+ jg 777365.049752453.69
+ jh 778711.179752887.18
+ ji 777581.789751780.62
+ jj 782247.619748825.94
+ jk 775516.929746658.48
+ jl 776669.149750000.99
+ jm 782923.889751218.20
+ jn 780422.329745266.68
+ jo 774882.969746536.10
+ jp 776691.979752236.94
+ jq 780228.409748175.70
+ jr 775185.539750191.80
+ js 779361.419750867.98
+ jt 778448.779749088.35
+ ju 780639.079744593.61
+ jv 780467.989749738.59
+ jw 781141.049749955.33
+ jx 775539.759748894.43
+ jy 777752.879746635.65
+ jz 780490.809751974.54
+ ka 777075.399753729.30
+ kb 778927.929752214.11
+ kc 783160.259750605.57
+ kd 778425.949746852.39
+ ke 776452.399750674.06
+ kf 780255.479743856.50
+ kg 779144.679751541.04
+ kh 781574.549748609.20
+ ki 775083.439748004.61
+ kj 779338.599748632.02
+ kk 779578.169750194.91
+ kl 778186.379745289.51
+ km 778642.699746179.33
+ kn 779988.839746612.82
+ ko 783377.009749932.50
+ kp 780890.059747274.47
+ kq 775551.179750012.40
+ kr 776851.659745973.99
+ ks 779566.759749076.93
+ kt 776920.139752681.85
+ ku 778654.109747297.30
+ kv 777764.299747753.62
+ kw 777307.979746863.81
+ kx 776418.159747320.13
+ ky 778197.789746407.49
+ kz 780410.919744148.71
+ la 778676.939749533.25
+ lb 778220.619748643.44
+ lc 779110.439748187.12
+ ld 780479.399750856.56
+ le 777741.469745517.67
+ lf 779133.259750423.07
+ lg 780023.079749966.75
+ lh 781323.559745928.34
+ li 777787.129749989.57
+ lj 780867.239745038.52
+ lk 780045.909752202.70
+ ll 780935.719751746.38
+ lm 782236.199747707.97
+ ln 781779.879746818.15
+ lo 775961.839746430.32
+ lp 775072.029746886.64
+ lq 783148.839749487.60
+ lr 779156.089752659.02
+ ls 782692.519748597.78
+ lt 776874.479748209.95
+ lu 775984.669748666.27
+ lv 775528.349747776.45
+ lw 781802.709749054.10
+ lx 783605.169750377.41
+ ly 776897.309750445.90
+ lz 774638.529748232.77
+ ma 777376.459753571.66
+ mb 776440.989749556.08
+ mc 777330.809749099.76
+ md 779589.579751312.88
+ me 778699.769751769.20
+ mf 777809.959752225.53
+ mg 777353.629751335.71
+ mh 778243.449750879.39
+ mi 778631.289745061.35
+ mj 778266.279753115.34
+ mk 780433.739746384.66
+ ml 779543.929746840.98
+ mm 779087.609745951.17
+ mn 779977.419745494.84
+ mo 781346.389748164.29
+ mp 780456.569748620.61
+ mq 780000.249747730.80
+ mr 774182.209747342.96
+ ms 782259.029749943.92
+ mt 781369.209750400.24
+ mu 780912.889749510.43
+ mv 775094.849749122.59
+ mw 776463.819751792.03
+ mx 781825.539751290.05
+ my 779521.099744605.03
+ mz 782715.349750833.73
+ na 776007.499750902.22
+
+GRID
+  a0 4                    
+  b
+  k
+  j
+  a
+  g0 4                    
+  h
+  q
+  p
+  g
+  h0 4                    
+  i
+  r
+  q
+  h
+  p0 4                    
+  r
+ aa
+  z
+  q
+  x0 4                    
+ aa
+ aj
+ ai
+  z
+ af0 4                    
+ aj
+ as
+ ar
+ ai
+ an0 4                    
+ as
+ bb
+ ba
+ ar
+ av0 4                    
+ bb
+ bk
+ bj
+ ba
+ aw0 4                    
+ bd
+ bm
+ bl
+ bc
+ bc0 4                    
+ bj
+ bs
+ br
+ bi
+ bd0 4                    
+ bk
+ bt
+ bs
+ bj
+ bi0 5                    
+ ah
+ cs
+  y
+  z
+ ai
+ bj0 5                    
+ ac
+ cv
+ al
+ ak
+ ab
+ ce0 5                    
+ aq
+ dg
+ ah
+ ai
+ ar
+ cf0 5                    
+ al
+ dj
+ au
+ at
+ ak
+ cw0 5                    
+  l
+ ct
+  k
+  b
+  c
+ db0 5                    
+  m
+ cd
+  l
+  c
+  d
+ dc0 5                    
+ az
+ du
+ aq
+ ar
+ ba
+ dd0 5                    
+  n
+ dr
+  m
+  d
+  e
+ de0 5                    
+  o
+ bu
+  n
+  e
+  f
+ df0 5                    
+ au
+ dy
+ bd
+ bc
+ at
+ dg0 5                    
+  p
+ bz
+  o
+  f
+  g
+ dj0 4                    
+ dd
+ bd
+ dy
+ en
+ dt0 5                    
+  k
+ cf
+  t
+  s
+  j
+ eb0 4                    
+ cf
+  k
+ ct
+ er
+ ed0 4                    
+ cb
+ bi
+ dw
+ es
+ ek0 5                    
+ bi
+ cb
+ az
+ ba
+ bj
+ et0 4                    
+  p
+ cl
+ ew
+ bz
+ ex0 5                    
+ bd
+ dd
+ be
+ bn
+ bm
+ ey0 5                    
+  y
+ cl
+  p
+  q
+  z
+ ez0 5                    
+ be
+ dp
+ bf
+ bo
+ bn
+ fa0 5                    
+ bf
+ eb
+ bg
+ bp
+ bo
+ fb0 5                    
+  t
+ cm
+ ac
+ ab
+  s
+ fc0 5                    
+ bg
+ ce
+ bh
+ bq
+ bp
+ fh0 5                    
+ bh
+ dw
+ bi
+ br
+ bq
+  b0 5                    
+ ep
+ hn
+ bx
+ bg
+ eb
+  c0 5                    
+ bv
+ jr
+ ep
+ eb
+ bf
+  d0 4                    
+ cp
+ fd
+ kp
+ jf
+  e0 4                    
+ fd
+  v
+ je
+ kp
+  f0 4                    
+ je
+ dt
+ hi
+ kp
+  i0 4                    
+ hi
+ ez
+ jf
+ kp
+  j0 4                    
+ bv
+ iy
+ kq
+ jr
+  k0 4                    
+ iy
+ aw
+ if
+ kq
+  l0 4                    
+ if
+ dz
+ fe
+ kq
+  m0 4                    
+ fe
+ ep
+ jr
+ kq
+  n0 4                    
+ cx
+ hb
+ kr
+ iv
+  o0 4                    
+ hb
+ am
+ fy
+ kr
+  q0 4                    
+ fy
+ cz
+ fb
+ kr
+  r0 4                    
+ fb
+ ed
+ iv
+ kr
+  s0 5                    
+ ed
+ fb
+ cz
+ al
+ cv
+  t0 4                    
+ af
+ jd
+ ks
+ fu
+  u0 4                    
+ jd
+ dc
+ hd
+ ks
+  v0 4                    
+ hd
+ ef
+ kj
+ ks
+  w0 4                    
+ kj
+ dv
+ fu
+ ks
+  y0 4                    
+ ay
+ fl
+ kt
+ jg
+  z0 4                    
+ fl
+ df
+ id
+ kt
+ aa0 4                    
+ id
+ eq
+ jp
+ kt
+ ab0 4                    
+ jp
+ cc
+ jg
+ kt
+ ac0 5                    
+ eq
+ id
+ df
+ bh
+ ce
+ ad0 4                    
+ ae
+ gk
+ ku
+ gc
+ ae0 4                    
+ gk
+ da
+ ix
+ ku
+ ag0 4                    
+ ix
+ ee
+ kd
+ ku
+ ah0 4                    
+ kd
+ di
+ gc
+ ku
+ ai0 4                    
+ da
+ fo
+ kv
+ ix
+ aj0 4                    
+ fo
+ an
+ gw
+ kv
+ ak0 4                    
+ gw
+ dk
+ gg
+ kv
+ al0 4                    
+ gg
+ ee
+ ix
+ kv
+ am0 4                    
+ dk
+ hu
+ kw
+ gg
+ ao0 4                    
+ hu
+ am
+ hb
+ kw
+ ap0 4                    
+ hb
+ cx
+ jy
+ kw
+ aq0 4                    
+ jy
+ ee
+ gg
+ kw
+ ar0 4                    
+ dl
+ is
+ kx
+ ja
+ as0 4                    
+ is
+ am
+ hu
+ kx
+ at0 4                    
+ hu
+ dk
+ ij
+ kx
+ au0 4                    
+ ij
+ ej
+ ja
+ kx
+ ax0 4                    
+ cx
+ hg
+ ky
+ jy
+ ay0 4                    
+ hg
+ ad
+ km
+ ky
+ az0 4                    
+ km
+ di
+ kd
+ ky
+ ba0 4                    
+ kd
+ ee
+ jy
+ ky
+ bb0 4                    
+ cg
+ ju
+ kz
+ gq
+ fu0 4                    
+ ju
+  u
+ fk
+ kz
+ fv0 4                    
+ fk
+ cu
+ kf
+ kz
+ fw0 4                    
+ kf
+ er
+ gq
+ kz
+ fx0 5                    
+ er
+ kf
+ cu
+  t
+ cf
+ fy0 4                    
+ dc
+ gu
+ la
+ hd
+ fz0 4                    
+ gu
+ ao
+ fw
+ la
+ ga0 4                    
+ fw
+ dx
+ jt
+ la
+ gb0 4                    
+ jt
+ ef
+ hd
+ la
+ gc0 5                    
+ cu
+ ic
+ ex
+ cm
+  t
+ gd0 4                    
+ dx
+ ft
+ lb
+ jt
+ ge0 4                    
+ ft
+ an
+ fo
+ lb
+ gf0 4                    
+ fo
+ da
+ ik
+ lb
+ gg0 4                    
+ ik
+ ef
+ jt
+ lb
+ gh0 4                    
+ da
+ gk
+ lc
+ ik
+ gi0 4                    
+ gk
+ ae
+ ff
+ lc
+ gj0 4                    
+ ff
+ dv
+ kj
+ lc
+ gk0 4                    
+ kj
+ ef
+ ik
+ lc
+ gl0 4                    
+ ag
+ hh
+ ld
+ jc
+ gm0 4                    
+ hh
+ de
+ hz
+ ld
+ gn0 4                    
+ hz
+ eg
+ gp
+ ld
+ go0 4                    
+ gp
+ by
+ jc
+ ld
+ gp0 4                    
+ ad
+ hg
+ le
+ kl
+ gq0 4                    
+ hg
+ cx
+ iv
+ le
+ gr0 4                    
+ iv
+ ed
+ gf
+ le
+ gs0 4                    
+ gf
+ cw
+ kl
+ le
+ gt0 4                    
+ ca
+ im
+ lf
+ js
+ gu0 4                    
+ im
+ ao
+ gu
+ lf
+ gv0 4                    
+ gu
+ dc
+ kk
+ lf
+ gw0 4                    
+ kk
+ eg
+ js
+ lf
+ gx0 4                    
+ dc
+ jd
+ lg
+ kk
+ gy0 4                    
+ jd
+ af
+ jv
+ lg
+ gz0 4                    
+ jv
+ by
+ gp
+ lg
+ ha0 4                    
+ gp
+ eg
+ kk
+ lg
+ hb0 4                    
+ ch
+ gj
+ lh
+ ha
+ hc0 4                    
+ gj
+  v
+ gd
+ lh
+ hd0 4                    
+ gd
+ dh
+ hx
+ lh
+ he0 4                    
+ hx
+ et
+ ha
+ lh
+ hf0 4                    
+ ao
+ fs
+ li
+ fw
+ hg0 4                    
+ fs
+ dq
+ in
+ li
+ hh0 4                    
+ in
+ ek
+ hl
+ li
+ hi0 4                    
+ hl
+ dx
+ fw
+ li
+ hj0 4                    
+ dh
+ jn
+ lj
+ hx
+ hk0 4                    
+ jn
+  u
+ ju
+ lj
+ hl0 4                    
+ ju
+ cg
+ hc
+ lj
+ hm0 4                    
+ hc
+ et
+ hx
+ lj
+ hn0 5                    
+ et
+ hc
+ cg
+  l
+ cd
+ ho0 5                    
+ es
+ ie
+ do
+ az
+ cb
+ hp0 4                    
+ cy
+ fj
+ lk
+ hs
+ hq0 4                    
+ fj
+ ap
+ fn
+ lk
+ hr0 4                    
+ fn
+ de
+ jz
+ lk
+ hs0 4                    
+ jz
+ eh
+ hs
+ lk
+ ht0 5                    
+ db
+ iw
+ en
+ dy
+ au
+ hu0 4                    
+ de
+ hh
+ ll
+ jz
+ hv0 4                    
+ hh
+ ag
+ hp
+ ll
+ hw0 4                    
+ hp
+ co
+ iz
+ ll
+ hx0 4                    
+ iz
+ eh
+ jz
+ ll
+ hy0 5                    
+ ci
+ gv
+ eu
+ dr
+  n
+ hz0 4                    
+ ci
+ ge
+ lm
+ gv
+ ia0 4                    
+ ge
+  w
+ ho
+ lm
+ ib0 4                    
+ ho
+ dt
+ hr
+ lm
+ ic0 4                    
+ hr
+ eu
+ gv
+ lm
+ id0 4                    
+ dt
+ je
+ ln
+ hr
+ ie0 4                    
+ je
+  v
+ gj
+ ln
+ if0 4                    
+ gj
+ ch
+ gr
+ ln
+ ig0 4                    
+ gr
+ eu
+ hr
+ ln
+ ih0 4                    
+ am
+ is
+ lo
+ fy
+ ii0 4                    
+ is
+ dl
+ jk
+ lo
+ ij0 4                    
+ jk
+ ei
+ fg
+ lo
+ ik0 4                    
+ fg
+ cz
+ fy
+ lo
+ il0 4                    
+ dl
+ fx
+ lp
+ jk
+ im0 4                    
+ fx
+ av
+ fh
+ lp
+ in0 4                    
+ fh
+ db
+ jo
+ lp
+ io0 4                    
+ jo
+ ei
+ jk
+ lp
+ ip0 5                    
+ ck
+ gi
+ ev
+ bu
+  o
+ iq0 4                    
+ ck
+ ko
+ lq
+ gi
+ ir0 4                    
+ ko
+  x
+ fp
+ lq
+ is0 4                    
+ fp
+ bw
+ ig
+ lq
+ it0 4                    
+ ig
+ ev
+ gi
+ lq
+ iu0 4                    
+ ds
+ kb
+ lr
+ jh
+ iv0 4                    
+ kb
+ ap
+ fj
+ lr
+ iw0 4                    
+ fj
+ cy
+ hy
+ lr
+ ix0 4                    
+ hy
+ em
+ jh
+ lr
+ iy0 4                    
+ bw
+ jj
+ ls
+ ig
+ iz0 4                    
+ jj
+  w
+ ge
+ ls
+ ja0 4                    
+ ge
+ ci
+ gm
+ ls
+ jb0 4                    
+ gm
+ ev
+ ig
+ ls
+ jc0 4                    
+ an
+ fi
+ lt
+ gw
+ jd0 4                    
+ fi
+ dn
+ io
+ lt
+ je0 4                    
+ io
+ ej
+ ij
+ lt
+ jf0 4                    
+ ij
+ dk
+ gw
+ lt
+ jg0 5                    
+ eu
+ gr
+ ch
+  m
+ dr
+ jh0 4                    
+ dn
+ jb
+ lu
+ io
+ ji0 4                    
+ jb
+ aw
+ jx
+ lu
+ jj0 4                    
+ jx
+ dm
+ fc
+ lu
+ jk0 4                    
+ fc
+ ej
+ io
+ lu
+ jl0 5                    
+ df
+ ka
+ es
+ dw
+ bh
+ jm0 4                    
+ dm
+ ki
+ lv
+ fc
+ jn0 4                    
+ ki
+ av
+ fx
+ lv
+ jo0 4                    
+ fx
+ dl
+ ja
+ lv
+ jp0 4                    
+ ja
+ ej
+ fc
+ lv
+ jq0 4                    
+ cq
+ kh
+ lw
+ go
+ jr0 4                    
+ kh
+  w
+ jj
+ lw
+ js0 4                    
+ jj
+ bw
+ fq
+ lw
+ jt0 4                    
+ fq
+ fa
+ go
+ lw
+ ju0 5                    
+ cw
+ gf
+ ed
+ cv
+ ac
+ jv0 5                    
+ cj
+ fz
+ ew
+ cl
+  y
+ jw0 4                    
+ cj
+ kc
+ lx
+ fz
+ jx0 4                    
+ kc
+  x
+ ko
+ lx
+ jy0 4                    
+ ko
+ ck
+ it
+ lx
+ jz0 4                    
+ it
+ ew
+ fz
+ lx
+ ka0 5                    
+ ew
+ it
+ ck
+  o
+ bz
+ kb0 4                    
+ dq
+ iq
+ ly
+ in
+ kc0 4                    
+ iq
+ ax
+ ke
+ ly
+ kd0 4                    
+ ke
+ dz
+ jl
+ ly
+ ke0 4                    
+ jl
+ ek
+ in
+ ly
+ kf0 4                    
+ ea
+ gn
+ lz
+ iu
+ kg0 4                    
+ gn
+ av
+ ki
+ lz
+ kh0 4                    
+ ki
+ dm
+ gb
+ lz
+ ki0 4                    
+ gb
+ eo
+ iu
+ lz
+ kj0 4                    
+ df
+ fl
+ ma
+ ka
+ kk0 4                    
+ fl
+ ay
+ gt
+ ma
+ kl0 4                    
+ gt
+ do
+ ie
+ ma
+ km0 4                    
+ ie
+ es
+ ka
+ ma
+ kn0 4                    
+ dz
+ if
+ mb
+ jl
+ ko0 4                    
+ if
+ aw
+ jb
+ mb
+ kp0 4                    
+ jb
+ dn
+ ip
+ mb
+ kq0 4                    
+ ip
+ ek
+ jl
+ mb
+ kr0 4                    
+ dn
+ fi
+ mc
+ ip
+ ks0 4                    
+ fi
+ an
+ ft
+ mc
+ kt0 4                    
+ ft
+ dx
+ hl
+ mc
+ ku0 4                    
+ hl
+ ek
+ ip
+ mc
+ kv0 4                    
+ de
+ fn
+ md
+ hz
+ kw0 4                    
+ fn
+ ap
+ kg
+ md
+ kx0 4                    
+ kg
+ ca
+ js
+ md
+ ky0 4                    
+ js
+ eg
+ hz
+ md
+ kz0 5                    
+ ec
+ jm
+ cj
+  y
+ cs
+ la0 4                    
+ ap
+ kb
+ me
+ kg
+ lb0 4                    
+ kb
+ ds
+ ht
+ me
+ lc0 4                    
+ ht
+ el
+ fv
+ me
+ ld0 4                    
+ fv
+ ca
+ kg
+ me
+ le0 4                    
+ ds
+ ii
+ mf
+ ht
+ lf0 4                    
+ ii
+ ay
+ jg
+ mf
+ lg0 4                    
+ jg
+ cc
+ ji
+ mf
+ lh0 4                    
+ ji
+ el
+ ht
+ mf
+ li0 4                    
+ cc
+ hk
+ mg
+ ji
+ lj0 4                    
+ hk
+ ax
+ iq
+ mg
+ lk0 4                    
+ iq
+ dq
+ ia
+ mg
+ ll0 4                    
+ ia
+ el
+ ji
+ mg
+ lm0 5                    
+ ei
+ jo
+ db
+ au
+ dj
+ ln0 4                    
+ dq
+ fs
+ mh
+ ia
+ lo0 4                    
+ fs
+ ao
+ im
+ mh
+ lp0 4                    
+ im
+ ca
+ fv
+ mh
+ lq0 4                    
+ fv
+ el
+ ia
+ mh
+ lr0 4                    
+ cn
+ ib
+ mi
+ gl
+ ls0 4                    
+ ib
+ ad
+ kl
+ mi
+ lt0 4                    
+ kl
+ cw
+ gs
+ mi
+ lu0 4                    
+ gs
+ ex
+ gl
+ mi
+ lv0 5                    
+ ea
+ iu
+ eo
+ dp
+ be
+ lw0 5                    
+ bx
+ gz
+ eq
+ ce
+ bg
+ lx0 5                    
+ ex
+ gs
+ cw
+ ac
+ cm
+ ly0 5                    
+ em
+ hy
+ cy
+ aq
+ du
+ lz0 5                    
+ do
+ hf
+ em
+ du
+ az
+ ma0 5                    
+ cz
+ fg
+ ei
+ dj
+ al
+ mb0 4                    
+ do
+ gt
+ mj
+ hf
+ mc0 4                    
+ gt
+ ay
+ ii
+ mj
+ md0 4                    
+ ii
+ ds
+ jh
+ mj
+ me0 4                    
+ jh
+ em
+ hf
+ mj
+ mf0 5                    
+ ch
+ ha
+ et
+ cd
+  m
+ mg0 4                    
+  v
+ fd
+ mk
+ gd
+ mh0 4                    
+ fd
+ cp
+ kn
+ mk
+ mi0 4                    
+ kn
+ ey
+ gy
+ mk
+ mj0 4                    
+ gy
+ dh
+ gd
+ mk
+ mk0 4                    
+ cp
+ fm
+ ml
+ kn
+ ml0 4                    
+ fm
+ ae
+ gc
+ ml
+ mm0 4                    
+ gc
+ di
+ ir
+ ml
+ mn0 4                    
+ ir
+ ey
+ kn
+ ml
+ mo0 4                    
+ di
+ km
+ mm
+ ir
+ mp0 4                    
+ km
+ ad
+ ib
+ mm
+ mq0 4                    
+ ib
+ cn
+ ih
+ mm
+ mr0 4                    
+ ih
+ ey
+ ir
+ mm
+ ms0 4                    
+ cn
+ hj
+ mn
+ ih
+ mt0 4                    
+ hj
+  u
+ jn
+ mn
+ mu0 4                    
+ jn
+ dh
+ gy
+ mn
+ mv0 4                    
+ gy
+ ey
+ ih
+ mn
+ mw0 5                    
+ cg
+ gq
+ er
+ ct
+  l
+ mx0 4                    
+  w
+ kh
+ mo
+ ho
+ my0 4                    
+ kh
+ cq
+ hq
+ mo
+ mz0 4                    
+ hq
+ ez
+ hi
+ mo
+ na0 4                    
+ hi
+ dt
+ ho
+ mo
+ nb0 4                    
+ cq
+ fr
+ mp
+ hq
+ nc0 4                    
+ fr
+ af
+ fu
+ mp
+ nd0 4                    
+ fu
+ dv
+ jq
+ mp
+ ne0 4                    
+ jq
+ ez
+ hq
+ mp
+ nf0 4                    
+ dv
+ ff
+ mq
+ jq
+ ng0 4                    
+ ff
+ ae
+ fm
+ mq
+ nh0 4                    
+ fm
+ cp
+ jf
+ mq
+ ni0 4                    
+ jf
+ ez
+ jq
+ mq
+ nj0 4                    
+ av
+ gn
+ mr
+ fh
+ nk0 4                    
+ gn
+ ea
+ hv
+ mr
+ nl0 4                    
+ hv
+ en
+ iw
+ mr
+ nm0 4                    
+ iw
+ db
+ fh
+ mr
+ nn0 5                    
+ en
+ hv
+ ea
+ be
+ dd
+ no0 4                    
+  x
+ hw
+ ms
+ fp
+ np0 4                    
+ hw
+ cr
+ hm
+ ms
+ nq0 4                    
+ hm
+ fa
+ fq
+ ms
+ nr0 4                    
+ fq
+ bw
+ fp
+ ms
+ ns0 5                    
+ ev
+ gm
+ ci
+  n
+ bu
+ nt0 4                    
+ cr
+ he
+ mt
+ hm
+ nu0 4                    
+ he
+ ag
+ jc
+ mt
+ nv0 4                    
+ jc
+ by
+ jw
+ mt
+ nw0 4                    
+ jw
+ fa
+ hm
+ mt
+ nx0 5                    
+ eh
+ iz
+ co
+ ah
+ dg
+ ny0 4                    
+ by
+ jv
+ mu
+ jw
+ nz0 4                    
+ jv
+ af
+ fr
+ mu
+ oa0 4                    
+ fr
+ cq
+ go
+ mu
+ ob0 4                    
+ go
+ fa
+ jw
+ mu
+ oc0 4                    
+ aw
+ iy
+ mv
+ jx
+ od0 4                    
+ iy
+ bv
+ il
+ mv
+ oe0 4                    
+ il
+ eo
+ gb
+ mv
+ of0 4                    
+ gb
+ dm
+ jx
+ mv
+ og0 5                    
+ eo
+ il
+ bv
+ bf
+ dp
+ oh0 5                    
+ co
+ gh
+ ec
+ cs
+ ah
+ oi0 4                    
+ bx
+ gx
+ mw
+ gz
+ oj0 4                    
+ gx
+ ax
+ hk
+ mw
+ ok0 4                    
+ hk
+ cc
+ jp
+ mw
+ ol0 4                    
+ jp
+ eq
+ gz
+ mw
+ om0 4                    
+ co
+ hp
+ mx
+ gh
+ on0 4                    
+ hp
+ ag
+ he
+ mx
+ oo0 4                    
+ he
+ cr
+ ga
+ mx
+ op0 4                    
+ ga
+ ec
+ gh
+ mx
+ oq0 4                    
+  u
+ hj
+ my
+ fk
+ or0 4                    
+ hj
+ cn
+ gl
+ my
+ os0 4                    
+ gl
+ ex
+ ic
+ my
+ ot0 4                    
+ ic
+ cu
+ fk
+ my
+ ou0 4                    
+ cr
+ hw
+ mz
+ ga
+ ov0 4                    
+ hw
+  x
+ kc
+ mz
+ ow0 4                    
+ kc
+ cj
+ jm
+ mz
+ ox0 4                    
+ jm
+ ec
+ ga
+ mz
+ oy0 4                    
+ ax
+ gx
+ na
+ ke
+ oz0 4                    
+ gx
+ bx
+ hn
+ na
+ pa0 4                    
+ hn
+ ep
+ fe
+ na
+ pb0 4                    
+ fe
+ dz
+ ke
+ na
+ pc0 5                    
+ cy
+ hs
+ eh
+ dg
+ aq
+
+CONNECTIONS
+  g  h
+ bc bd
+  h  p
+  p  x
+  x af
+ af an
+ an av
+ av bd
+ af ce
+  g dg
+ fc fh
+ cw db
+  a dt
+ dc ek
+ ce dc
+ fa fc
+ cw eb
+ bc ek
+  a cw
+ aw ex
+ bj cf
+ dg et
+ de dg
+ an dc
+ dd de
+ dj ex
+ bj fb
+  g ey
+ aw df
+  x bi
+ db dd
+ df dj
+ ed fh
+ bi ce
+ dt fb
+ bc fh
+ dt eb
+ bi ey
+ av ek
+ ez fa
+ ex ez
+ cf df
+ et ey
+ ed ek
+  p ey
+ jg mf
+ mj mu
+ kn kq
+ if ig
+ in io
+ kv ky
+ fw mw
+ hb mf
+ la lb
+ gp ls
+ od oe
+ ln lo
+ ip iq
+ kf ki
+ am ao
+ ix me
+ bb mw
+ op ox
+ gw ky
+ hf hg
+ jm jn
+ jt nq
+ gz ny
+ no ov
+ ny ob
+ hy ns
+ de ip
+ mk mn
+ oa ob
+ fh jl
+ gi ng
+ io lm
+ nl nm
+  k ko
+  d nh
+ hg ln
+ ae ai
+  d mh
+  o ao
+ hd he
+ ae ag
+ ib na
+ ar ii
+ jd je
+  n ap
+ jo jp
+ kb lk
+ no np
+ gq gr
+ kg kh
+ iv la
+ al aq
+ le md
+ am at
+ im nj
+ nj nk
+ nk nn
+ ht nl
+ mq ms
+  y kk
+ ge ks
+ au je
+  t  u
+ iz ja
+ nx oh
+ gt lp
+  w gj
+ fw fx
+  m pa
+ ga hi
+ my mz
+ ls mp
+ gu gv
+ lc ld
+ hj mu
+  y  z
+  d  e
+ kc oy
+ fu fv
+ hb hc
+  n  o
+ hj hm
+ lc lq
+ go gz
+ gw ha
+ ab ok
+ ak am
+ ok ol
+ iy jb
+ gh gi
+  l pb
+ ia mx
+ gz ha
+ kw la
+ mm mn
+ gs lt
+  c og
+  c  m
+ az ba
+ hr kv
+ ao as
+ ln lq
+ gd kt
+ aj ak
+ je jk
+ mi mn
+ mg mh
+ nl nn
+ ou ox
+ nb ne
+ eb fx
+ fu hk
+ ht lm
+ ie if
+ ly pc
+ mt oq
+ lw ol
+ gl go
+ oq or
+ hx nx
+ ow ox
+ as ih
+ gv gx
+ hs hx
+ ib ic
+ pa pb
+ hm hn
+ nv ny
+ ig jg
+ iz jr
+ dt fx
+ ho kl
+ eb mw
+ ir is
+ mu mv
+  w nd
+ et jv
+ et ka
+ oj oy
+ gm kv
+ np nq
+  i ni
+ jl km
+ ip ka
+ hh ke
+ kh ki
+ kc lj
+ gj nf
+ hr hs
+ bi oh
+ ju lx
+  v gk
+  c fa
+ ic ig
+ jr js
+ in lm
+ iq it
+ nv nw
+ mg mj
+  f id
+ gn ky
+ hv hw
+ ir jx
+ gt gw
+ lu os
+ hy hz
+ lu lx
+ jm jp
+  k  l
+ kk kl
+ kl km
+ iy iz
+  f na
+ hn mw
+  v  w
+ ls lt
+ oz pa
+ hg hh
+ lv og
+ hk hl
+ kx ky
+ ip it
+ ag ba
+ kv kw
+  q ik
+ hc mg
+ nq nw
+ jv jw
+ gf gh
+ le lf
+ oe og
+ gc lx
+ kp kq
+ ac lw
+ cf lm
+ ny nz
+ nd ne
+ hz ia
+ iu md
+ il im
+  b fa
+  t gy
+ mo mr
+ cf ma
+ ez og
+ hq iv
+ ga gb
+ hp iw
+ hl hm
+  u  v
+ mz ne
+ nu nv
+ jj jm
+ kz oh
+ fv ot
+ gg gk
+ li lj
+ ht nm
+ gh gk
+ ap ax
+ lz mb
+ oc od
+  z kj
+ md me
+ jy ka
+ jz ka
+ gb gg
+ mn mr
+ oy oz
+ oe of
+ jw jx
+ fz hf
+  q  s
+ hb he
+  i mz
+ gj gk
+  q  r
+ bi kz
+ ji ko
+ ai al
+ iv iw
+ is nr
+ gv gw
+ jd jh
+ gy nz
+  f  i
+ mt mu
+ hp hq
+ ax gq
+ ll lq
+ lr or
+ ho lz
+  c  j
+ ag ah
+ kk mc
+ ap aq
+ ld lp
+ ix ly
+ ly lz
+ ab lg
+ kl mb
+ kd pb
+ hd hj
+ lr lu
+ ou ov
+ hv on
+ ml mm
+ aj jc
+ hf hi
+ li ok
+ aa ol
+ ao ap
+ je jf
+ jj of
+ ex nn
+ ar jo
+ ac fc
+ ir no
+ nj nm
+ bb hl
+ gn go
+ gc os
+ kj kk
+ gx ha
+ ar au
+  b  c
+ gs ju
+ kg nj
+ nc nz
+ hb if
+ kn ko
+ lk ln
+ hw nx
+ ax ay
+  n gq
+ jv kz
+ lf mc
+ nb oa
+ os ot
+ nf ng
+ ip ns
+ hq hr
+ gt kx
+ nw ob
+ aa ac
+ ms mt
+ hu hx
+ ad ah
+ hw om
+ nt nw
+ fy fz
+ mz na
+ lr ls
+ he hm
+ ai aj
+ dd jg
+ if jg
+ gd ge
+ lk ll
+ jb ns
+ ce pc
+ gf gg
+ jv jz
+ oi oj
+ ii il
+ nd nf
+ lm ma
+ ar as
+ jc ks
+  z aa
+ is iy
+ aa ab
+ bb fw
+ fy gb
+ jh jk
+ is it
+ kt ku
+ gm gn
+ ms mv
+  o ih
+ jc jd
+  o  q
+ kd ke
+ nb nc
+ ad ae
+ ki oe
+ lg lh
+ cw mw
+ mh mi
+ kp kr
+ fz gu
+ jy jz
+ in nm
+  e  f
+ hp hs
+ ko kp
+ ce nx
+ kb ke
+ oi oz
+ hk mt
+  j  m
+ ag al
+ im jn
+ fz ga
+ fc lw
+ mx na
+  t  w
+ no nr
+ bj ju
+ ho km
+ le lh
+ au jp
+ aq ba
+ jt ob
+ hy jg
+ ae gh
+ jl kj
+ nz oa
+ at jf
+  e ie
+ ne ni
+ lo lp
+  b pa
+ kz ow
+ at au
+ gm hu
+ ij ma
+ oo op
+ id ig
+ hz ic
+ lv nn
+ mo mp
+ kf lv
+ iw ly
+ ad gi
+ iq ir
+  s ju
+ kx ld
+ ih ik
+ fu oq
+ jq jt
+ gl hv
+ fv fx
+ ij io
+ ii ij
+ ij ik
+ jw jz
+ iu lb
+ np nt
+ lb le
+ hc hd
+ mb mc
+  n  r
+ im in
+ iw ix
+ mi mj
+ gr gs
+ mi mv
+ kq ku
+ ja jb
+ mc md
+ oo ou
+ lp lq
+ gn ha
+ ik ma
+ am aq
+ mk ml
+ jc jf
+ oc of
+ nx pc
+ ac jl
+ oi ol
+ ek ho
+ hj hk
+ ov ow
+ lt lu
+ hl hn
+ ki lv
+ gl gm
+  t nc
+ mk nh
+ oh om
+ dg ka
+ kf kg
+ id ie
+ lt lx
+ dc ly
+ lj oj
+ fy gv
+ aj ge
+ jh ji
+ nt nu
+ it jb
+ np ou
+ ia ib
+ ks kt
+ hu hv
+ iq jy
+ ay gp
+ hg kb
+ hd mj
+ dd hy
+ gd gg
+ hs pc
+ kr ku
+ ay mp
+ jh kp
+ jq jr
+ hi kt
+ db hn
+  y ab
+ kr ks
+ iu ix
+ hz ja
+  k oc
+ ez lv
+ gu lo
+ lh ll
+ or os
+ de ns
+ hy ic
+ kc kd
+ hf lo
+ gp gs
+ oj ok
+ jx jy
+ lj lk
+ he mf
+ nt oo
+ as at
+ ai gf
+ nq nr
+  e mg
+ oq ot
+ hh ku
+ az mo
+  u fy
+ od og
+ ge gf
+ jk jp
+  b oz
+  l kn
+ li ll
+ dc lz
+ my nb
+ ak jf
+  d  i
+ ga gd
+  s ma
+ lb lc
+ kz ox
+ ak al
+ ed jl
+ nk nl
+  j  k
+  r gr
+ hp pc
+ jm kh
+  v gb
+ kd kn
+ db mf
+ mp mq
+ lw oi
+ nf ni
+ hc ie
+ jx ov
+  u gx
+ lg li
+ nh ni
+ ah mm
+ lz me
+ oh op
+ ng nh
+ jq my
+ ja ns
+ hr hu
+ lr mq
+ dj ht
+  y lf
+ ia iz
+ nc nd
+ gc ot
+ ib id
+ gt gu
+ jn kg
+ js nr
+ ih ii
+ js jt
+ om op
+ ah az
+ go nv
+ ml ng
+ jd kr
+ gp gq
+ ms or
+ fx gc
+ ey jv
+ mb me
+ ad ml
+ iu iv
+ hn mf
+ gl nu
+ ed ho
+  l  m
+  j od
+ fb gc
+ fv fw
+ fb lx
+ kf nk
+  r  s
+ gr ju
+  b lw
+ mq mr
+ dj nn
+ ay az
+ oy pb
+ ax ba
+ gx gy
+  z ac
+ lc lh
+ mx my
+ ji oc
+ ji jj
+ la ld
+ jr mx
+ df ht
+ iy js
+ bb fu
+ jj jk
+ ke kq
+ kh of
+ mm mo
+  s bj
+ mr mv
+ nu on
+ lf lg
+ kj km
+ gy gz
+ hh hi
+ jq oa
+ kw kx
+ on oo
+ hw hx
+ mh mk
+ jw ow
+ hq kw
+ gi gj
+ om on
+ jn jo
+ kb kc
+ il io
+ il jo
+
+LAYERS
+ 0    2000.00   2000.00
+ 1    1800.00   1900.00
+ 2    1600.00   1700.00
+ 3    1400.00   1500.00
+ 4    1200.00   1300.00
+ 5    1000.00   1100.00
+ 6     800.00    900.00
+ 7     600.00    700.00
+ 8     400.00    500.00
+ 9     200.00    300.00
+10       0.00    100.00
+11    -200.00   -100.00
+12    -400.00   -300.00
+13    -600.00   -500.00
+14    -800.00   -700.00
+15   -1000.00   -900.00
+16   -1500.00  -1250.00
+17   -2000.00  -1750.00
+18   -2500.00  -2250.00
+19   -3000.00  -2750.00
+
+SURFA
+  a   1127.84
+  g   1048.61
+  h    876.60
+  p    935.67
+  x    870.08
+ af    850.41
+ an    950.13
+ av    981.26
+ aw    999.96
+ bc   1001.20
+ bd   1005.19
+ bi    896.08
+ bj   1291.29
+ ce    892.38
+ cf   1238.67
+ cw   1269.49
+ db   1216.72
+ dc    975.04
+ dd   1145.34
+ de   1037.57
+ df   1061.52
+ dg    959.42
+ dj   1130.71
+ dt   1142.05
+ eb   1190.85
+ ed   1038.22
+ ek    990.64
+ et    892.15
+ ex   1083.99
+ ey    959.19
+ ez   1264.94
+ fa   1325.55
+ fb   1218.54
+ fc   1222.35
+ fh   1057.52
+  b   1459.45
+  c   1459.45
+  d   1118.44
+  e   1118.44
+  f   1118.44
+  i   1118.44
+  j   1459.45
+  k   1459.45
+  l   1459.45
+  m   1459.45
+  n   1409.93
+  o   1409.93
+  q   1409.93
+  r   1409.93
+  s   1409.93
+  t   1433.43
+  u   1433.43
+  v   1433.43
+  w   1433.43
+  y   1283.71
+  z   1283.71
+ aa   1283.71
+ ab   1283.71
+ ac   1283.71
+ ad   1599.42
+ ae   1599.42
+ ag   1599.42
+ ah   1599.42
+ ai   1599.42
+ aj   1599.42
+ ak   1599.42
+ al   1599.42
+ am   1599.42
+ ao   1599.42
+ ap   1599.42
+ aq   1599.42
+ ar   1670.92
+ as   1670.92
+ at   1670.92
+ au   1670.92
+ ax   1599.42
+ ay   1599.42
+ az   1599.42
+ ba   1599.42
+ bb   1190.85
+ fu   1190.85
+ fv   1190.85
+ fw   1190.85
+ fx   1190.85
+ fy   1433.43
+ fz   1433.43
+ ga   1433.43
+ gb   1433.43
+ gc   1261.79
+ gd   1433.43
+ ge   1433.43
+ gf   1433.43
+ gg   1433.43
+ gh   1433.43
+ gi   1433.43
+ gj   1433.43
+ gk   1433.43
+ gl   1094.10
+ gm   1094.10
+ gn   1094.10
+ go   1094.10
+ gp   1409.93
+ gq   1409.93
+ gr   1409.93
+ gs   1409.93
+ gt   1094.10
+ gu   1094.10
+ gv   1094.10
+ gw   1094.10
+ gx   1094.10
+ gy   1094.10
+ gz   1094.10
+ ha   1094.10
+ hb   1217.15
+ hc   1217.15
+ hd   1217.15
+ he   1217.15
+ hf   1533.94
+ hg   1533.94
+ hh   1533.94
+ hi   1533.94
+ hj   1217.15
+ hk   1217.15
+ hl   1217.15
+ hm   1217.15
+ hn   1217.15
+ ho   1038.22
+ hp    904.73
+ hq    904.73
+ hr    904.73
+ hs    904.73
+ ht   1130.71
+ hu    904.73
+ hv    904.73
+ hw    904.73
+ hx    904.73
+ hy   1165.98
+ hz   1165.98
+ ia   1165.98
+ ib   1165.98
+ ic   1165.98
+ id   1165.98
+ ie   1165.98
+ if   1165.98
+ ig   1165.98
+ ih   1331.59
+ ii   1331.59
+ ij   1331.59
+ ik   1331.59
+ il   1331.59
+ im   1331.59
+ in   1331.59
+ io   1331.59
+ ip   1015.08
+ iq   1015.08
+ ir   1015.08
+ is   1015.08
+ it   1015.08
+ iu   1052.40
+ iv   1052.40
+ iw   1052.40
+ ix   1052.40
+ iy   1015.08
+ iz   1015.08
+ ja   1015.08
+ jb   1015.08
+ jc   1670.92
+ jd   1670.92
+ je   1670.92
+ jf   1670.92
+ jg   1165.98
+ jh   1670.92
+ ji   1670.92
+ jj   1670.92
+ jk   1670.92
+ jl   1038.22
+ jm   1670.92
+ jn   1670.92
+ jo   1670.92
+ jp   1670.92
+ jq    968.40
+ jr    968.40
+ js    968.40
+ jt    968.40
+ ju   1409.93
+ jv    892.15
+ jw    892.15
+ jx    892.15
+ jy    892.15
+ jz    892.15
+ ka    892.15
+ kb   1533.94
+ kc   1533.94
+ kd   1533.94
+ ke   1533.94
+ kf   1405.10
+ kg   1405.10
+ kh   1405.10
+ ki   1405.10
+ kj   1038.22
+ kk   1038.22
+ kl   1038.22
+ km   1038.22
+ kn   1533.94
+ ko   1533.94
+ kp   1533.94
+ kq   1533.94
+ kr   1533.94
+ ks   1533.94
+ kt   1533.94
+ ku   1533.94
+ kv   1094.10
+ kw   1094.10
+ kx   1094.10
+ ky   1094.10
+ kz    891.92
+ la   1217.05
+ lb   1217.05
+ lc   1217.05
+ ld   1217.05
+ le   1217.05
+ lf   1217.05
+ lg   1217.05
+ lh   1217.05
+ li   1217.05
+ lj   1217.05
+ lk   1217.05
+ ll   1217.05
+ lm   1331.59
+ ln   1217.05
+ lo   1217.05
+ lp   1217.05
+ lq   1217.05
+ lr   1261.79
+ ls   1261.79
+ lt   1261.79
+ lu   1261.79
+ lv   1405.10
+ lw   1283.71
+ lx   1261.79
+ ly   1052.40
+ lz   1052.40
+ ma   1331.59
+ mb   1052.40
+ mc   1052.40
+ md   1052.40
+ me   1052.40
+ mf   1217.15
+ mg   1288.46
+ mh   1288.46
+ mi   1288.46
+ mj   1288.46
+ mk   1288.46
+ ml   1288.46
+ mm   1288.46
+ mn   1288.46
+ mo   1288.46
+ mp   1288.46
+ mq   1288.46
+ mr   1288.46
+ ms   1288.46
+ mt   1288.46
+ mu   1288.46
+ mv   1288.46
+ mw   1190.85
+ mx   1118.44
+ my   1118.44
+ mz   1118.44
+ na   1118.44
+ nb   1118.44
+ nc   1118.44
+ nd   1118.44
+ ne   1118.44
+ nf   1118.44
+ ng   1118.44
+ nh   1118.44
+ ni   1118.44
+ nj   1130.71
+ nk   1130.71
+ nl   1130.71
+ nm   1130.71
+ nn   1130.71
+ no    968.40
+ np    968.40
+ nq    968.40
+ nr    968.40
+ ns   1015.08
+ nt    968.40
+ nu    968.40
+ nv    968.40
+ nw    968.40
+ nx    904.73
+ ny    968.40
+ nz    968.40
+ oa    968.40
+ ob    968.40
+ oc   1405.10
+ od   1405.10
+ oe   1405.10
+ of   1405.10
+ og   1405.10
+ oh    891.92
+ oi   1283.71
+ oj   1283.71
+ ok   1283.71
+ ol   1283.71
+ om    891.92
+ on    891.92
+ oo    891.92
+ op    891.92
+ oq   1261.79
+ or   1261.79
+ os   1261.79
+ ot   1261.79
+ ou    891.92
+ ov    891.92
+ ow    891.92
+ ox    891.92
+ oy   1459.45
+ oz   1459.45
+ pa   1459.45
+ pb   1459.45
+ pc    904.73
+
+WELLS
+AFLT1  767089.4 9755627.0    2000.0
+AFLT1  770026.8 9753058.2    2000.0
+AFLT1  772822.5 9750342.1    2000.0
+AFLT1  775586.5 9748023.8    2000.0
+AFLT1  778735.8 9745799.8    2000.0
+AFLT1  780969.5 9743790.3    2000.0
+AFLT1  782574.9 9741737.4    2000.0
+AFLT1  784877.8 9738761.2    2000.0
+AFLT1  785101.0 9738560.0    2000.0
+SFLT1  773787.4 9738569.6    2000.0
+SFLT1  774832.7 9742484.5    2000.0
+SFLT1  775575.8 9745167.7    2000.0
+SFLT1  776248.7 9747737.5    2000.0
+SFLT1  776578.2 9748889.1    2000.0
+SFLT1  777510.6 9750788.3    2000.0
+SFLT1  778370.9 9752275.2    2000.0
+SFLT1  779331.8 9754174.6    2000.0
+SFLT1  780225.2 9755924.3    2000.0
+SFLT1  782867.7 9761358.2    2000.0
+FLT03  769132.8 9761423.0    2000.0
+FLT03  773302.2 9757896.8    2000.0
+FLT03  775870.7 9755138.3    2000.0
+FLT03  779460.0 9751257.0    2000.0
+FLT03  781305.6 9749150.4    2000.0
+FLT03  782804.6 9747238.9    2000.0
+FLT03  786905.2 9742625.6    2000.0
+FLT03  790450.0 9739209.4    2000.0
+DFLT1  778850.1 9745763.8    2000.0
+DFLT1  778887.0 9746917.2    2000.0
+DFLT1  779115.4 9747845.2    2000.0
+DFLT1  779294.7 9748480.4    2000.0
+DFLT1  779517.9 9748926.9    2000.0
+DFLT1  779741.7 9749223.7    2000.0
+DFLT1  779964.5 9749521.3    2000.0
+DFLT1  780449.3 9750001.4    2000.0
+M0001  776261.6 9747939.4    1000.0
+M0001  776261.6 9747939.4     800.0
+M0002  776905.0 9749496.6    1000.0
+M0002  776905.0 9749496.6     800.0
+M0003  779157.2 9747386.0    1000.0
+M0003  779157.2 9747386.0     800.0
+M0004  779118.6 9748172.3    1000.0
+M0004  779118.6 9748172.3     800.0
+M0005  779980.8 9748357.7    1000.0
+M0005  779980.8 9748357.7     800.0
+M0006  779517.5 9748930.4    1000.0
+M0006  779517.5 9748930.4     800.0
+M0007  779951.9 9749693.7    1000.0
+M0007  779951.9 9749693.7     800.0
+KRDB1 780057    9748774     1288
+KRDB1 780057    9748774     1247
+KRDB1 780057    9748774     1205
+KRDB1 780057    9748774     1164
+KRDB1 780057    9748774     1123
+KRDB1 780057    9748774     1082
+KRDB1 780057    9748774     1041
+KRDB1 780057    9748774     1000
+KRDB1 780057    9748774     959
+KRDB1 780057    9748774     917
+KRDB1 780057    9748774     884
+KRDB1 780057    9748774     851
+KRDB1 780057    9748774     818
+KRDB1 780056    9748774     784
+KRDB1 780055    9748773     745
+KRDB1 780054    9748773     729
+KRDB1 780050    9748771     701
+KRDB1 780045    9748770     672
+KRDB1 780039    9748767     643
+KRDB1 780031    9748764     613
+KRDB1 780021    9748761     583
+KRDB1 780008    9748756     549
+KRDB1 779993    9748750     517
+KRDB1 779978    9748745     488
+KRDB1 779961    9748739     461
+KRDB1 779944    9748733     436
+KRDB1 779925    9748726     412
+KRDB1 779906    9748719     390
+KRDB1 779887    9748712     370
+KRDB1 779865    9748704     349
+KRDB1 779843    9748696     329
+KRDB1 779821    9748688     309
+KRDB1 779811    9748684     300
+KRDB1 779785    9748675     278
+KRDB1 779759    9748665     255
+KRDB1 779734    9748656     232
+KRDB1 779708    9748647     210
+KRDB1 779677    9748636     183
+KRDB1 779647    9748625     156
+KRDB1 779617    9748614     129
+KRDB1 779586    9748603     102
+KRDB1 779556    9748591     75
+KRDB1 779526    9748580     48
+KRDB1 779495    9748569     21
+KRDB1 779465    9748558     -6
+KRDB1 779435    9748547     -33
+KRDB1 779404    9748536     -60
+KRDB1 779374    9748525     -87
+KRDB1 779344    9748514     -114
+KRDB1 779313    9748503     -141
+KRDB1 779283    9748492     -168
+KRDB1 779253    9748481     -195
+KRDB1 779222    9748470     -223
+KRDB1 779192    9748459     -250
+KRDB1 779162    9748448     -277
+KRDB1 779132    9748437     -304
+KRDB1 779101    9748426     -331
+KRDB1 779071    9748415     -358
+KRDB1 779041    9748404     -385
+KRDB1 779011    9748393     -412
+KRDB1 778980    9748382     -439
+KRDB1 778950    9748371     -466
+KRDB1 778922    9748361     -491
+KRDB1 778895    9748351     -516
+KRDB1 778867    9748341     -540
+KRDB1 778839    9748331     -565
+KRDB1 778812    9748321     -590
+KRDB1 778784    9748310     -615
+LP001  779485.0 9749361.0    1324.0
+LP001  779485.0 9749361.0      24.0
+LP002  779142.0 9748692.0    1430.0
+LP002  779142.0 9748692.0     130.0
+
+
